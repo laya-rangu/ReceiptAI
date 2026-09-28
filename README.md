@@ -2,10 +2,11 @@
 
 QR receipts, photo uploads, and a personal purchase assistant, built around one shared receipt model.
 
-**Status: initial development checkpoint.** The code is an early scaffold, not a completed or deployed product. Development proceeds one task at a time, with a commit, test results, and user review at each checkpoint.
+**Status: development scaffold; Task 01.02 acceptance criteria ready for review.** The code is not a completed or deployed product. Development proceeds one task at a time, with a commit, relevant checks, and user review at each checkpoint.
 
 - [48-task implementation plan](docs/TASKS.md)
 - [Task 01.01: user journeys and failure states](docs/user-journeys.md)
+- [Task 01.02: MVP scope and measurable acceptance criteria](docs/acceptance-criteria.md)
 - [Checkpoint results and known limitations](docs/CHECKPOINTS.md)
 - [Original five-page plan](ReceiptAI_5_Page_Project_Plan.pdf)
 

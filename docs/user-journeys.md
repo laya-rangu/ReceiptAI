@@ -1,6 +1,6 @@
 # Task 01.01 — User journeys and failure states
 
-**Status: ready for user review.** This document defines required behavior. It does not certify that every behavior is implemented.
+**Status: delivered; the user requested the next task.** This document defines required behavior. It does not certify that every behavior is implemented. The follow-on [acceptance criteria](acceptance-criteria.md) define measurable pass/fail checks.
 
 The project has two actors: customers, who own receipts, and merchants, who issue receipts for simulated sales. Both acquisition methods produce the same customer-owned receipt record. Only confirmed receipts contribute to spending and assistant answers.
 
@@ -113,4 +113,4 @@ QR receipts go directly to READY after a valid claim. Uploaded receipts pass thr
 - [ ] USD-only positive purchases are an acceptable starting scope.
 - [ ] Failure states explain what the user can do next.
 
-Next planned task: **01.02 — define measurable MVP acceptance criteria**. No later task is declared complete by this document.
+Follow-on task: **01.02 — [measurable MVP acceptance criteria](acceptance-criteria.md)**. See the [task tracker](TASKS.md) for the current review checkpoint; no product feature is declared accepted by this document.

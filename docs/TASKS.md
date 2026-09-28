@@ -4,7 +4,7 @@ Source: the supplied five-page project plan. Stage order and task identifiers ar
 
 **Working method:** implement one numbered task, run relevant checks, record results, commit and push, then pause for review. Existing scaffold code is provisional until the related task meets its acceptance check. Estimates in the original plan are planning ranges, not promised completion dates.
 
-Status: **Review** = artifact prepared for user review; **Draft** = partial scaffold exists, acceptance not complete; **Planned** = not yet implemented or verified.
+Status: **Delivered** = task artifact/checkpoint delivered and the user requested the next task; **Review** = artifact prepared for user review; **Draft** = partial scaffold exists, acceptance not complete; **Planned** = not yet implemented or verified. Delivering a requirements document does not mean its product acceptance criteria have passed.
 
 ## Stage 1 — Requirements and test fixtures · 4 tasks
 
@@ -12,8 +12,8 @@ Outcome: agreed journeys, measurable criteria, labeled fixtures, architecture an
 
 | ID | Implement / deliver | Technology or skill | Completion check | Status |
 | --- | --- | --- | --- | --- |
-| 01.01 | Customer and merchant journeys, success paths, failure states, receipt lifecycle | Product design, user stories, failure analysis | Review each actor's actions and recovery paths in [user-journeys.md](user-journeys.md) | Review |
-| 01.02 | Scope boundaries and measurable MVP acceptance criteria | Requirements engineering, acceptance test design | Each criterion has inputs, expected result, and a reproducible check | Planned |
+| 01.01 | Customer and merchant journeys, success paths, failure states, receipt lifecycle | Product design, user stories, failure analysis | Review each actor's actions and recovery paths in [user-journeys.md](user-journeys.md) | Delivered |
+| 01.02 | Scope boundaries and measurable MVP acceptance criteria | Requirements engineering, acceptance test design | Each criterion has inputs, expected result, and a reproducible check in [acceptance-criteria.md](acceptance-criteria.md) | Review |
 | 01.03 | Versioned synthetic receipt images, sales, edge cases, expected JSON | Python fixture generation, test data design | Fixtures are labeled synthetic and have independently known totals | Draft: seeded purchases and basic test image only |
 | 01.04 | Architecture, trust boundaries, and threat model | System design, Mermaid, security modeling | Trace tokens, files, identities, and AI data across every boundary | Planned |
 
@@ -123,4 +123,4 @@ Outcome: a reproducible release, hosted demonstration, measured results, and ope
 
 ## Current review boundary
 
-The initial code checkpoint preserves work written before the task-by-task workflow was requested. Only **01.01** is currently presented for review. The next numbered task is **01.02**; implementation will resume after the current review.
+The initial code checkpoint preserves work written before the task-by-task workflow was requested. The user requested the next step after **01.01**. Task **01.02** is now presented for review; the next numbered task is **01.03**. No later implementation task or product release gate is declared complete by these documentation checkpoints.
