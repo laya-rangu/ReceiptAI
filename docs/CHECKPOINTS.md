@@ -95,4 +95,48 @@ The previous checkpoint's eight API passes and production build remain historica
 3. Review section 5's proposed quality/performance targets and section 6's phone/laptop demonstration.
 4. Report corrections by criterion ID. The initial USD/English scope and UTC reporting date are documented design choices that can be revised before implementation.
 
-**Next task after review: 01.03 — build synthetic receipt fixtures and independently labeled expected outputs.**
+**Next task at that checkpoint: 01.03 — build synthetic receipt fixtures and independently labeled expected outputs.** The user subsequently requested that task.
+
+## Task 01.03 — Versioned synthetic receipt fixtures
+
+**Status: ready for review.** Delivered the [v1 fixture set and guide](../evaluations/fixtures/README.md), offline rendering/verification tools and fixture-backed API tests. No application endpoint or frontend behavior changed.
+
+### What changed
+
+- Created 100 benchmark inputs: 60 clear receipts across 12 designed layout variants, 20 challenging inputs and 20 adversarial/unsupported inputs; added five supplemental files for duplicate and format/page cases.
+- Added authored definitions, independent golden scenarios, 64 source records, visible-field extraction labels, file hashes and byte counts. Explicitly hidden fields have null labels and required uncertainty markers.
+- Kept issuer/layout families and their duplicates/variants in one split: 65 development / 35 held-out benchmark inputs, plus five development supplements. The holdout is synthetic and public, not a real-world accuracy result.
+- Added an offline Pillow renderer and deterministic raster PDF writer. Pinned rendering dependencies and verified repeatable bytes. Images contain synthetic/not-a-purchase notices; malformed/empty inputs are documented exceptions.
+- Added benign prompt-injection text as untrusted receipt content, unsupported currencies/refunds, mismatched totals, malformed images/PDFs, encryption, internal PDF navigation and page-limit cases. No executable or external-network PDF payloads are included.
+- Added temporary exact-size PNG and pixel-limit recipes so large padding files stay out of Git.
+- Added fixture-backed tests using a frozen 2026-09-28 reference date and the isolated test database. Broadened coverage without using an AI provider or touching local demo data.
+- Added image binary attributes; updated README, roadmap and acceptance-document links. Task 01.02 is delivered; Task 01.04 has not started.
+
+Technologies/skills: Python, Pillow, PDF construction/pypdf, JSON, SHA-256, Decimal, pytest, source-data design and visual verification. Expected amounts come from authored fixture facts and separate golden scenarios, not production calculations or model output.
+
+### Checks performed
+
+| Check | Result |
+| --- | --- |
+| Dataset integrity and golden scenarios | Passed: 100 benchmark + 5 supplemental files, 12 layouts, source/visible labels, hashes, file structure and arithmetic |
+| Split integrity | Passed: no issuer/layout family or exact file hash crosses development/held-out splits |
+| Deterministic regeneration | Passed: all 110 generated artifacts reproduce byte-for-byte in the pinned local environment |
+| Backend test suite | **136 passed**, including the previous eight; one existing upstream Starlette/httpx deprecation warning |
+| File admission matrix | Passed for all 105 source documents, including expected rejections |
+| Large boundary recipes | Passed: exactly 10,485,760 bytes accepted; 10,485,761 bytes and 20,004,000-pixel image rejected |
+| Financial/core API scenarios | Passed: BAD1 cannot confirm; Q1 + corrected P1 total 2434 cents with two citations; repeated confirmation is idempotent; valid adjustments, tax-inclusive/weighted and date-boundary cases pass |
+| Real fixture upload/review | Passed for P1 PNG, JPG, one-page PDF and five-page PDF; original download matches uploaded bytes |
+| Ruff source/test/tool lint and formatting | Passed |
+| Visual inspection | Reviewed P1 at full size, the 12-layout contact sheet, cropped-total and erased-date examples, and an instruction-bearing receipt image |
+| Live extraction, model prompt-injection resistance, semantic retrieval, PostgreSQL concurrency, real phone/browser and deployment | Not run; the fixture/SQLite checks do not establish these outcomes |
+
+The 136 passing tests include many parameterized file/schema cases; they are not 136 end-to-end customer journeys or model-quality measurements. The 100-question assistant evaluation set remains Task 06.07, and the full AC-20 retrieval dataset still requires at least 100 confirmed receipts.
+
+### How to review
+
+1. Open the [P1 grocery](../evaluations/fixtures/v1/clear/P1.png) and [Q1 cafe](../evaluations/fixtures/v1/clear/Q1.png) files. Compare their visible amounts with [scenarios.json](../evaluations/fixtures/scenarios.json).
+2. Inspect the [layout preview](../evaluations/fixtures/v1/previews/layouts.png) and [extraction labels](../evaluations/fixtures/v1/expected/extraction.json). Hidden dates/totals must be null in the visible labels.
+3. Run the commands in the [fixture guide](../evaluations/fixtures/README.md) to verify file hashes, regeneration and the test suite.
+4. Optionally upload P1 into an empty local demo account and manually review the two items. The guide explains the reference-date and merchant-name differences when trying the duplicate examples with today's demo checkout.
+
+**Next task after review: 01.04 — architecture diagram, trust boundaries and threat model.**

@@ -2,11 +2,12 @@
 
 QR receipts, photo uploads, and a personal purchase assistant, built around one shared receipt model.
 
-**Status: development scaffold; Task 01.02 acceptance criteria ready for review.** The code is not a completed or deployed product. Development proceeds one task at a time, with a commit, relevant checks, and user review at each checkpoint.
+**Status: development scaffold; Task 01.03 synthetic fixtures ready for review.** The code is not a completed or deployed product. Development proceeds one task at a time, with a commit, relevant checks, and user review at each checkpoint.
 
 - [48-task implementation plan](docs/TASKS.md)
 - [Task 01.01: user journeys and failure states](docs/user-journeys.md)
 - [Task 01.02: MVP scope and measurable acceptance criteria](docs/acceptance-criteria.md)
+- [Task 01.03: synthetic receipts, expected results and reproduction guide](evaluations/fixtures/README.md)
 - [Checkpoint results and known limitations](docs/CHECKPOINTS.md)
 - [Original five-page plan](ReceiptAI_5_Page_Project_Plan.pdf)
 
@@ -74,7 +75,7 @@ npm run format:check
 npm run build
 ```
 
-The test suite uses a separate temporary database and temporary files. It does not modify the local demo database.
+The test suite uses a separate temporary database and temporary files. It does not modify the local demo database. It now includes actual synthetic receipt files, fixed-date financial cases and the combined QR/photo flow. See the [fixture guide](evaluations/fixtures/README.md) for the versioned inputs, expected outputs, rendering dependency pins and independent integrity checks.
 
 ## Deployment status
 

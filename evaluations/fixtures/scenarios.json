@@ -1,0 +1,87 @@
+{
+  "version": "1.0.0",
+  "synthetic": true,
+  "reference_date": "2026-09-28",
+  "accounts": {"A":{"role":"customer"},"B":{"role":"customer"},"M":{"role":"merchant","display_name":"Test Cafe"}},
+  "primary": {
+    "records": [
+      {"record_id":"Q1","owner":"A","status":"READY"},
+      {"record_id":"P1","owner":"A","status":"READY"},
+      {"record_id":"AUG1","owner":"A","status":"READY"},
+      {"record_id":"B1","owner":"B","status":"READY"},
+      {"record_id":"BAD1","owner":"A","status":"NEEDS_REVIEW"}
+    ],
+    "expected": {
+      "a_this_month_cents":2434,
+      "a_this_month_receipt_ids":["Q1","P1"],
+      "a_last_month_cents":800,
+      "a_last_month_receipt_ids":["AUG1"],
+      "a_all_time_cents":3234,
+      "a_all_time_count":3,
+      "a_groceries_this_month_cents":1057,
+      "b_all_time_cents":9999,
+      "q1_p1_only_count":2,
+      "q1_p1_only_cents":2434
+    }
+  },
+  "sale": {
+    "record_id":"Q1",
+    "merchant":"M",
+    "request":{"items":[{"product_id":"latte","quantity":1},{"product_id":"croissant","quantity":1},{"product_id":"cookie","quantity":1}]},
+    "expected_subtotal_cents":1275,
+    "expected_tax_cents":102,
+    "expected_total_cents":1377,
+    "expected_item_count":3
+  },
+  "financial_cases": [
+    {"record_id":"P1","expected_errors":[],"expected_total_cents":1057},
+    {"record_id":"Q1","expected_errors":[],"expected_total_cents":1377},
+    {"record_id":"ADJ1","expected_errors":[],"expected_total_cents":1454},
+    {"record_id":"INC1","expected_errors":[],"expected_total_cents":1200},
+    {"record_id":"WEIGHT1","expected_errors":[],"expected_total_cents":299},
+    {"record_id":"BAD1","expected_errors":["total_mismatch"],"expected_total_cents":1057,"reported_total_cents":2000}
+  ],
+  "price_comparison": {
+    "record_ids":["PRICE1_OLD","PRICE1_NEW"],
+    "product_key":"oat_milk_1_litre",
+    "unit":"1 litre carton",
+    "expected_old_unit_cents":449,
+    "expected_new_unit_cents":499,
+    "expected_change_cents":50
+  },
+  "duplicates": {
+    "exact":{"source":"clear/P1.png","copy":"supplemental/DUP1_exact.png","expected":"same_sha256"},
+    "cross_source":{"qr_record_id":"Q1","photo":"supplemental/DUP1_photo.png","expected":"warn_before_confirm","default_ready_count":1,"after_keep_both_ready_count":2},
+    "other_account":{"file":"clear/P1.png","owners":["A","B"],"expected":"independent_receipts_no_other_owner_disclosure"}
+  },
+  "schema_cases": [
+    {"id":"NEGATIVE","base":"P1","set":{"total_cents":-1},"expected":"reject_schema"},
+    {"id":"FRACTIONAL_CENTS","base":"P1","set":{"total_cents":1057.5},"expected":"reject_schema"},
+    {"id":"MISSING_MERCHANT","base":"P1","remove":["merchant_name"],"expected":"reject_schema"},
+    {"id":"ZERO_QUANTITY","base":"P1","set_item":{"index":0,"quantity":"0"},"expected":"reject_schema"},
+    {"id":"FOUR_DECIMAL_QUANTITY","base":"P1","set_item":{"index":0,"quantity":"0.7501"},"expected":"reject_schema"},
+    {"id":"FUTURE_DATE","base":"P1","set":{"purchased_at":"2026-09-29"},"expected":"reject_financial_validation"},
+    {"id":"MISSING_DATE","base":"P1","remove":["purchased_at"],"expected":"reject_schema"},
+    {"id":"DISCOUNT_EXCEEDS_SUBTOTAL","base":"P1","set":{"discount_cents":2000,"total_cents":0},"expected":"reject_financial_validation"},
+    {"id":"CURRENCY_EUR","base":"P1","set":{"currency":"EUR"},"expected":"reject_schema"}
+  ],
+  "date_boundaries": {
+    "records":[
+      {"id":"DAY_AUG29","date":"2026-08-29","total_cents":101},
+      {"id":"DAY_AUG30","date":"2026-08-30","total_cents":102},
+      {"id":"DAY_AUG31","date":"2026-08-31","total_cents":103},
+      {"id":"DAY_SEP01","date":"2026-09-01","total_cents":104},
+      {"id":"DAY_SEP28","date":"2026-09-28","total_cents":105}
+    ],
+    "this_month":{"start":"2026-09-01","end":"2026-09-28","ids":["DAY_SEP01","DAY_SEP28"],"total_cents":209},
+    "last_month":{"start":"2026-08-01","end":"2026-08-31","ids":["DAY_AUG29","DAY_AUG30","DAY_AUG31"],"total_cents":306},
+    "last_30_days":{"start":"2026-08-30","end":"2026-09-28","ids":["DAY_AUG30","DAY_AUG31","DAY_SEP01","DAY_SEP28"],"total_cents":414},
+    "utc_boundary_instants":["2026-08-31T23:59:59Z","2026-09-01T00:00:00Z"]
+  },
+  "qr_time_cases": {"issued_at":"2026-09-28T12:00:00Z","ttl_seconds":900,"unclaimed_status_by_age_seconds":{"899":200,"900":410,"901":410}},
+  "large_file_recipes": [
+    {"id":"SIZE_AT_LIMIT","recipe":"padded_png","bytes":10485760,"expected_upload":"accept"},
+    {"id":"SIZE_OVER_LIMIT","recipe":"padded_png","bytes":10485761,"expected_upload":"reject"},
+    {"id":"PIXELS_OVER_LIMIT","recipe":"large_png","width":5001,"height":4000,"expected_upload":"reject"}
+  ]
+}

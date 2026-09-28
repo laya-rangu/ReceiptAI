@@ -1,0 +1,2157 @@
+{
+  "dataset_version": "1.0.0",
+  "synthetic": true,
+  "reference_date": "2026-09-28",
+  "records": {
+    "P1": {
+      "merchant_name": "Test Grocery",
+      "purchased_at": "2026-09-28",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "MLK",
+          "normalized_name": "Milk",
+          "quantity": "1",
+          "line_total_cents": 459,
+          "category": "Groceries"
+        },
+        {
+          "raw_name": "BRD",
+          "normalized_name": "Bread",
+          "quantity": "2",
+          "line_total_cents": 598,
+          "category": "Groceries"
+        }
+      ],
+      "subtotal_cents": 1057,
+      "discount_cents": 0,
+      "tax_cents": 0,
+      "fees_cents": 0,
+      "total_cents": 1057,
+      "tax_included": false,
+      "category": "Groceries",
+      "notes": "Synthetic test receipt. Not a real purchase."
+    },
+    "GROCERY-2": {
+      "merchant_name": "Test Grocery",
+      "purchased_at": "2026-09-12",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "RICE 1KG",
+          "normalized_name": "Rice, 1 kg",
+          "quantity": "2",
+          "line_total_cents": 650,
+          "category": "Groceries"
+        },
+        {
+          "raw_name": "OATS 500G",
+          "normalized_name": "Oats, 500 g",
+          "quantity": "1",
+          "line_total_cents": 450,
+          "category": "Groceries"
+        }
+      ],
+      "subtotal_cents": 1100,
+      "discount_cents": 0,
+      "tax_cents": 88,
+      "fees_cents": 0,
+      "total_cents": 1188,
+      "tax_included": false,
+      "category": "Groceries",
+      "notes": "Synthetic test receipt. Not a real purchase."
+    },
+    "GROCERY-3": {
+      "merchant_name": "Test Grocery",
+      "purchased_at": "2026-09-13",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "RICE 1KG",
+          "normalized_name": "Rice, 1 kg",
+          "quantity": "1",
+          "line_total_cents": 325,
+          "category": "Groceries"
+        },
+        {
+          "raw_name": "OATS 500G",
+          "normalized_name": "Oats, 500 g",
+          "quantity": "2",
+          "line_total_cents": 900,
+          "category": "Groceries"
+        }
+      ],
+      "subtotal_cents": 1225,
+      "discount_cents": 100,
+      "tax_cents": 90,
+      "fees_cents": 0,
+      "total_cents": 1215,
+      "tax_included": false,
+      "category": "Groceries",
+      "notes": "Synthetic test receipt. Not a real purchase."
+    },
+    "GROCERY-4": {
+      "merchant_name": "Test Grocery",
+      "purchased_at": "2026-09-14",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "RICE 1KG",
+          "normalized_name": "Rice, 1 kg",
+          "quantity": "3",
+          "line_total_cents": 975,
+          "category": "Groceries"
+        },
+        {
+          "raw_name": "OATS 500G",
+          "normalized_name": "Oats, 500 g",
+          "quantity": "2",
+          "line_total_cents": 900,
+          "category": "Groceries"
+        }
+      ],
+      "subtotal_cents": 1875,
+      "discount_cents": 0,
+      "tax_cents": 150,
+      "fees_cents": 25,
+      "total_cents": 2050,
+      "tax_included": false,
+      "category": "Groceries",
+      "notes": "Synthetic test receipt. Not a real purchase."
+    },
+    "GROCERY-5": {
+      "merchant_name": "Test Grocery",
+      "purchased_at": "2026-09-15",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "RICE 1KG",
+          "normalized_name": "Rice, 1 kg",
+          "quantity": "1",
+          "line_total_cents": 325,
+          "category": "Groceries"
+        },
+        {
+          "raw_name": "OATS 500G",
+          "normalized_name": "Oats, 500 g",
+          "quantity": "3",
+          "line_total_cents": 1350,
+          "category": "Groceries"
+        }
+      ],
+      "subtotal_cents": 1675,
+      "discount_cents": 75,
+      "tax_cents": 128,
+      "fees_cents": 0,
+      "total_cents": 1728,
+      "tax_included": false,
+      "category": "Groceries",
+      "notes": "Synthetic test receipt. Not a real purchase."
+    },
+    "Q1": {
+      "merchant_name": "Test Cafe",
+      "purchased_at": "2026-09-28",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "Oat milk latte",
+          "normalized_name": "Oat milk latte",
+          "quantity": "1",
+          "line_total_cents": 550,
+          "category": "Food & drink"
+        },
+        {
+          "raw_name": "Butter croissant",
+          "normalized_name": "Butter croissant",
+          "quantity": "1",
+          "line_total_cents": 425,
+          "category": "Food & drink"
+        },
+        {
+          "raw_name": "Chocolate chip cookie",
+          "normalized_name": "Chocolate chip cookie",
+          "quantity": "1",
+          "line_total_cents": 300,
+          "category": "Food & drink"
+        }
+      ],
+      "subtotal_cents": 1275,
+      "discount_cents": 0,
+      "tax_cents": 102,
+      "fees_cents": 0,
+      "total_cents": 1377,
+      "tax_included": false,
+      "category": "Food & drink",
+      "notes": "Synthetic test receipt. Not a real purchase."
+    },
+    "CAFE-2": {
+      "merchant_name": "Test Cafe",
+      "purchased_at": "2026-09-12",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "FILTER COFFEE",
+          "normalized_name": "Filter coffee",
+          "quantity": "2",
+          "line_total_cents": 650,
+          "category": "Food & drink"
+        },
+        {
+          "raw_name": "PLAIN BAGEL",
+          "normalized_name": "Plain bagel",
+          "quantity": "1",
+          "line_total_cents": 450,
+          "category": "Food & drink"
+        }
+      ],
+      "subtotal_cents": 1100,
+      "discount_cents": 0,
+      "tax_cents": 88,
+      "fees_cents": 0,
+      "total_cents": 1188,
+      "tax_included": false,
+      "category": "Food & drink",
+      "notes": "Synthetic test receipt. Not a real purchase."
+    },
+    "CAFE-3": {
+      "merchant_name": "Test Cafe",
+      "purchased_at": "2026-09-13",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "FILTER COFFEE",
+          "normalized_name": "Filter coffee",
+          "quantity": "1",
+          "line_total_cents": 325,
+          "category": "Food & drink"
+        },
+        {
+          "raw_name": "PLAIN BAGEL",
+          "normalized_name": "Plain bagel",
+          "quantity": "2",
+          "line_total_cents": 900,
+          "category": "Food & drink"
+        }
+      ],
+      "subtotal_cents": 1225,
+      "discount_cents": 100,
+      "tax_cents": 90,
+      "fees_cents": 0,
+      "total_cents": 1215,
+      "tax_included": false,
+      "category": "Food & drink",
+      "notes": "Synthetic test receipt. Not a real purchase."
+    },
+    "CAFE-4": {
+      "merchant_name": "Test Cafe",
+      "purchased_at": "2026-09-14",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "FILTER COFFEE",
+          "normalized_name": "Filter coffee",
+          "quantity": "3",
+          "line_total_cents": 975,
+          "category": "Food & drink"
+        },
+        {
+          "raw_name": "PLAIN BAGEL",
+          "normalized_name": "Plain bagel",
+          "quantity": "2",
+          "line_total_cents": 900,
+          "category": "Food & drink"
+        }
+      ],
+      "subtotal_cents": 1875,
+      "discount_cents": 0,
+      "tax_cents": 150,
+      "fees_cents": 25,
+      "total_cents": 2050,
+      "tax_included": false,
+      "category": "Food & drink",
+      "notes": "Synthetic test receipt. Not a real purchase."
+    },
+    "CAFE-5": {
+      "merchant_name": "Test Cafe",
+      "purchased_at": "2026-09-15",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "FILTER COFFEE",
+          "normalized_name": "Filter coffee",
+          "quantity": "1",
+          "line_total_cents": 325,
+          "category": "Food & drink"
+        },
+        {
+          "raw_name": "PLAIN BAGEL",
+          "normalized_name": "Plain bagel",
+          "quantity": "3",
+          "line_total_cents": 1350,
+          "category": "Food & drink"
+        }
+      ],
+      "subtotal_cents": 1675,
+      "discount_cents": 75,
+      "tax_cents": 128,
+      "fees_cents": 0,
+      "total_cents": 1728,
+      "tax_included": false,
+      "category": "Food & drink",
+      "notes": "Synthetic test receipt. Not a real purchase."
+    },
+    "AUG1": {
+      "merchant_name": "Test Transit",
+      "purchased_at": "2026-08-31",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "DAY TICKET",
+          "normalized_name": "Day ticket",
+          "quantity": "1",
+          "line_total_cents": 800,
+          "category": "Transport"
+        }
+      ],
+      "subtotal_cents": 800,
+      "discount_cents": 0,
+      "tax_cents": 0,
+      "fees_cents": 0,
+      "total_cents": 800,
+      "tax_included": false,
+      "category": "Transport",
+      "notes": "Synthetic test receipt. Not a real purchase."
+    },
+    "TRANSIT-2": {
+      "merchant_name": "Test Transit",
+      "purchased_at": "2026-09-12",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "DAY TICKET",
+          "normalized_name": "Day ticket",
+          "quantity": "2",
+          "line_total_cents": 650,
+          "category": "Transport"
+        },
+        {
+          "raw_name": "AIRPORT ADDON",
+          "normalized_name": "Airport supplement",
+          "quantity": "1",
+          "line_total_cents": 450,
+          "category": "Transport"
+        }
+      ],
+      "subtotal_cents": 1100,
+      "discount_cents": 0,
+      "tax_cents": 88,
+      "fees_cents": 0,
+      "total_cents": 1188,
+      "tax_included": false,
+      "category": "Transport",
+      "notes": "Synthetic test receipt. Not a real purchase."
+    },
+    "TRANSIT-3": {
+      "merchant_name": "Test Transit",
+      "purchased_at": "2026-09-13",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "DAY TICKET",
+          "normalized_name": "Day ticket",
+          "quantity": "1",
+          "line_total_cents": 325,
+          "category": "Transport"
+        },
+        {
+          "raw_name": "AIRPORT ADDON",
+          "normalized_name": "Airport supplement",
+          "quantity": "2",
+          "line_total_cents": 900,
+          "category": "Transport"
+        }
+      ],
+      "subtotal_cents": 1225,
+      "discount_cents": 100,
+      "tax_cents": 90,
+      "fees_cents": 0,
+      "total_cents": 1215,
+      "tax_included": false,
+      "category": "Transport",
+      "notes": "Synthetic test receipt. Not a real purchase."
+    },
+    "TRANSIT-4": {
+      "merchant_name": "Test Transit",
+      "purchased_at": "2026-09-14",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "DAY TICKET",
+          "normalized_name": "Day ticket",
+          "quantity": "3",
+          "line_total_cents": 975,
+          "category": "Transport"
+        },
+        {
+          "raw_name": "AIRPORT ADDON",
+          "normalized_name": "Airport supplement",
+          "quantity": "2",
+          "line_total_cents": 900,
+          "category": "Transport"
+        }
+      ],
+      "subtotal_cents": 1875,
+      "discount_cents": 0,
+      "tax_cents": 150,
+      "fees_cents": 25,
+      "total_cents": 2050,
+      "tax_included": false,
+      "category": "Transport",
+      "notes": "Synthetic test receipt. Not a real purchase."
+    },
+    "TRANSIT-5": {
+      "merchant_name": "Test Transit",
+      "purchased_at": "2026-09-15",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "DAY TICKET",
+          "normalized_name": "Day ticket",
+          "quantity": "1",
+          "line_total_cents": 325,
+          "category": "Transport"
+        },
+        {
+          "raw_name": "AIRPORT ADDON",
+          "normalized_name": "Airport supplement",
+          "quantity": "3",
+          "line_total_cents": 1350,
+          "category": "Transport"
+        }
+      ],
+      "subtotal_cents": 1675,
+      "discount_cents": 75,
+      "tax_cents": 128,
+      "fees_cents": 0,
+      "total_cents": 1728,
+      "tax_included": false,
+      "category": "Transport",
+      "notes": "Synthetic test receipt. Not a real purchase."
+    },
+    "B1": {
+      "merchant_name": "Test Electronics",
+      "purchased_at": "2026-09-28",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "WIRELESS HEADPHONES",
+          "normalized_name": "Wireless headphones",
+          "quantity": "1",
+          "line_total_cents": 9999,
+          "category": "Shopping"
+        }
+      ],
+      "subtotal_cents": 9999,
+      "discount_cents": 0,
+      "tax_cents": 0,
+      "fees_cents": 0,
+      "total_cents": 9999,
+      "tax_included": false,
+      "category": "Shopping",
+      "notes": "Synthetic test receipt. Not a real purchase."
+    },
+    "TECH-2": {
+      "merchant_name": "Test Electronics",
+      "purchased_at": "2026-09-12",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "USB-C CABLE",
+          "normalized_name": "USB-C cable",
+          "quantity": "2",
+          "line_total_cents": 650,
+          "category": "Shopping"
+        },
+        {
+          "raw_name": "DESK STAND",
+          "normalized_name": "Desk stand",
+          "quantity": "1",
+          "line_total_cents": 450,
+          "category": "Shopping"
+        }
+      ],
+      "subtotal_cents": 1100,
+      "discount_cents": 0,
+      "tax_cents": 88,
+      "fees_cents": 0,
+      "total_cents": 1188,
+      "tax_included": false,
+      "category": "Shopping",
+      "notes": "Synthetic test receipt. Not a real purchase."
+    },
+    "TECH-3": {
+      "merchant_name": "Test Electronics",
+      "purchased_at": "2026-09-13",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "USB-C CABLE",
+          "normalized_name": "USB-C cable",
+          "quantity": "1",
+          "line_total_cents": 325,
+          "category": "Shopping"
+        },
+        {
+          "raw_name": "DESK STAND",
+          "normalized_name": "Desk stand",
+          "quantity": "2",
+          "line_total_cents": 900,
+          "category": "Shopping"
+        }
+      ],
+      "subtotal_cents": 1225,
+      "discount_cents": 100,
+      "tax_cents": 90,
+      "fees_cents": 0,
+      "total_cents": 1215,
+      "tax_included": false,
+      "category": "Shopping",
+      "notes": "Synthetic test receipt. Not a real purchase."
+    },
+    "TECH-4": {
+      "merchant_name": "Test Electronics",
+      "purchased_at": "2026-09-14",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "USB-C CABLE",
+          "normalized_name": "USB-C cable",
+          "quantity": "3",
+          "line_total_cents": 975,
+          "category": "Shopping"
+        },
+        {
+          "raw_name": "DESK STAND",
+          "normalized_name": "Desk stand",
+          "quantity": "2",
+          "line_total_cents": 900,
+          "category": "Shopping"
+        }
+      ],
+      "subtotal_cents": 1875,
+      "discount_cents": 0,
+      "tax_cents": 150,
+      "fees_cents": 25,
+      "total_cents": 2050,
+      "tax_included": false,
+      "category": "Shopping",
+      "notes": "Synthetic test receipt. Not a real purchase."
+    },
+    "TECH-5": {
+      "merchant_name": "Test Electronics",
+      "purchased_at": "2026-09-15",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "USB-C CABLE",
+          "normalized_name": "USB-C cable",
+          "quantity": "1",
+          "line_total_cents": 325,
+          "category": "Shopping"
+        },
+        {
+          "raw_name": "DESK STAND",
+          "normalized_name": "Desk stand",
+          "quantity": "3",
+          "line_total_cents": 1350,
+          "category": "Shopping"
+        }
+      ],
+      "subtotal_cents": 1675,
+      "discount_cents": 75,
+      "tax_cents": 128,
+      "fees_cents": 0,
+      "total_cents": 1728,
+      "tax_included": false,
+      "category": "Shopping",
+      "notes": "Synthetic test receipt. Not a real purchase."
+    },
+    "ADJ1": {
+      "merchant_name": "Test Market",
+      "purchased_at": "2026-09-28",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "COFFEE BEANS",
+          "normalized_name": "Coffee beans",
+          "quantity": "1",
+          "line_total_cents": 1000,
+          "category": "Groceries"
+        },
+        {
+          "raw_name": "GRANOLA",
+          "normalized_name": "Granola",
+          "quantity": "1",
+          "line_total_cents": 500,
+          "category": "Groceries"
+        }
+      ],
+      "subtotal_cents": 1500,
+      "discount_cents": 200,
+      "tax_cents": 104,
+      "fees_cents": 50,
+      "total_cents": 1454,
+      "tax_included": false,
+      "category": "Groceries",
+      "notes": "Synthetic test receipt. Not a real purchase."
+    },
+    "MARKET-2": {
+      "merchant_name": "Test Market",
+      "purchased_at": "2026-09-12",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "ORG APPLES",
+          "normalized_name": "Organic apples",
+          "quantity": "2",
+          "line_total_cents": 650,
+          "category": "Groceries"
+        },
+        {
+          "raw_name": "BROWN RICE",
+          "normalized_name": "Brown rice",
+          "quantity": "1",
+          "line_total_cents": 450,
+          "category": "Groceries"
+        }
+      ],
+      "subtotal_cents": 1100,
+      "discount_cents": 0,
+      "tax_cents": 88,
+      "fees_cents": 0,
+      "total_cents": 1188,
+      "tax_included": false,
+      "category": "Groceries",
+      "notes": "Synthetic test receipt. Not a real purchase."
+    },
+    "MARKET-3": {
+      "merchant_name": "Test Market",
+      "purchased_at": "2026-09-13",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "ORG APPLES",
+          "normalized_name": "Organic apples",
+          "quantity": "1",
+          "line_total_cents": 325,
+          "category": "Groceries"
+        },
+        {
+          "raw_name": "BROWN RICE",
+          "normalized_name": "Brown rice",
+          "quantity": "2",
+          "line_total_cents": 900,
+          "category": "Groceries"
+        }
+      ],
+      "subtotal_cents": 1225,
+      "discount_cents": 100,
+      "tax_cents": 90,
+      "fees_cents": 0,
+      "total_cents": 1215,
+      "tax_included": false,
+      "category": "Groceries",
+      "notes": "Synthetic test receipt. Not a real purchase."
+    },
+    "MARKET-4": {
+      "merchant_name": "Test Market",
+      "purchased_at": "2026-09-14",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "ORG APPLES",
+          "normalized_name": "Organic apples",
+          "quantity": "3",
+          "line_total_cents": 975,
+          "category": "Groceries"
+        },
+        {
+          "raw_name": "BROWN RICE",
+          "normalized_name": "Brown rice",
+          "quantity": "2",
+          "line_total_cents": 900,
+          "category": "Groceries"
+        }
+      ],
+      "subtotal_cents": 1875,
+      "discount_cents": 0,
+      "tax_cents": 150,
+      "fees_cents": 25,
+      "total_cents": 2050,
+      "tax_included": false,
+      "category": "Groceries",
+      "notes": "Synthetic test receipt. Not a real purchase."
+    },
+    "MARKET-5": {
+      "merchant_name": "Test Market",
+      "purchased_at": "2026-09-15",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "ORG APPLES",
+          "normalized_name": "Organic apples",
+          "quantity": "1",
+          "line_total_cents": 325,
+          "category": "Groceries"
+        },
+        {
+          "raw_name": "BROWN RICE",
+          "normalized_name": "Brown rice",
+          "quantity": "3",
+          "line_total_cents": 1350,
+          "category": "Groceries"
+        }
+      ],
+      "subtotal_cents": 1675,
+      "discount_cents": 75,
+      "tax_cents": 128,
+      "fees_cents": 0,
+      "total_cents": 1728,
+      "tax_included": false,
+      "category": "Groceries",
+      "notes": "Synthetic test receipt. Not a real purchase."
+    },
+    "INC1": {
+      "merchant_name": "Test Deli",
+      "purchased_at": "2026-09-28",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "SOUP",
+          "normalized_name": "Soup",
+          "quantity": "1",
+          "line_total_cents": 700,
+          "category": "Food & drink"
+        },
+        {
+          "raw_name": "ROLL",
+          "normalized_name": "Bread roll",
+          "quantity": "1",
+          "line_total_cents": 500,
+          "category": "Food & drink"
+        }
+      ],
+      "subtotal_cents": 1200,
+      "discount_cents": 0,
+      "tax_cents": 100,
+      "fees_cents": 0,
+      "total_cents": 1200,
+      "tax_included": true,
+      "category": "Food & drink",
+      "notes": "Synthetic test receipt. Not a real purchase."
+    },
+    "DELI-2": {
+      "merchant_name": "Test Deli",
+      "purchased_at": "2026-09-12",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "GARDEN WRAP",
+          "normalized_name": "Garden wrap",
+          "quantity": "2",
+          "line_total_cents": 650,
+          "category": "Food & drink"
+        },
+        {
+          "raw_name": "STILL WATER",
+          "normalized_name": "Still water",
+          "quantity": "1",
+          "line_total_cents": 450,
+          "category": "Food & drink"
+        }
+      ],
+      "subtotal_cents": 1100,
+      "discount_cents": 0,
+      "tax_cents": 88,
+      "fees_cents": 0,
+      "total_cents": 1188,
+      "tax_included": false,
+      "category": "Food & drink",
+      "notes": "Synthetic test receipt. Not a real purchase."
+    },
+    "DELI-3": {
+      "merchant_name": "Test Deli",
+      "purchased_at": "2026-09-13",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "GARDEN WRAP",
+          "normalized_name": "Garden wrap",
+          "quantity": "1",
+          "line_total_cents": 325,
+          "category": "Food & drink"
+        },
+        {
+          "raw_name": "STILL WATER",
+          "normalized_name": "Still water",
+          "quantity": "2",
+          "line_total_cents": 900,
+          "category": "Food & drink"
+        }
+      ],
+      "subtotal_cents": 1225,
+      "discount_cents": 100,
+      "tax_cents": 90,
+      "fees_cents": 0,
+      "total_cents": 1215,
+      "tax_included": false,
+      "category": "Food & drink",
+      "notes": "Synthetic test receipt. Not a real purchase."
+    },
+    "DELI-4": {
+      "merchant_name": "Test Deli",
+      "purchased_at": "2026-09-14",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "GARDEN WRAP",
+          "normalized_name": "Garden wrap",
+          "quantity": "3",
+          "line_total_cents": 975,
+          "category": "Food & drink"
+        },
+        {
+          "raw_name": "STILL WATER",
+          "normalized_name": "Still water",
+          "quantity": "2",
+          "line_total_cents": 900,
+          "category": "Food & drink"
+        }
+      ],
+      "subtotal_cents": 1875,
+      "discount_cents": 0,
+      "tax_cents": 150,
+      "fees_cents": 25,
+      "total_cents": 2050,
+      "tax_included": false,
+      "category": "Food & drink",
+      "notes": "Synthetic test receipt. Not a real purchase."
+    },
+    "DELI-5": {
+      "merchant_name": "Test Deli",
+      "purchased_at": "2026-09-15",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "GARDEN WRAP",
+          "normalized_name": "Garden wrap",
+          "quantity": "1",
+          "line_total_cents": 325,
+          "category": "Food & drink"
+        },
+        {
+          "raw_name": "STILL WATER",
+          "normalized_name": "Still water",
+          "quantity": "3",
+          "line_total_cents": 1350,
+          "category": "Food & drink"
+        }
+      ],
+      "subtotal_cents": 1675,
+      "discount_cents": 75,
+      "tax_cents": 128,
+      "fees_cents": 0,
+      "total_cents": 1728,
+      "tax_included": false,
+      "category": "Food & drink",
+      "notes": "Synthetic test receipt. Not a real purchase."
+    },
+    "WEIGHT1": {
+      "merchant_name": "Test Produce",
+      "purchased_at": "2026-09-28",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "APPLES 0.750KG",
+          "normalized_name": "Apples",
+          "quantity": "0.750",
+          "line_total_cents": 299,
+          "category": "Groceries"
+        }
+      ],
+      "subtotal_cents": 299,
+      "discount_cents": 0,
+      "tax_cents": 0,
+      "fees_cents": 0,
+      "total_cents": 299,
+      "tax_included": false,
+      "category": "Groceries",
+      "notes": "Synthetic test receipt. Not a real purchase."
+    },
+    "PRODUCE-2": {
+      "merchant_name": "Test Produce",
+      "purchased_at": "2026-09-12",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "PEARS",
+          "normalized_name": "Pears",
+          "quantity": "2",
+          "line_total_cents": 650,
+          "category": "Groceries"
+        },
+        {
+          "raw_name": "BUNCH KALE",
+          "normalized_name": "Bunch of kale",
+          "quantity": "1",
+          "line_total_cents": 450,
+          "category": "Groceries"
+        }
+      ],
+      "subtotal_cents": 1100,
+      "discount_cents": 0,
+      "tax_cents": 88,
+      "fees_cents": 0,
+      "total_cents": 1188,
+      "tax_included": false,
+      "category": "Groceries",
+      "notes": "Synthetic test receipt. Not a real purchase."
+    },
+    "PRODUCE-3": {
+      "merchant_name": "Test Produce",
+      "purchased_at": "2026-09-13",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "PEARS",
+          "normalized_name": "Pears",
+          "quantity": "1",
+          "line_total_cents": 325,
+          "category": "Groceries"
+        },
+        {
+          "raw_name": "BUNCH KALE",
+          "normalized_name": "Bunch of kale",
+          "quantity": "2",
+          "line_total_cents": 900,
+          "category": "Groceries"
+        }
+      ],
+      "subtotal_cents": 1225,
+      "discount_cents": 100,
+      "tax_cents": 90,
+      "fees_cents": 0,
+      "total_cents": 1215,
+      "tax_included": false,
+      "category": "Groceries",
+      "notes": "Synthetic test receipt. Not a real purchase."
+    },
+    "PRODUCE-4": {
+      "merchant_name": "Test Produce",
+      "purchased_at": "2026-09-14",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "PEARS",
+          "normalized_name": "Pears",
+          "quantity": "3",
+          "line_total_cents": 975,
+          "category": "Groceries"
+        },
+        {
+          "raw_name": "BUNCH KALE",
+          "normalized_name": "Bunch of kale",
+          "quantity": "2",
+          "line_total_cents": 900,
+          "category": "Groceries"
+        }
+      ],
+      "subtotal_cents": 1875,
+      "discount_cents": 0,
+      "tax_cents": 150,
+      "fees_cents": 25,
+      "total_cents": 2050,
+      "tax_included": false,
+      "category": "Groceries",
+      "notes": "Synthetic test receipt. Not a real purchase."
+    },
+    "PRODUCE-5": {
+      "merchant_name": "Test Produce",
+      "purchased_at": "2026-09-15",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "PEARS",
+          "normalized_name": "Pears",
+          "quantity": "1",
+          "line_total_cents": 325,
+          "category": "Groceries"
+        },
+        {
+          "raw_name": "BUNCH KALE",
+          "normalized_name": "Bunch of kale",
+          "quantity": "3",
+          "line_total_cents": 1350,
+          "category": "Groceries"
+        }
+      ],
+      "subtotal_cents": 1675,
+      "discount_cents": 75,
+      "tax_cents": 128,
+      "fees_cents": 0,
+      "total_cents": 1728,
+      "tax_included": false,
+      "category": "Groceries",
+      "notes": "Synthetic test receipt. Not a real purchase."
+    },
+    "PRICE1_OLD": {
+      "merchant_name": "Test Pantry",
+      "purchased_at": "2026-08-15",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "OAT MILK 1L",
+          "normalized_name": "Oat milk, 1 litre",
+          "quantity": "1",
+          "line_total_cents": 449,
+          "category": "Groceries"
+        }
+      ],
+      "subtotal_cents": 449,
+      "discount_cents": 0,
+      "tax_cents": 0,
+      "fees_cents": 0,
+      "total_cents": 449,
+      "tax_included": false,
+      "category": "Groceries",
+      "notes": "Synthetic test receipt. Not a real purchase."
+    },
+    "PRICE1_NEW": {
+      "merchant_name": "Test Pantry",
+      "purchased_at": "2026-09-15",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "OAT MILK 1L",
+          "normalized_name": "Oat milk, 1 litre",
+          "quantity": "2",
+          "line_total_cents": 998,
+          "category": "Groceries"
+        }
+      ],
+      "subtotal_cents": 998,
+      "discount_cents": 0,
+      "tax_cents": 0,
+      "fees_cents": 0,
+      "total_cents": 998,
+      "tax_included": false,
+      "category": "Groceries",
+      "notes": "Synthetic test receipt. Not a real purchase."
+    },
+    "PANTRY-3": {
+      "merchant_name": "Test Pantry",
+      "purchased_at": "2026-09-13",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "OLIVE OIL",
+          "normalized_name": "Olive oil",
+          "quantity": "1",
+          "line_total_cents": 325,
+          "category": "Groceries"
+        },
+        {
+          "raw_name": "CHICKPEAS",
+          "normalized_name": "Chickpeas",
+          "quantity": "2",
+          "line_total_cents": 900,
+          "category": "Groceries"
+        }
+      ],
+      "subtotal_cents": 1225,
+      "discount_cents": 100,
+      "tax_cents": 90,
+      "fees_cents": 0,
+      "total_cents": 1215,
+      "tax_included": false,
+      "category": "Groceries",
+      "notes": "Synthetic test receipt. Not a real purchase."
+    },
+    "PANTRY-4": {
+      "merchant_name": "Test Pantry",
+      "purchased_at": "2026-09-14",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "OLIVE OIL",
+          "normalized_name": "Olive oil",
+          "quantity": "3",
+          "line_total_cents": 975,
+          "category": "Groceries"
+        },
+        {
+          "raw_name": "CHICKPEAS",
+          "normalized_name": "Chickpeas",
+          "quantity": "2",
+          "line_total_cents": 900,
+          "category": "Groceries"
+        }
+      ],
+      "subtotal_cents": 1875,
+      "discount_cents": 0,
+      "tax_cents": 150,
+      "fees_cents": 25,
+      "total_cents": 2050,
+      "tax_included": false,
+      "category": "Groceries",
+      "notes": "Synthetic test receipt. Not a real purchase."
+    },
+    "PANTRY-5": {
+      "merchant_name": "Test Pantry",
+      "purchased_at": "2026-09-15",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "OLIVE OIL",
+          "normalized_name": "Olive oil",
+          "quantity": "1",
+          "line_total_cents": 325,
+          "category": "Groceries"
+        },
+        {
+          "raw_name": "CHICKPEAS",
+          "normalized_name": "Chickpeas",
+          "quantity": "3",
+          "line_total_cents": 1350,
+          "category": "Groceries"
+        }
+      ],
+      "subtotal_cents": 1675,
+      "discount_cents": 75,
+      "tax_cents": 128,
+      "fees_cents": 0,
+      "total_cents": 1728,
+      "tax_included": false,
+      "category": "Groceries",
+      "notes": "Synthetic test receipt. Not a real purchase."
+    },
+    "BOOKS-1": {
+      "merchant_name": "Test Books",
+      "purchased_at": "2026-09-11",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "PAPERBACK",
+          "normalized_name": "Paperback book",
+          "quantity": "1",
+          "line_total_cents": 325,
+          "category": "Shopping"
+        },
+        {
+          "raw_name": "NOTEBOOK A5",
+          "normalized_name": "A5 notebook",
+          "quantity": "1",
+          "line_total_cents": 450,
+          "category": "Shopping"
+        }
+      ],
+      "subtotal_cents": 775,
+      "discount_cents": 0,
+      "tax_cents": 62,
+      "fees_cents": 0,
+      "total_cents": 837,
+      "tax_included": false,
+      "category": "Shopping",
+      "notes": "Synthetic test receipt. Not a real purchase."
+    },
+    "BOOKS-2": {
+      "merchant_name": "Test Books",
+      "purchased_at": "2026-09-12",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "PAPERBACK",
+          "normalized_name": "Paperback book",
+          "quantity": "2",
+          "line_total_cents": 650,
+          "category": "Shopping"
+        },
+        {
+          "raw_name": "NOTEBOOK A5",
+          "normalized_name": "A5 notebook",
+          "quantity": "1",
+          "line_total_cents": 450,
+          "category": "Shopping"
+        }
+      ],
+      "subtotal_cents": 1100,
+      "discount_cents": 0,
+      "tax_cents": 88,
+      "fees_cents": 0,
+      "total_cents": 1188,
+      "tax_included": false,
+      "category": "Shopping",
+      "notes": "Synthetic test receipt. Not a real purchase."
+    },
+    "BOOKS-3": {
+      "merchant_name": "Test Books",
+      "purchased_at": "2026-09-13",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "PAPERBACK",
+          "normalized_name": "Paperback book",
+          "quantity": "1",
+          "line_total_cents": 325,
+          "category": "Shopping"
+        },
+        {
+          "raw_name": "NOTEBOOK A5",
+          "normalized_name": "A5 notebook",
+          "quantity": "2",
+          "line_total_cents": 900,
+          "category": "Shopping"
+        }
+      ],
+      "subtotal_cents": 1225,
+      "discount_cents": 100,
+      "tax_cents": 90,
+      "fees_cents": 0,
+      "total_cents": 1215,
+      "tax_included": false,
+      "category": "Shopping",
+      "notes": "Synthetic test receipt. Not a real purchase."
+    },
+    "BOOKS-4": {
+      "merchant_name": "Test Books",
+      "purchased_at": "2026-09-14",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "PAPERBACK",
+          "normalized_name": "Paperback book",
+          "quantity": "3",
+          "line_total_cents": 975,
+          "category": "Shopping"
+        },
+        {
+          "raw_name": "NOTEBOOK A5",
+          "normalized_name": "A5 notebook",
+          "quantity": "2",
+          "line_total_cents": 900,
+          "category": "Shopping"
+        }
+      ],
+      "subtotal_cents": 1875,
+      "discount_cents": 0,
+      "tax_cents": 150,
+      "fees_cents": 25,
+      "total_cents": 2050,
+      "tax_included": false,
+      "category": "Shopping",
+      "notes": "Synthetic test receipt. Not a real purchase."
+    },
+    "BOOKS-5": {
+      "merchant_name": "Test Books",
+      "purchased_at": "2026-09-15",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "PAPERBACK",
+          "normalized_name": "Paperback book",
+          "quantity": "1",
+          "line_total_cents": 325,
+          "category": "Shopping"
+        },
+        {
+          "raw_name": "NOTEBOOK A5",
+          "normalized_name": "A5 notebook",
+          "quantity": "3",
+          "line_total_cents": 1350,
+          "category": "Shopping"
+        }
+      ],
+      "subtotal_cents": 1675,
+      "discount_cents": 75,
+      "tax_cents": 128,
+      "fees_cents": 0,
+      "total_cents": 1728,
+      "tax_included": false,
+      "category": "Shopping",
+      "notes": "Synthetic test receipt. Not a real purchase."
+    },
+    "PHARMACY-1": {
+      "merchant_name": "Test Pharmacy",
+      "purchased_at": "2026-09-11",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "VITAMINS",
+          "normalized_name": "Daily vitamins",
+          "quantity": "1",
+          "line_total_cents": 325,
+          "category": "Health"
+        },
+        {
+          "raw_name": "SHAMPOO",
+          "normalized_name": "Shampoo",
+          "quantity": "1",
+          "line_total_cents": 450,
+          "category": "Health"
+        }
+      ],
+      "subtotal_cents": 775,
+      "discount_cents": 0,
+      "tax_cents": 62,
+      "fees_cents": 0,
+      "total_cents": 837,
+      "tax_included": false,
+      "category": "Health",
+      "notes": "Synthetic test receipt. Not a real purchase."
+    },
+    "PHARMACY-2": {
+      "merchant_name": "Test Pharmacy",
+      "purchased_at": "2026-09-12",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "VITAMINS",
+          "normalized_name": "Daily vitamins",
+          "quantity": "2",
+          "line_total_cents": 650,
+          "category": "Health"
+        },
+        {
+          "raw_name": "SHAMPOO",
+          "normalized_name": "Shampoo",
+          "quantity": "1",
+          "line_total_cents": 450,
+          "category": "Health"
+        }
+      ],
+      "subtotal_cents": 1100,
+      "discount_cents": 0,
+      "tax_cents": 88,
+      "fees_cents": 0,
+      "total_cents": 1188,
+      "tax_included": false,
+      "category": "Health",
+      "notes": "Synthetic test receipt. Not a real purchase."
+    },
+    "PHARMACY-3": {
+      "merchant_name": "Test Pharmacy",
+      "purchased_at": "2026-09-13",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "VITAMINS",
+          "normalized_name": "Daily vitamins",
+          "quantity": "1",
+          "line_total_cents": 325,
+          "category": "Health"
+        },
+        {
+          "raw_name": "SHAMPOO",
+          "normalized_name": "Shampoo",
+          "quantity": "2",
+          "line_total_cents": 900,
+          "category": "Health"
+        }
+      ],
+      "subtotal_cents": 1225,
+      "discount_cents": 100,
+      "tax_cents": 90,
+      "fees_cents": 0,
+      "total_cents": 1215,
+      "tax_included": false,
+      "category": "Health",
+      "notes": "Synthetic test receipt. Not a real purchase."
+    },
+    "PHARMACY-4": {
+      "merchant_name": "Test Pharmacy",
+      "purchased_at": "2026-09-14",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "VITAMINS",
+          "normalized_name": "Daily vitamins",
+          "quantity": "3",
+          "line_total_cents": 975,
+          "category": "Health"
+        },
+        {
+          "raw_name": "SHAMPOO",
+          "normalized_name": "Shampoo",
+          "quantity": "2",
+          "line_total_cents": 900,
+          "category": "Health"
+        }
+      ],
+      "subtotal_cents": 1875,
+      "discount_cents": 0,
+      "tax_cents": 150,
+      "fees_cents": 25,
+      "total_cents": 2050,
+      "tax_included": false,
+      "category": "Health",
+      "notes": "Synthetic test receipt. Not a real purchase."
+    },
+    "PHARMACY-5": {
+      "merchant_name": "Test Pharmacy",
+      "purchased_at": "2026-09-15",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "VITAMINS",
+          "normalized_name": "Daily vitamins",
+          "quantity": "1",
+          "line_total_cents": 325,
+          "category": "Health"
+        },
+        {
+          "raw_name": "SHAMPOO",
+          "normalized_name": "Shampoo",
+          "quantity": "3",
+          "line_total_cents": 1350,
+          "category": "Health"
+        }
+      ],
+      "subtotal_cents": 1675,
+      "discount_cents": 75,
+      "tax_cents": 128,
+      "fees_cents": 0,
+      "total_cents": 1728,
+      "tax_included": false,
+      "category": "Health",
+      "notes": "Synthetic test receipt. Not a real purchase."
+    },
+    "HOME-1": {
+      "merchant_name": "Test Home",
+      "purchased_at": "2026-09-11",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "COTTON TOWEL",
+          "normalized_name": "Cotton towel",
+          "quantity": "1",
+          "line_total_cents": 325,
+          "category": "Shopping"
+        },
+        {
+          "raw_name": "CERAMIC MUG",
+          "normalized_name": "Ceramic mug",
+          "quantity": "1",
+          "line_total_cents": 450,
+          "category": "Shopping"
+        }
+      ],
+      "subtotal_cents": 775,
+      "discount_cents": 0,
+      "tax_cents": 62,
+      "fees_cents": 0,
+      "total_cents": 837,
+      "tax_included": false,
+      "category": "Shopping",
+      "notes": "Synthetic test receipt. Not a real purchase."
+    },
+    "HOME-2": {
+      "merchant_name": "Test Home",
+      "purchased_at": "2026-09-12",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "COTTON TOWEL",
+          "normalized_name": "Cotton towel",
+          "quantity": "2",
+          "line_total_cents": 650,
+          "category": "Shopping"
+        },
+        {
+          "raw_name": "CERAMIC MUG",
+          "normalized_name": "Ceramic mug",
+          "quantity": "1",
+          "line_total_cents": 450,
+          "category": "Shopping"
+        }
+      ],
+      "subtotal_cents": 1100,
+      "discount_cents": 0,
+      "tax_cents": 88,
+      "fees_cents": 0,
+      "total_cents": 1188,
+      "tax_included": false,
+      "category": "Shopping",
+      "notes": "Synthetic test receipt. Not a real purchase."
+    },
+    "HOME-3": {
+      "merchant_name": "Test Home",
+      "purchased_at": "2026-09-13",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "COTTON TOWEL",
+          "normalized_name": "Cotton towel",
+          "quantity": "1",
+          "line_total_cents": 325,
+          "category": "Shopping"
+        },
+        {
+          "raw_name": "CERAMIC MUG",
+          "normalized_name": "Ceramic mug",
+          "quantity": "2",
+          "line_total_cents": 900,
+          "category": "Shopping"
+        }
+      ],
+      "subtotal_cents": 1225,
+      "discount_cents": 100,
+      "tax_cents": 90,
+      "fees_cents": 0,
+      "total_cents": 1215,
+      "tax_included": false,
+      "category": "Shopping",
+      "notes": "Synthetic test receipt. Not a real purchase."
+    },
+    "HOME-4": {
+      "merchant_name": "Test Home",
+      "purchased_at": "2026-09-14",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "COTTON TOWEL",
+          "normalized_name": "Cotton towel",
+          "quantity": "3",
+          "line_total_cents": 975,
+          "category": "Shopping"
+        },
+        {
+          "raw_name": "CERAMIC MUG",
+          "normalized_name": "Ceramic mug",
+          "quantity": "2",
+          "line_total_cents": 900,
+          "category": "Shopping"
+        }
+      ],
+      "subtotal_cents": 1875,
+      "discount_cents": 0,
+      "tax_cents": 150,
+      "fees_cents": 25,
+      "total_cents": 2050,
+      "tax_included": false,
+      "category": "Shopping",
+      "notes": "Synthetic test receipt. Not a real purchase."
+    },
+    "HOME-5": {
+      "merchant_name": "Test Home",
+      "purchased_at": "2026-09-15",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "COTTON TOWEL",
+          "normalized_name": "Cotton towel",
+          "quantity": "1",
+          "line_total_cents": 325,
+          "category": "Shopping"
+        },
+        {
+          "raw_name": "CERAMIC MUG",
+          "normalized_name": "Ceramic mug",
+          "quantity": "3",
+          "line_total_cents": 1350,
+          "category": "Shopping"
+        }
+      ],
+      "subtotal_cents": 1675,
+      "discount_cents": 75,
+      "tax_cents": 128,
+      "fees_cents": 0,
+      "total_cents": 1728,
+      "tax_included": false,
+      "category": "Shopping",
+      "notes": "Synthetic test receipt. Not a real purchase."
+    },
+    "BAKERY-1": {
+      "merchant_name": "Test Bakery",
+      "purchased_at": "2026-09-11",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "SOURDOUGH",
+          "normalized_name": "Sourdough loaf",
+          "quantity": "1",
+          "line_total_cents": 325,
+          "category": "Food & drink"
+        },
+        {
+          "raw_name": "CINNAMON BUN",
+          "normalized_name": "Cinnamon bun",
+          "quantity": "1",
+          "line_total_cents": 450,
+          "category": "Food & drink"
+        }
+      ],
+      "subtotal_cents": 775,
+      "discount_cents": 0,
+      "tax_cents": 62,
+      "fees_cents": 0,
+      "total_cents": 837,
+      "tax_included": false,
+      "category": "Food & drink",
+      "notes": "Synthetic test receipt. Not a real purchase."
+    },
+    "BAKERY-2": {
+      "merchant_name": "Test Bakery",
+      "purchased_at": "2026-09-12",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "SOURDOUGH",
+          "normalized_name": "Sourdough loaf",
+          "quantity": "2",
+          "line_total_cents": 650,
+          "category": "Food & drink"
+        },
+        {
+          "raw_name": "CINNAMON BUN",
+          "normalized_name": "Cinnamon bun",
+          "quantity": "1",
+          "line_total_cents": 450,
+          "category": "Food & drink"
+        }
+      ],
+      "subtotal_cents": 1100,
+      "discount_cents": 0,
+      "tax_cents": 88,
+      "fees_cents": 0,
+      "total_cents": 1188,
+      "tax_included": false,
+      "category": "Food & drink",
+      "notes": "Synthetic test receipt. Not a real purchase."
+    },
+    "BAKERY-3": {
+      "merchant_name": "Test Bakery",
+      "purchased_at": "2026-09-13",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "SOURDOUGH",
+          "normalized_name": "Sourdough loaf",
+          "quantity": "1",
+          "line_total_cents": 325,
+          "category": "Food & drink"
+        },
+        {
+          "raw_name": "CINNAMON BUN",
+          "normalized_name": "Cinnamon bun",
+          "quantity": "2",
+          "line_total_cents": 900,
+          "category": "Food & drink"
+        }
+      ],
+      "subtotal_cents": 1225,
+      "discount_cents": 100,
+      "tax_cents": 90,
+      "fees_cents": 0,
+      "total_cents": 1215,
+      "tax_included": false,
+      "category": "Food & drink",
+      "notes": "Synthetic test receipt. Not a real purchase."
+    },
+    "BAKERY-4": {
+      "merchant_name": "Test Bakery",
+      "purchased_at": "2026-09-14",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "SOURDOUGH",
+          "normalized_name": "Sourdough loaf",
+          "quantity": "3",
+          "line_total_cents": 975,
+          "category": "Food & drink"
+        },
+        {
+          "raw_name": "CINNAMON BUN",
+          "normalized_name": "Cinnamon bun",
+          "quantity": "2",
+          "line_total_cents": 900,
+          "category": "Food & drink"
+        }
+      ],
+      "subtotal_cents": 1875,
+      "discount_cents": 0,
+      "tax_cents": 150,
+      "fees_cents": 25,
+      "total_cents": 2050,
+      "tax_included": false,
+      "category": "Food & drink",
+      "notes": "Synthetic test receipt. Not a real purchase."
+    },
+    "BAKERY-5": {
+      "merchant_name": "Test Bakery",
+      "purchased_at": "2026-09-15",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "SOURDOUGH",
+          "normalized_name": "Sourdough loaf",
+          "quantity": "1",
+          "line_total_cents": 325,
+          "category": "Food & drink"
+        },
+        {
+          "raw_name": "CINNAMON BUN",
+          "normalized_name": "Cinnamon bun",
+          "quantity": "3",
+          "line_total_cents": 1350,
+          "category": "Food & drink"
+        }
+      ],
+      "subtotal_cents": 1675,
+      "discount_cents": 75,
+      "tax_cents": 128,
+      "fees_cents": 0,
+      "total_cents": 1728,
+      "tax_included": false,
+      "category": "Food & drink",
+      "notes": "Synthetic test receipt. Not a real purchase."
+    },
+    "BAD1": {
+      "merchant_name": "Test Grocery",
+      "purchased_at": "2026-09-28",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "MLK",
+          "normalized_name": "Milk",
+          "quantity": "1",
+          "line_total_cents": 459,
+          "category": "Groceries"
+        },
+        {
+          "raw_name": "BRD",
+          "normalized_name": "Bread",
+          "quantity": "2",
+          "line_total_cents": 598,
+          "category": "Groceries"
+        }
+      ],
+      "subtotal_cents": 1057,
+      "discount_cents": 0,
+      "tax_cents": 0,
+      "fees_cents": 0,
+      "total_cents": 2000,
+      "tax_included": false,
+      "category": "Groceries",
+      "notes": "Synthetic test receipt. Not a real purchase."
+    },
+    "UNSUPPORTED_EUR": {
+      "merchant_name": "Test Grocery",
+      "purchased_at": "2026-09-28",
+      "currency": "EUR",
+      "items": [
+        {
+          "raw_name": "MLK",
+          "normalized_name": "Milk",
+          "quantity": "1",
+          "line_total_cents": 459,
+          "category": "Groceries"
+        },
+        {
+          "raw_name": "BRD",
+          "normalized_name": "Bread",
+          "quantity": "2",
+          "line_total_cents": 598,
+          "category": "Groceries"
+        }
+      ],
+      "subtotal_cents": 1057,
+      "discount_cents": 0,
+      "tax_cents": 0,
+      "fees_cents": 0,
+      "total_cents": 1057,
+      "tax_included": false,
+      "category": "Groceries",
+      "notes": "Synthetic test receipt. Not a real purchase."
+    },
+    "UNSUPPORTED_CAD": {
+      "merchant_name": "Test Books",
+      "purchased_at": "2026-09-11",
+      "currency": "CAD",
+      "items": [
+        {
+          "raw_name": "PAPERBACK",
+          "normalized_name": "Paperback book",
+          "quantity": "1",
+          "line_total_cents": 325,
+          "category": "Shopping"
+        },
+        {
+          "raw_name": "NOTEBOOK A5",
+          "normalized_name": "A5 notebook",
+          "quantity": "1",
+          "line_total_cents": 450,
+          "category": "Shopping"
+        }
+      ],
+      "subtotal_cents": 775,
+      "discount_cents": 0,
+      "tax_cents": 62,
+      "fees_cents": 0,
+      "total_cents": 837,
+      "tax_included": false,
+      "category": "Shopping",
+      "notes": "Synthetic test receipt. Not a real purchase."
+    },
+    "UNSUPPORTED_REFUND": {
+      "merchant_name": "Test Grocery",
+      "purchased_at": "2026-09-28",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "MLK",
+          "normalized_name": "Milk",
+          "quantity": "1",
+          "line_total_cents": -459,
+          "category": "Groceries"
+        },
+        {
+          "raw_name": "BRD",
+          "normalized_name": "Bread",
+          "quantity": "2",
+          "line_total_cents": -598,
+          "category": "Groceries"
+        }
+      ],
+      "subtotal_cents": -1057,
+      "discount_cents": 0,
+      "tax_cents": 0,
+      "fees_cents": 0,
+      "total_cents": -1057,
+      "tax_included": false,
+      "category": "Groceries",
+      "notes": "Synthetic test receipt. Not a real purchase."
+    }
+  },
+  "record_metadata": {
+    "P1": {
+      "owner": "A",
+      "source_type": "PHOTO",
+      "layout_id": "grocery"
+    },
+    "GROCERY-2": {
+      "owner": "A",
+      "source_type": "PHOTO",
+      "layout_id": "grocery"
+    },
+    "GROCERY-3": {
+      "owner": "A",
+      "source_type": "PHOTO",
+      "layout_id": "grocery"
+    },
+    "GROCERY-4": {
+      "owner": "A",
+      "source_type": "PHOTO",
+      "layout_id": "grocery"
+    },
+    "GROCERY-5": {
+      "owner": "A",
+      "source_type": "PHOTO",
+      "layout_id": "grocery"
+    },
+    "Q1": {
+      "owner": "A",
+      "source_type": "QR",
+      "layout_id": "cafe"
+    },
+    "CAFE-2": {
+      "owner": "A",
+      "source_type": "PHOTO",
+      "layout_id": "cafe"
+    },
+    "CAFE-3": {
+      "owner": "A",
+      "source_type": "PHOTO",
+      "layout_id": "cafe"
+    },
+    "CAFE-4": {
+      "owner": "A",
+      "source_type": "PHOTO",
+      "layout_id": "cafe"
+    },
+    "CAFE-5": {
+      "owner": "A",
+      "source_type": "PHOTO",
+      "layout_id": "cafe"
+    },
+    "AUG1": {
+      "owner": "A",
+      "source_type": "QR",
+      "layout_id": "transit"
+    },
+    "TRANSIT-2": {
+      "owner": "A",
+      "source_type": "PHOTO",
+      "layout_id": "transit"
+    },
+    "TRANSIT-3": {
+      "owner": "A",
+      "source_type": "PHOTO",
+      "layout_id": "transit"
+    },
+    "TRANSIT-4": {
+      "owner": "A",
+      "source_type": "PHOTO",
+      "layout_id": "transit"
+    },
+    "TRANSIT-5": {
+      "owner": "A",
+      "source_type": "PHOTO",
+      "layout_id": "transit"
+    },
+    "B1": {
+      "owner": "B",
+      "source_type": "PHOTO",
+      "layout_id": "tech"
+    },
+    "TECH-2": {
+      "owner": "A",
+      "source_type": "PHOTO",
+      "layout_id": "tech"
+    },
+    "TECH-3": {
+      "owner": "A",
+      "source_type": "PHOTO",
+      "layout_id": "tech"
+    },
+    "TECH-4": {
+      "owner": "A",
+      "source_type": "PHOTO",
+      "layout_id": "tech"
+    },
+    "TECH-5": {
+      "owner": "A",
+      "source_type": "PHOTO",
+      "layout_id": "tech"
+    },
+    "ADJ1": {
+      "owner": "A",
+      "source_type": "PHOTO",
+      "layout_id": "market"
+    },
+    "MARKET-2": {
+      "owner": "A",
+      "source_type": "PHOTO",
+      "layout_id": "market"
+    },
+    "MARKET-3": {
+      "owner": "A",
+      "source_type": "PHOTO",
+      "layout_id": "market"
+    },
+    "MARKET-4": {
+      "owner": "A",
+      "source_type": "PHOTO",
+      "layout_id": "market"
+    },
+    "MARKET-5": {
+      "owner": "A",
+      "source_type": "PHOTO",
+      "layout_id": "market"
+    },
+    "INC1": {
+      "owner": "A",
+      "source_type": "PHOTO",
+      "layout_id": "deli"
+    },
+    "DELI-2": {
+      "owner": "A",
+      "source_type": "PHOTO",
+      "layout_id": "deli"
+    },
+    "DELI-3": {
+      "owner": "A",
+      "source_type": "PHOTO",
+      "layout_id": "deli"
+    },
+    "DELI-4": {
+      "owner": "A",
+      "source_type": "PHOTO",
+      "layout_id": "deli"
+    },
+    "DELI-5": {
+      "owner": "A",
+      "source_type": "PHOTO",
+      "layout_id": "deli"
+    },
+    "WEIGHT1": {
+      "owner": "A",
+      "source_type": "PHOTO",
+      "layout_id": "produce"
+    },
+    "PRODUCE-2": {
+      "owner": "A",
+      "source_type": "PHOTO",
+      "layout_id": "produce"
+    },
+    "PRODUCE-3": {
+      "owner": "A",
+      "source_type": "PHOTO",
+      "layout_id": "produce"
+    },
+    "PRODUCE-4": {
+      "owner": "A",
+      "source_type": "PHOTO",
+      "layout_id": "produce"
+    },
+    "PRODUCE-5": {
+      "owner": "A",
+      "source_type": "PHOTO",
+      "layout_id": "produce"
+    },
+    "PRICE1_OLD": {
+      "owner": "A",
+      "source_type": "PHOTO",
+      "layout_id": "pantry"
+    },
+    "PRICE1_NEW": {
+      "owner": "A",
+      "source_type": "PHOTO",
+      "layout_id": "pantry"
+    },
+    "PANTRY-3": {
+      "owner": "A",
+      "source_type": "PHOTO",
+      "layout_id": "pantry"
+    },
+    "PANTRY-4": {
+      "owner": "A",
+      "source_type": "PHOTO",
+      "layout_id": "pantry"
+    },
+    "PANTRY-5": {
+      "owner": "A",
+      "source_type": "PHOTO",
+      "layout_id": "pantry"
+    },
+    "BOOKS-1": {
+      "owner": "A",
+      "source_type": "PHOTO",
+      "layout_id": "books"
+    },
+    "BOOKS-2": {
+      "owner": "A",
+      "source_type": "PHOTO",
+      "layout_id": "books"
+    },
+    "BOOKS-3": {
+      "owner": "A",
+      "source_type": "PHOTO",
+      "layout_id": "books"
+    },
+    "BOOKS-4": {
+      "owner": "A",
+      "source_type": "PHOTO",
+      "layout_id": "books"
+    },
+    "BOOKS-5": {
+      "owner": "A",
+      "source_type": "PHOTO",
+      "layout_id": "books"
+    },
+    "PHARMACY-1": {
+      "owner": "A",
+      "source_type": "PHOTO",
+      "layout_id": "pharmacy"
+    },
+    "PHARMACY-2": {
+      "owner": "A",
+      "source_type": "PHOTO",
+      "layout_id": "pharmacy"
+    },
+    "PHARMACY-3": {
+      "owner": "A",
+      "source_type": "PHOTO",
+      "layout_id": "pharmacy"
+    },
+    "PHARMACY-4": {
+      "owner": "A",
+      "source_type": "PHOTO",
+      "layout_id": "pharmacy"
+    },
+    "PHARMACY-5": {
+      "owner": "A",
+      "source_type": "PHOTO",
+      "layout_id": "pharmacy"
+    },
+    "HOME-1": {
+      "owner": "B",
+      "source_type": "PHOTO",
+      "layout_id": "home"
+    },
+    "HOME-2": {
+      "owner": "B",
+      "source_type": "PHOTO",
+      "layout_id": "home"
+    },
+    "HOME-3": {
+      "owner": "B",
+      "source_type": "PHOTO",
+      "layout_id": "home"
+    },
+    "HOME-4": {
+      "owner": "B",
+      "source_type": "PHOTO",
+      "layout_id": "home"
+    },
+    "HOME-5": {
+      "owner": "B",
+      "source_type": "PHOTO",
+      "layout_id": "home"
+    },
+    "BAKERY-1": {
+      "owner": "B",
+      "source_type": "PHOTO",
+      "layout_id": "bakery"
+    },
+    "BAKERY-2": {
+      "owner": "B",
+      "source_type": "PHOTO",
+      "layout_id": "bakery"
+    },
+    "BAKERY-3": {
+      "owner": "B",
+      "source_type": "PHOTO",
+      "layout_id": "bakery"
+    },
+    "BAKERY-4": {
+      "owner": "B",
+      "source_type": "PHOTO",
+      "layout_id": "bakery"
+    },
+    "BAKERY-5": {
+      "owner": "B",
+      "source_type": "PHOTO",
+      "layout_id": "bakery"
+    },
+    "UNSUPPORTED_EUR": {
+      "owner": "A",
+      "source_type": "PHOTO",
+      "layout_id": "grocery"
+    },
+    "UNSUPPORTED_CAD": {
+      "owner": "A",
+      "source_type": "PHOTO",
+      "layout_id": "books"
+    },
+    "UNSUPPORTED_REFUND": {
+      "owner": "A",
+      "source_type": "PHOTO",
+      "layout_id": "grocery"
+    },
+    "BAD1": {
+      "owner": "A",
+      "source_type": "PHOTO",
+      "layout_id": "grocery"
+    }
+  }
+}

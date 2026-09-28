@@ -13,8 +13,8 @@ Outcome: agreed journeys, measurable criteria, labeled fixtures, architecture an
 | ID | Implement / deliver | Technology or skill | Completion check | Status |
 | --- | --- | --- | --- | --- |
 | 01.01 | Customer and merchant journeys, success paths, failure states, receipt lifecycle | Product design, user stories, failure analysis | Review each actor's actions and recovery paths in [user-journeys.md](user-journeys.md) | Delivered |
-| 01.02 | Scope boundaries and measurable MVP acceptance criteria | Requirements engineering, acceptance test design | Each criterion has inputs, expected result, and a reproducible check in [acceptance-criteria.md](acceptance-criteria.md) | Review |
-| 01.03 | Versioned synthetic receipt images, sales, edge cases, expected JSON | Python fixture generation, test data design | Fixtures are labeled synthetic and have independently known totals | Draft: seeded purchases and basic test image only |
+| 01.02 | Scope boundaries and measurable MVP acceptance criteria | Requirements engineering, acceptance test design | Each criterion has inputs, expected result, and a reproducible check in [acceptance-criteria.md](acceptance-criteria.md) | Delivered |
+| 01.03 | Versioned synthetic receipt images, sales, edge cases, expected JSON | Python fixture generation, test data design | Fixtures are labeled synthetic and have independently known totals; see [fixture guide](../evaluations/fixtures/README.md) | Review: 100 benchmark inputs, 5 supplemental documents; 136 backend tests pass |
 | 01.04 | Architecture, trust boundaries, and threat model | System design, Mermaid, security modeling | Trace tokens, files, identities, and AI data across every boundary | Planned |
 
 ## Stage 2 — Backend, authentication and schema · 5 tasks
@@ -123,4 +123,4 @@ Outcome: a reproducible release, hosted demonstration, measured results, and ope
 
 ## Current review boundary
 
-The initial code checkpoint preserves work written before the task-by-task workflow was requested. The user requested the next step after **01.01**. Task **01.02** is now presented for review; the next numbered task is **01.03**. No later implementation task or product release gate is declared complete by these documentation checkpoints.
+The initial code checkpoint preserves work written before the task-by-task workflow was requested. The user requested the next step after **01.02**. Task **01.03** is now presented for review; the next numbered task is **01.04** (architecture and threat model). Fixture and API checks add partial evidence without declaring any full product release gate complete.

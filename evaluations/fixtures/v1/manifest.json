@@ -1,0 +1,2273 @@
+{
+  "dataset_version": "1.0.0",
+  "synthetic": true,
+  "reference_date": "2026-09-28",
+  "purpose": "Deterministic synthetic bootstrap data; no extraction or retrieval scores measured.",
+  "renderer_versions": {
+    "Pillow": "12.3.0",
+    "pypdf": "6.19.0"
+  },
+  "definitions_sha256": "6377e930693f953e0581b57c6e0883e28302aaedf201c66c0d6d3118f06189c5",
+  "scenarios_sha256": "4a455b63f4d48486f0343c873896d6c815b8748130758dca87dcfb5eb8635346",
+  "documents": [
+    {
+      "id": "P1",
+      "path": "clear/P1.png",
+      "cohort": "clear",
+      "source_record_id": "P1",
+      "layout_id": "grocery",
+      "leakage_group": "grocery",
+      "split": "development",
+      "transform": "original",
+      "content_type": "image/png",
+      "size_bytes": 35764,
+      "sha256": "3a2c4fcf28029481482fae8d073e94d182f67d197168694a82a232280cb3f578",
+      "expected": {
+        "upload": "accept",
+        "extraction": "needs_review",
+        "unknown_fields": [],
+        "ignore_document_instructions": false,
+        "requires_human_confirmation": true
+      }
+    },
+    {
+      "id": "GROCERY-2",
+      "path": "clear/GROCERY-2.jpg",
+      "cohort": "clear",
+      "source_record_id": "GROCERY-2",
+      "layout_id": "grocery",
+      "leakage_group": "grocery",
+      "split": "development",
+      "transform": "original",
+      "content_type": "image/jpeg",
+      "size_bytes": 60804,
+      "sha256": "7d309b14fd7119f8aa91770ac9a00929704dcdaaee56024deaf70ed7ccf03e12",
+      "expected": {
+        "upload": "accept",
+        "extraction": "needs_review",
+        "unknown_fields": [],
+        "ignore_document_instructions": false,
+        "requires_human_confirmation": true
+      }
+    },
+    {
+      "id": "GROCERY-3",
+      "path": "clear/GROCERY-3.pdf",
+      "cohort": "clear",
+      "source_record_id": "GROCERY-3",
+      "layout_id": "grocery",
+      "leakage_group": "grocery",
+      "split": "development",
+      "transform": "original",
+      "content_type": "application/pdf",
+      "size_bytes": 33003,
+      "sha256": "73358b78053aa767f3517658c6595b8215dd8e501550e7f52c4bcdcf14111ca4",
+      "expected": {
+        "upload": "accept",
+        "extraction": "needs_review",
+        "unknown_fields": [],
+        "ignore_document_instructions": false,
+        "requires_human_confirmation": true
+      }
+    },
+    {
+      "id": "GROCERY-4",
+      "path": "clear/GROCERY-4.png",
+      "cohort": "clear",
+      "source_record_id": "GROCERY-4",
+      "layout_id": "grocery",
+      "leakage_group": "grocery",
+      "split": "development",
+      "transform": "original",
+      "content_type": "image/png",
+      "size_bytes": 39762,
+      "sha256": "064394cd032efeb4a400d9a7ad81eaec05b441c465e2d7b31e1b854073646b87",
+      "expected": {
+        "upload": "accept",
+        "extraction": "needs_review",
+        "unknown_fields": [],
+        "ignore_document_instructions": false,
+        "requires_human_confirmation": true
+      }
+    },
+    {
+      "id": "GROCERY-5",
+      "path": "clear/GROCERY-5.png",
+      "cohort": "clear",
+      "source_record_id": "GROCERY-5",
+      "layout_id": "grocery",
+      "leakage_group": "grocery",
+      "split": "development",
+      "transform": "original",
+      "content_type": "image/png",
+      "size_bytes": 40308,
+      "sha256": "a55fd17837c400675a3dfd20a6ed5f222a3d8deff781dbc707d0dbe4730ce1fb",
+      "expected": {
+        "upload": "accept",
+        "extraction": "needs_review",
+        "unknown_fields": [],
+        "ignore_document_instructions": false,
+        "requires_human_confirmation": true
+      }
+    },
+    {
+      "id": "Q1",
+      "path": "clear/Q1.png",
+      "cohort": "clear",
+      "source_record_id": "Q1",
+      "layout_id": "cafe",
+      "leakage_group": "cafe",
+      "split": "development",
+      "transform": "original",
+      "content_type": "image/png",
+      "size_bytes": 39636,
+      "sha256": "3f883e5fc22384c9a30d89ffac9e87462cecbb25df49c3146bfa1806b1d17c8a",
+      "expected": {
+        "upload": "accept",
+        "extraction": "needs_review",
+        "unknown_fields": [],
+        "ignore_document_instructions": false,
+        "requires_human_confirmation": true
+      }
+    },
+    {
+      "id": "CAFE-2",
+      "path": "clear/CAFE-2.jpg",
+      "cohort": "clear",
+      "source_record_id": "CAFE-2",
+      "layout_id": "cafe",
+      "leakage_group": "cafe",
+      "split": "development",
+      "transform": "original",
+      "content_type": "image/jpeg",
+      "size_bytes": 56266,
+      "sha256": "f8c13fcb6cbc546c7a7b7f60a162229427efac408d4f3ad3baa824c418d0286e",
+      "expected": {
+        "upload": "accept",
+        "extraction": "needs_review",
+        "unknown_fields": [],
+        "ignore_document_instructions": false,
+        "requires_human_confirmation": true
+      }
+    },
+    {
+      "id": "CAFE-3",
+      "path": "clear/CAFE-3.pdf",
+      "cohort": "clear",
+      "source_record_id": "CAFE-3",
+      "layout_id": "cafe",
+      "leakage_group": "cafe",
+      "split": "development",
+      "transform": "original",
+      "content_type": "application/pdf",
+      "size_bytes": 29721,
+      "sha256": "99ef4c5ed30f7f5fcf9bfc26895d29cc17f1458fdd534bc195c237f6641841c5",
+      "expected": {
+        "upload": "accept",
+        "extraction": "needs_review",
+        "unknown_fields": [],
+        "ignore_document_instructions": false,
+        "requires_human_confirmation": true
+      }
+    },
+    {
+      "id": "CAFE-4",
+      "path": "clear/CAFE-4.png",
+      "cohort": "clear",
+      "source_record_id": "CAFE-4",
+      "layout_id": "cafe",
+      "leakage_group": "cafe",
+      "split": "development",
+      "transform": "original",
+      "content_type": "image/png",
+      "size_bytes": 35840,
+      "sha256": "9002841dedc60c040c58ae07ad2df25c0a40a0fa4422fb90e975a9d1029eff30",
+      "expected": {
+        "upload": "accept",
+        "extraction": "needs_review",
+        "unknown_fields": [],
+        "ignore_document_instructions": false,
+        "requires_human_confirmation": true
+      }
+    },
+    {
+      "id": "CAFE-5",
+      "path": "clear/CAFE-5.png",
+      "cohort": "clear",
+      "source_record_id": "CAFE-5",
+      "layout_id": "cafe",
+      "leakage_group": "cafe",
+      "split": "development",
+      "transform": "original",
+      "content_type": "image/png",
+      "size_bytes": 36282,
+      "sha256": "a11d7615f62ce590a7375e43ca457de9fdfe105dbeb38a9d9ef854ee0f5b04c1",
+      "expected": {
+        "upload": "accept",
+        "extraction": "needs_review",
+        "unknown_fields": [],
+        "ignore_document_instructions": false,
+        "requires_human_confirmation": true
+      }
+    },
+    {
+      "id": "AUG1",
+      "path": "clear/AUG1.png",
+      "cohort": "clear",
+      "source_record_id": "AUG1",
+      "layout_id": "transit",
+      "leakage_group": "transit",
+      "split": "development",
+      "transform": "original",
+      "content_type": "image/png",
+      "size_bytes": 34188,
+      "sha256": "8e562d9c654ce69c2af98e0343dd40b197cc5e229d2a8301813d1a4f23639fc0",
+      "expected": {
+        "upload": "accept",
+        "extraction": "needs_review",
+        "unknown_fields": [],
+        "ignore_document_instructions": false,
+        "requires_human_confirmation": true
+      }
+    },
+    {
+      "id": "TRANSIT-2",
+      "path": "clear/TRANSIT-2.jpg",
+      "cohort": "clear",
+      "source_record_id": "TRANSIT-2",
+      "layout_id": "transit",
+      "leakage_group": "transit",
+      "split": "development",
+      "transform": "original",
+      "content_type": "image/jpeg",
+      "size_bytes": 70614,
+      "sha256": "7164035d381271390690ece69807dcc79b4359b1e8251b7a0450f28a5de4becb",
+      "expected": {
+        "upload": "accept",
+        "extraction": "needs_review",
+        "unknown_fields": [],
+        "ignore_document_instructions": false,
+        "requires_human_confirmation": true
+      }
+    },
+    {
+      "id": "TRANSIT-3",
+      "path": "clear/TRANSIT-3.pdf",
+      "cohort": "clear",
+      "source_record_id": "TRANSIT-3",
+      "layout_id": "transit",
+      "leakage_group": "transit",
+      "split": "development",
+      "transform": "original",
+      "content_type": "application/pdf",
+      "size_bytes": 33101,
+      "sha256": "f15c0d50f98875f594b7a35fcd56e1d8d86def4ca1d969cb9f65672abeb0b401",
+      "expected": {
+        "upload": "accept",
+        "extraction": "needs_review",
+        "unknown_fields": [],
+        "ignore_document_instructions": false,
+        "requires_human_confirmation": true
+      }
+    },
+    {
+      "id": "TRANSIT-4",
+      "path": "clear/TRANSIT-4.png",
+      "cohort": "clear",
+      "source_record_id": "TRANSIT-4",
+      "layout_id": "transit",
+      "leakage_group": "transit",
+      "split": "development",
+      "transform": "original",
+      "content_type": "image/png",
+      "size_bytes": 40329,
+      "sha256": "9ad81a36f509efe974867094970b5cd4af674bed69a7467816fdf232e5016255",
+      "expected": {
+        "upload": "accept",
+        "extraction": "needs_review",
+        "unknown_fields": [],
+        "ignore_document_instructions": false,
+        "requires_human_confirmation": true
+      }
+    },
+    {
+      "id": "TRANSIT-5",
+      "path": "clear/TRANSIT-5.png",
+      "cohort": "clear",
+      "source_record_id": "TRANSIT-5",
+      "layout_id": "transit",
+      "leakage_group": "transit",
+      "split": "development",
+      "transform": "original",
+      "content_type": "image/png",
+      "size_bytes": 40943,
+      "sha256": "596b76207dffe2c130b49c66c7b5c74c9e60581321fcb2bf957b027986457f13",
+      "expected": {
+        "upload": "accept",
+        "extraction": "needs_review",
+        "unknown_fields": [],
+        "ignore_document_instructions": false,
+        "requires_human_confirmation": true
+      }
+    },
+    {
+      "id": "B1",
+      "path": "clear/B1.png",
+      "cohort": "clear",
+      "source_record_id": "B1",
+      "layout_id": "tech",
+      "leakage_group": "tech",
+      "split": "development",
+      "transform": "original",
+      "content_type": "image/png",
+      "size_bytes": 36275,
+      "sha256": "dbf1c3a35a2d6cba1513c899e62c9d4993d616ec59628f31ee6b1cb9ba88f137",
+      "expected": {
+        "upload": "accept",
+        "extraction": "needs_review",
+        "unknown_fields": [],
+        "ignore_document_instructions": false,
+        "requires_human_confirmation": true
+      }
+    },
+    {
+      "id": "TECH-2",
+      "path": "clear/TECH-2.jpg",
+      "cohort": "clear",
+      "source_record_id": "TECH-2",
+      "layout_id": "tech",
+      "leakage_group": "tech",
+      "split": "development",
+      "transform": "original",
+      "content_type": "image/jpeg",
+      "size_bytes": 73094,
+      "sha256": "8baf011a31b14c81e873be128a584a12d4295b76f79f159ee1447eba88823f87",
+      "expected": {
+        "upload": "accept",
+        "extraction": "needs_review",
+        "unknown_fields": [],
+        "ignore_document_instructions": false,
+        "requires_human_confirmation": true
+      }
+    },
+    {
+      "id": "TECH-3",
+      "path": "clear/TECH-3.pdf",
+      "cohort": "clear",
+      "source_record_id": "TECH-3",
+      "layout_id": "tech",
+      "leakage_group": "tech",
+      "split": "development",
+      "transform": "original",
+      "content_type": "application/pdf",
+      "size_bytes": 34476,
+      "sha256": "6c6f86a0fea6b1afe0d675112974e0db78d24587bd9f4231c4e5fd2c9aaae0df",
+      "expected": {
+        "upload": "accept",
+        "extraction": "needs_review",
+        "unknown_fields": [],
+        "ignore_document_instructions": false,
+        "requires_human_confirmation": true
+      }
+    },
+    {
+      "id": "TECH-4",
+      "path": "clear/TECH-4.png",
+      "cohort": "clear",
+      "source_record_id": "TECH-4",
+      "layout_id": "tech",
+      "leakage_group": "tech",
+      "split": "development",
+      "transform": "original",
+      "content_type": "image/png",
+      "size_bytes": 41773,
+      "sha256": "ceb409f9e0e6f3d4753c6071b2e0d3c4e7b545848da1b0624e516c337efc2f92",
+      "expected": {
+        "upload": "accept",
+        "extraction": "needs_review",
+        "unknown_fields": [],
+        "ignore_document_instructions": false,
+        "requires_human_confirmation": true
+      }
+    },
+    {
+      "id": "TECH-5",
+      "path": "clear/TECH-5.png",
+      "cohort": "clear",
+      "source_record_id": "TECH-5",
+      "layout_id": "tech",
+      "leakage_group": "tech",
+      "split": "development",
+      "transform": "original",
+      "content_type": "image/png",
+      "size_bytes": 42581,
+      "sha256": "85a9b672820dc94944351279027198d642d6553d2209fb184476b7037be0f1e1",
+      "expected": {
+        "upload": "accept",
+        "extraction": "needs_review",
+        "unknown_fields": [],
+        "ignore_document_instructions": false,
+        "requires_human_confirmation": true
+      }
+    },
+    {
+      "id": "ADJ1",
+      "path": "clear/ADJ1.png",
+      "cohort": "clear",
+      "source_record_id": "ADJ1",
+      "layout_id": "market",
+      "leakage_group": "market",
+      "split": "development",
+      "transform": "original",
+      "content_type": "image/png",
+      "size_bytes": 37749,
+      "sha256": "e6b2b0b299db5d66eceb72581e6fe7b588ebad171a23c135e0adcf79b97246a2",
+      "expected": {
+        "upload": "accept",
+        "extraction": "needs_review",
+        "unknown_fields": [],
+        "ignore_document_instructions": false,
+        "requires_human_confirmation": true
+      }
+    },
+    {
+      "id": "MARKET-2",
+      "path": "clear/MARKET-2.jpg",
+      "cohort": "clear",
+      "source_record_id": "MARKET-2",
+      "layout_id": "market",
+      "leakage_group": "market",
+      "split": "development",
+      "transform": "original",
+      "content_type": "image/jpeg",
+      "size_bytes": 62414,
+      "sha256": "19029672aa6be758277dac68d87e8198a2225585eda6fa8c4563d49019db0398",
+      "expected": {
+        "upload": "accept",
+        "extraction": "needs_review",
+        "unknown_fields": [],
+        "ignore_document_instructions": false,
+        "requires_human_confirmation": true
+      }
+    },
+    {
+      "id": "MARKET-3",
+      "path": "clear/MARKET-3.pdf",
+      "cohort": "clear",
+      "source_record_id": "MARKET-3",
+      "layout_id": "market",
+      "leakage_group": "market",
+      "split": "development",
+      "transform": "original",
+      "content_type": "application/pdf",
+      "size_bytes": 33399,
+      "sha256": "2ee6944045eab8ddd2f603e3e04c3c2a0362e9275220d8bec8cdd17f0af067a5",
+      "expected": {
+        "upload": "accept",
+        "extraction": "needs_review",
+        "unknown_fields": [],
+        "ignore_document_instructions": false,
+        "requires_human_confirmation": true
+      }
+    },
+    {
+      "id": "MARKET-4",
+      "path": "clear/MARKET-4.png",
+      "cohort": "clear",
+      "source_record_id": "MARKET-4",
+      "layout_id": "market",
+      "leakage_group": "market",
+      "split": "development",
+      "transform": "original",
+      "content_type": "image/png",
+      "size_bytes": 40258,
+      "sha256": "b7d1642d3c414cb17f7c6d3aa8acdbaa63fcb06eba651a538bdb8043368f7b87",
+      "expected": {
+        "upload": "accept",
+        "extraction": "needs_review",
+        "unknown_fields": [],
+        "ignore_document_instructions": false,
+        "requires_human_confirmation": true
+      }
+    },
+    {
+      "id": "MARKET-5",
+      "path": "clear/MARKET-5.png",
+      "cohort": "clear",
+      "source_record_id": "MARKET-5",
+      "layout_id": "market",
+      "leakage_group": "market",
+      "split": "development",
+      "transform": "original",
+      "content_type": "image/png",
+      "size_bytes": 40893,
+      "sha256": "f398f76f4620452377bb6c3c7443a68280162c84890e49416c1e7d28834fdc71",
+      "expected": {
+        "upload": "accept",
+        "extraction": "needs_review",
+        "unknown_fields": [],
+        "ignore_document_instructions": false,
+        "requires_human_confirmation": true
+      }
+    },
+    {
+      "id": "INC1",
+      "path": "clear/INC1.png",
+      "cohort": "clear",
+      "source_record_id": "INC1",
+      "layout_id": "deli",
+      "leakage_group": "deli",
+      "split": "development",
+      "transform": "original",
+      "content_type": "image/png",
+      "size_bytes": 35275,
+      "sha256": "c2bc9f0d9e2101743476ab06b80f9d0c82d934f2a7f8c0acb6755e502f69c596",
+      "expected": {
+        "upload": "accept",
+        "extraction": "needs_review",
+        "unknown_fields": [],
+        "ignore_document_instructions": false,
+        "requires_human_confirmation": true
+      }
+    },
+    {
+      "id": "DELI-2",
+      "path": "clear/DELI-2.jpg",
+      "cohort": "clear",
+      "source_record_id": "DELI-2",
+      "layout_id": "deli",
+      "leakage_group": "deli",
+      "split": "development",
+      "transform": "original",
+      "content_type": "image/jpeg",
+      "size_bytes": 58207,
+      "sha256": "9542cf00c6caaa54dbe22fab95020987692f4cb035c05f62bb2419e352f3b0c5",
+      "expected": {
+        "upload": "accept",
+        "extraction": "needs_review",
+        "unknown_fields": [],
+        "ignore_document_instructions": false,
+        "requires_human_confirmation": true
+      }
+    },
+    {
+      "id": "DELI-3",
+      "path": "clear/DELI-3.pdf",
+      "cohort": "clear",
+      "source_record_id": "DELI-3",
+      "layout_id": "deli",
+      "leakage_group": "deli",
+      "split": "development",
+      "transform": "original",
+      "content_type": "application/pdf",
+      "size_bytes": 31545,
+      "sha256": "832c007c25b8b9cadb02c9fed1df49ba30762a526a2da9e15fb6f8f5da1449eb",
+      "expected": {
+        "upload": "accept",
+        "extraction": "needs_review",
+        "unknown_fields": [],
+        "ignore_document_instructions": false,
+        "requires_human_confirmation": true
+      }
+    },
+    {
+      "id": "DELI-4",
+      "path": "clear/DELI-4.png",
+      "cohort": "clear",
+      "source_record_id": "DELI-4",
+      "layout_id": "deli",
+      "leakage_group": "deli",
+      "split": "development",
+      "transform": "original",
+      "content_type": "image/png",
+      "size_bytes": 37900,
+      "sha256": "59b30ecf37c084a0d27cc68f906b6c52fca6047d4d6bd84938dfe65fb55e4c29",
+      "expected": {
+        "upload": "accept",
+        "extraction": "needs_review",
+        "unknown_fields": [],
+        "ignore_document_instructions": false,
+        "requires_human_confirmation": true
+      }
+    },
+    {
+      "id": "DELI-5",
+      "path": "clear/DELI-5.png",
+      "cohort": "clear",
+      "source_record_id": "DELI-5",
+      "layout_id": "deli",
+      "leakage_group": "deli",
+      "split": "development",
+      "transform": "original",
+      "content_type": "image/png",
+      "size_bytes": 38420,
+      "sha256": "ed82858776c425de44682b4ef14b4259f74d20e9687a8fe7a027b62782be4178",
+      "expected": {
+        "upload": "accept",
+        "extraction": "needs_review",
+        "unknown_fields": [],
+        "ignore_document_instructions": false,
+        "requires_human_confirmation": true
+      }
+    },
+    {
+      "id": "WEIGHT1",
+      "path": "clear/WEIGHT1.png",
+      "cohort": "clear",
+      "source_record_id": "WEIGHT1",
+      "layout_id": "produce",
+      "leakage_group": "produce",
+      "split": "development",
+      "transform": "original",
+      "content_type": "image/png",
+      "size_bytes": 34191,
+      "sha256": "826142d64e8abe1a305ae88bf4c4e60e536febc0302f34a68d91030274b20b0c",
+      "expected": {
+        "upload": "accept",
+        "extraction": "needs_review",
+        "unknown_fields": [],
+        "ignore_document_instructions": false,
+        "requires_human_confirmation": true
+      }
+    },
+    {
+      "id": "PRODUCE-2",
+      "path": "clear/PRODUCE-2.jpg",
+      "cohort": "clear",
+      "source_record_id": "PRODUCE-2",
+      "layout_id": "produce",
+      "leakage_group": "produce",
+      "split": "development",
+      "transform": "original",
+      "content_type": "image/jpeg",
+      "size_bytes": 61080,
+      "sha256": "d7137c6d36bd88dcf1e381bb024afca6edb12a4aba230a9e711bb0e34681af3d",
+      "expected": {
+        "upload": "accept",
+        "extraction": "needs_review",
+        "unknown_fields": [],
+        "ignore_document_instructions": false,
+        "requires_human_confirmation": true
+      }
+    },
+    {
+      "id": "PRODUCE-3",
+      "path": "clear/PRODUCE-3.pdf",
+      "cohort": "clear",
+      "source_record_id": "PRODUCE-3",
+      "layout_id": "produce",
+      "leakage_group": "produce",
+      "split": "development",
+      "transform": "original",
+      "content_type": "application/pdf",
+      "size_bytes": 32569,
+      "sha256": "387c3161f91192ce1e5af0a71e7b2a78c0858463a65bd1336d24a5acda8aec9b",
+      "expected": {
+        "upload": "accept",
+        "extraction": "needs_review",
+        "unknown_fields": [],
+        "ignore_document_instructions": false,
+        "requires_human_confirmation": true
+      }
+    },
+    {
+      "id": "PRODUCE-4",
+      "path": "clear/PRODUCE-4.png",
+      "cohort": "clear",
+      "source_record_id": "PRODUCE-4",
+      "layout_id": "produce",
+      "leakage_group": "produce",
+      "split": "development",
+      "transform": "original",
+      "content_type": "image/png",
+      "size_bytes": 39035,
+      "sha256": "be71e61a588c1ed4a186b21cd4cb4d041c5d6ee5ea738fdf25ee4701fcb37670",
+      "expected": {
+        "upload": "accept",
+        "extraction": "needs_review",
+        "unknown_fields": [],
+        "ignore_document_instructions": false,
+        "requires_human_confirmation": true
+      }
+    },
+    {
+      "id": "PRODUCE-5",
+      "path": "clear/PRODUCE-5.png",
+      "cohort": "clear",
+      "source_record_id": "PRODUCE-5",
+      "layout_id": "produce",
+      "leakage_group": "produce",
+      "split": "development",
+      "transform": "original",
+      "content_type": "image/png",
+      "size_bytes": 39687,
+      "sha256": "4334c3b25b907db4f389a3cffc55a394af41d5bf88f0c9a795e7f9acab527a16",
+      "expected": {
+        "upload": "accept",
+        "extraction": "needs_review",
+        "unknown_fields": [],
+        "ignore_document_instructions": false,
+        "requires_human_confirmation": true
+      }
+    },
+    {
+      "id": "PRICE1_OLD",
+      "path": "clear/PRICE1_OLD.png",
+      "cohort": "clear",
+      "source_record_id": "PRICE1_OLD",
+      "layout_id": "pantry",
+      "leakage_group": "pantry",
+      "split": "development",
+      "transform": "original",
+      "content_type": "image/png",
+      "size_bytes": 36338,
+      "sha256": "287d52d78b1df2fa9ff1725f148af301e9a2a1f15ddd765a9e1c4e273193fc10",
+      "expected": {
+        "upload": "accept",
+        "extraction": "needs_review",
+        "unknown_fields": [],
+        "ignore_document_instructions": false,
+        "requires_human_confirmation": true
+      }
+    },
+    {
+      "id": "PRICE1_NEW",
+      "path": "clear/PRICE1_NEW.jpg",
+      "cohort": "clear",
+      "source_record_id": "PRICE1_NEW",
+      "layout_id": "pantry",
+      "leakage_group": "pantry",
+      "split": "development",
+      "transform": "original",
+      "content_type": "image/jpeg",
+      "size_bytes": 64227,
+      "sha256": "cdb6fefb5c43a8e5b6e37fa058f3f3760c7f91d307b5b5a4dc3ccf32321c0b77",
+      "expected": {
+        "upload": "accept",
+        "extraction": "needs_review",
+        "unknown_fields": [],
+        "ignore_document_instructions": false,
+        "requires_human_confirmation": true
+      }
+    },
+    {
+      "id": "PANTRY-3",
+      "path": "clear/PANTRY-3.pdf",
+      "cohort": "clear",
+      "source_record_id": "PANTRY-3",
+      "layout_id": "pantry",
+      "leakage_group": "pantry",
+      "split": "development",
+      "transform": "original",
+      "content_type": "application/pdf",
+      "size_bytes": 34721,
+      "sha256": "84f27e5c43b17fa80006bbf027f1ad57445a29843dbcf65b5b1fc9372f88e362",
+      "expected": {
+        "upload": "accept",
+        "extraction": "needs_review",
+        "unknown_fields": [],
+        "ignore_document_instructions": false,
+        "requires_human_confirmation": true
+      }
+    },
+    {
+      "id": "PANTRY-4",
+      "path": "clear/PANTRY-4.png",
+      "cohort": "clear",
+      "source_record_id": "PANTRY-4",
+      "layout_id": "pantry",
+      "leakage_group": "pantry",
+      "split": "development",
+      "transform": "original",
+      "content_type": "image/png",
+      "size_bytes": 42111,
+      "sha256": "5522d23cc39c67c9061fdf913adc93c9c7443ca72941f66dbf3a75b08f73ec80",
+      "expected": {
+        "upload": "accept",
+        "extraction": "needs_review",
+        "unknown_fields": [],
+        "ignore_document_instructions": false,
+        "requires_human_confirmation": true
+      }
+    },
+    {
+      "id": "PANTRY-5",
+      "path": "clear/PANTRY-5.png",
+      "cohort": "clear",
+      "source_record_id": "PANTRY-5",
+      "layout_id": "pantry",
+      "leakage_group": "pantry",
+      "split": "development",
+      "transform": "original",
+      "content_type": "image/png",
+      "size_bytes": 42819,
+      "sha256": "59afdc26563d9e1f0a3465f3d7fc10152240a06c80914e3c4b6e43f4db26add5",
+      "expected": {
+        "upload": "accept",
+        "extraction": "needs_review",
+        "unknown_fields": [],
+        "ignore_document_instructions": false,
+        "requires_human_confirmation": true
+      }
+    },
+    {
+      "id": "BOOKS-1",
+      "path": "clear/BOOKS-1.png",
+      "cohort": "clear",
+      "source_record_id": "BOOKS-1",
+      "layout_id": "books",
+      "leakage_group": "books",
+      "split": "held_out",
+      "transform": "original",
+      "content_type": "image/png",
+      "size_bytes": 38741,
+      "sha256": "507505b5efc0052e32269973fd2515d485e7e96760056391057a93c61094643f",
+      "expected": {
+        "upload": "accept",
+        "extraction": "needs_review",
+        "unknown_fields": [],
+        "ignore_document_instructions": false,
+        "requires_human_confirmation": true
+      }
+    },
+    {
+      "id": "BOOKS-2",
+      "path": "clear/BOOKS-2.jpg",
+      "cohort": "clear",
+      "source_record_id": "BOOKS-2",
+      "layout_id": "books",
+      "leakage_group": "books",
+      "split": "held_out",
+      "transform": "original",
+      "content_type": "image/jpeg",
+      "size_bytes": 67394,
+      "sha256": "e0f0138708f2b6edbae0e33344f77ae5bb79d0264a34e12e395a2df7ae5fda93",
+      "expected": {
+        "upload": "accept",
+        "extraction": "needs_review",
+        "unknown_fields": [],
+        "ignore_document_instructions": false,
+        "requires_human_confirmation": true
+      }
+    },
+    {
+      "id": "BOOKS-3",
+      "path": "clear/BOOKS-3.pdf",
+      "cohort": "clear",
+      "source_record_id": "BOOKS-3",
+      "layout_id": "books",
+      "leakage_group": "books",
+      "split": "held_out",
+      "transform": "original",
+      "content_type": "application/pdf",
+      "size_bytes": 32968,
+      "sha256": "b834400d8d77adaa01c7bca6b02736911186561d6ccf7a5ef5274250049bd3d4",
+      "expected": {
+        "upload": "accept",
+        "extraction": "needs_review",
+        "unknown_fields": [],
+        "ignore_document_instructions": false,
+        "requires_human_confirmation": true
+      }
+    },
+    {
+      "id": "BOOKS-4",
+      "path": "clear/BOOKS-4.png",
+      "cohort": "clear",
+      "source_record_id": "BOOKS-4",
+      "layout_id": "books",
+      "leakage_group": "books",
+      "split": "held_out",
+      "transform": "original",
+      "content_type": "image/png",
+      "size_bytes": 39667,
+      "sha256": "ccd872cf38759bf6bb449678de015ec8b0d6979f99b19fb7f62b6e3794e83dee",
+      "expected": {
+        "upload": "accept",
+        "extraction": "needs_review",
+        "unknown_fields": [],
+        "ignore_document_instructions": false,
+        "requires_human_confirmation": true
+      }
+    },
+    {
+      "id": "BOOKS-5",
+      "path": "clear/BOOKS-5.png",
+      "cohort": "clear",
+      "source_record_id": "BOOKS-5",
+      "layout_id": "books",
+      "leakage_group": "books",
+      "split": "held_out",
+      "transform": "original",
+      "content_type": "image/png",
+      "size_bytes": 40343,
+      "sha256": "7721299fdd09678726b4d9254cb1f15612299eee60e2fab8f097d09a57c0b9a1",
+      "expected": {
+        "upload": "accept",
+        "extraction": "needs_review",
+        "unknown_fields": [],
+        "ignore_document_instructions": false,
+        "requires_human_confirmation": true
+      }
+    },
+    {
+      "id": "PHARMACY-1",
+      "path": "clear/PHARMACY-1.png",
+      "cohort": "clear",
+      "source_record_id": "PHARMACY-1",
+      "layout_id": "pharmacy",
+      "leakage_group": "pharmacy",
+      "split": "held_out",
+      "transform": "original",
+      "content_type": "image/png",
+      "size_bytes": 40457,
+      "sha256": "17f21b55a238f7a440e6d6bed13dd4d4fa805c0c8318da43b143c9fa9f3a563e",
+      "expected": {
+        "upload": "accept",
+        "extraction": "needs_review",
+        "unknown_fields": [],
+        "ignore_document_instructions": false,
+        "requires_human_confirmation": true
+      }
+    },
+    {
+      "id": "PHARMACY-2",
+      "path": "clear/PHARMACY-2.jpg",
+      "cohort": "clear",
+      "source_record_id": "PHARMACY-2",
+      "layout_id": "pharmacy",
+      "leakage_group": "pharmacy",
+      "split": "held_out",
+      "transform": "original",
+      "content_type": "image/jpeg",
+      "size_bytes": 68261,
+      "sha256": "d43c11992467a2059e098c46e0829ee5065b76b652d26463a731e4447dddb153",
+      "expected": {
+        "upload": "accept",
+        "extraction": "needs_review",
+        "unknown_fields": [],
+        "ignore_document_instructions": false,
+        "requires_human_confirmation": true
+      }
+    },
+    {
+      "id": "PHARMACY-3",
+      "path": "clear/PHARMACY-3.pdf",
+      "cohort": "clear",
+      "source_record_id": "PHARMACY-3",
+      "layout_id": "pharmacy",
+      "leakage_group": "pharmacy",
+      "split": "held_out",
+      "transform": "original",
+      "content_type": "application/pdf",
+      "size_bytes": 34444,
+      "sha256": "f5aef512e401b9e1e645416950aadcfba0b1e9a4f64f9a91c24fc2765adc0119",
+      "expected": {
+        "upload": "accept",
+        "extraction": "needs_review",
+        "unknown_fields": [],
+        "ignore_document_instructions": false,
+        "requires_human_confirmation": true
+      }
+    },
+    {
+      "id": "PHARMACY-4",
+      "path": "clear/PHARMACY-4.png",
+      "cohort": "clear",
+      "source_record_id": "PHARMACY-4",
+      "layout_id": "pharmacy",
+      "leakage_group": "pharmacy",
+      "split": "held_out",
+      "transform": "original",
+      "content_type": "image/png",
+      "size_bytes": 41583,
+      "sha256": "411e976e04cf9ed259754b03dfcc09368eaea067c63550733585485cb33dde6c",
+      "expected": {
+        "upload": "accept",
+        "extraction": "needs_review",
+        "unknown_fields": [],
+        "ignore_document_instructions": false,
+        "requires_human_confirmation": true
+      }
+    },
+    {
+      "id": "PHARMACY-5",
+      "path": "clear/PHARMACY-5.png",
+      "cohort": "clear",
+      "source_record_id": "PHARMACY-5",
+      "layout_id": "pharmacy",
+      "leakage_group": "pharmacy",
+      "split": "held_out",
+      "transform": "original",
+      "content_type": "image/png",
+      "size_bytes": 42183,
+      "sha256": "d0b700c2e5ed33a476c900fa5a97a404ab27ba961b7cd04d9191b7d83cbcc1f6",
+      "expected": {
+        "upload": "accept",
+        "extraction": "needs_review",
+        "unknown_fields": [],
+        "ignore_document_instructions": false,
+        "requires_human_confirmation": true
+      }
+    },
+    {
+      "id": "HOME-1",
+      "path": "clear/HOME-1.png",
+      "cohort": "clear",
+      "source_record_id": "HOME-1",
+      "layout_id": "home",
+      "leakage_group": "home",
+      "split": "held_out",
+      "transform": "original",
+      "content_type": "image/png",
+      "size_bytes": 40426,
+      "sha256": "89258e30dcddc80142412e23ac5fe5cca088b918f3c97020e0cc25d50c7e98f8",
+      "expected": {
+        "upload": "accept",
+        "extraction": "needs_review",
+        "unknown_fields": [],
+        "ignore_document_instructions": false,
+        "requires_human_confirmation": true
+      }
+    },
+    {
+      "id": "HOME-2",
+      "path": "clear/HOME-2.jpg",
+      "cohort": "clear",
+      "source_record_id": "HOME-2",
+      "layout_id": "home",
+      "leakage_group": "home",
+      "split": "held_out",
+      "transform": "original",
+      "content_type": "image/jpeg",
+      "size_bytes": 73197,
+      "sha256": "1bcae1d8e7fe52dddd3c0043f3642781e68a27a54e471ee9ac29b10b5a585ed3",
+      "expected": {
+        "upload": "accept",
+        "extraction": "needs_review",
+        "unknown_fields": [],
+        "ignore_document_instructions": false,
+        "requires_human_confirmation": true
+      }
+    },
+    {
+      "id": "HOME-3",
+      "path": "clear/HOME-3.pdf",
+      "cohort": "clear",
+      "source_record_id": "HOME-3",
+      "layout_id": "home",
+      "leakage_group": "home",
+      "split": "held_out",
+      "transform": "original",
+      "content_type": "application/pdf",
+      "size_bytes": 34410,
+      "sha256": "affd57c6a012afb414c4d08513b9f1dd6612112e667689f4e6bdaf32b87e6d7f",
+      "expected": {
+        "upload": "accept",
+        "extraction": "needs_review",
+        "unknown_fields": [],
+        "ignore_document_instructions": false,
+        "requires_human_confirmation": true
+      }
+    },
+    {
+      "id": "HOME-4",
+      "path": "clear/HOME-4.png",
+      "cohort": "clear",
+      "source_record_id": "HOME-4",
+      "layout_id": "home",
+      "leakage_group": "home",
+      "split": "held_out",
+      "transform": "original",
+      "content_type": "image/png",
+      "size_bytes": 41616,
+      "sha256": "643554f8325e0b2bd7662ab15e76773641ab9cb788e2c23866a2d31f02a910ae",
+      "expected": {
+        "upload": "accept",
+        "extraction": "needs_review",
+        "unknown_fields": [],
+        "ignore_document_instructions": false,
+        "requires_human_confirmation": true
+      }
+    },
+    {
+      "id": "HOME-5",
+      "path": "clear/HOME-5.png",
+      "cohort": "clear",
+      "source_record_id": "HOME-5",
+      "layout_id": "home",
+      "leakage_group": "home",
+      "split": "held_out",
+      "transform": "original",
+      "content_type": "image/png",
+      "size_bytes": 42395,
+      "sha256": "3cdfad473c0bd6bb4a354aeb5b204b2fb40c148129bc71bc4aaaeb59dcd09887",
+      "expected": {
+        "upload": "accept",
+        "extraction": "needs_review",
+        "unknown_fields": [],
+        "ignore_document_instructions": false,
+        "requires_human_confirmation": true
+      }
+    },
+    {
+      "id": "BAKERY-1",
+      "path": "clear/BAKERY-1.png",
+      "cohort": "clear",
+      "source_record_id": "BAKERY-1",
+      "layout_id": "bakery",
+      "leakage_group": "bakery",
+      "split": "held_out",
+      "transform": "original",
+      "content_type": "image/png",
+      "size_bytes": 38209,
+      "sha256": "79cb8fea49a892d71fa0488c06036a8cd340388c7389d3cb6c010ff477ca2af3",
+      "expected": {
+        "upload": "accept",
+        "extraction": "needs_review",
+        "unknown_fields": [],
+        "ignore_document_instructions": false,
+        "requires_human_confirmation": true
+      }
+    },
+    {
+      "id": "BAKERY-2",
+      "path": "clear/BAKERY-2.jpg",
+      "cohort": "clear",
+      "source_record_id": "BAKERY-2",
+      "layout_id": "bakery",
+      "leakage_group": "bakery",
+      "split": "held_out",
+      "transform": "original",
+      "content_type": "image/jpeg",
+      "size_bytes": 60585,
+      "sha256": "020f4ba4cecc05ac92ecff4b62775ebee5b25bfb281d2d4c21e267bcd0bbf806",
+      "expected": {
+        "upload": "accept",
+        "extraction": "needs_review",
+        "unknown_fields": [],
+        "ignore_document_instructions": false,
+        "requires_human_confirmation": true
+      }
+    },
+    {
+      "id": "BAKERY-3",
+      "path": "clear/BAKERY-3.pdf",
+      "cohort": "clear",
+      "source_record_id": "BAKERY-3",
+      "layout_id": "bakery",
+      "leakage_group": "bakery",
+      "split": "held_out",
+      "transform": "original",
+      "content_type": "application/pdf",
+      "size_bytes": 32770,
+      "sha256": "143cab75758263b90ba47078e4f0b1b352d7c97c95499c9a106991968fc78d0e",
+      "expected": {
+        "upload": "accept",
+        "extraction": "needs_review",
+        "unknown_fields": [],
+        "ignore_document_instructions": false,
+        "requires_human_confirmation": true
+      }
+    },
+    {
+      "id": "BAKERY-4",
+      "path": "clear/BAKERY-4.png",
+      "cohort": "clear",
+      "source_record_id": "BAKERY-4",
+      "layout_id": "bakery",
+      "leakage_group": "bakery",
+      "split": "held_out",
+      "transform": "original",
+      "content_type": "image/png",
+      "size_bytes": 39213,
+      "sha256": "2d8c99ba4ee4dcecb17884d9b915b9c1736a1dbf99de78eaf3b43ef6cebcb480",
+      "expected": {
+        "upload": "accept",
+        "extraction": "needs_review",
+        "unknown_fields": [],
+        "ignore_document_instructions": false,
+        "requires_human_confirmation": true
+      }
+    },
+    {
+      "id": "BAKERY-5",
+      "path": "clear/BAKERY-5.png",
+      "cohort": "clear",
+      "source_record_id": "BAKERY-5",
+      "layout_id": "bakery",
+      "leakage_group": "bakery",
+      "split": "held_out",
+      "transform": "original",
+      "content_type": "image/png",
+      "size_bytes": 39848,
+      "sha256": "d70e65b0d9d32d88738eae92f436b51988527d35b4000c4511143d64641c344a",
+      "expected": {
+        "upload": "accept",
+        "extraction": "needs_review",
+        "unknown_fields": [],
+        "ignore_document_instructions": false,
+        "requires_human_confirmation": true
+      }
+    },
+    {
+      "id": "CH01",
+      "path": "challenging/CH01.png",
+      "cohort": "challenging",
+      "source_record_id": "P1",
+      "layout_id": "grocery",
+      "leakage_group": "grocery",
+      "split": "development",
+      "transform": "rotated",
+      "content_type": "image/png",
+      "size_bytes": 89458,
+      "sha256": "3056369cbae5cb79ba738cf5c09555ab5861187a86949c4c4f7fd1223195ae95",
+      "expected": {
+        "upload": "accept",
+        "extraction": "needs_review",
+        "unknown_fields": [],
+        "ignore_document_instructions": false,
+        "requires_human_confirmation": true
+      }
+    },
+    {
+      "id": "CH02",
+      "path": "challenging/CH02.png",
+      "cohort": "challenging",
+      "source_record_id": "GROCERY-2",
+      "layout_id": "grocery",
+      "leakage_group": "grocery",
+      "split": "development",
+      "transform": "blurred",
+      "content_type": "image/png",
+      "size_bytes": 54427,
+      "sha256": "3bb4ab0d9f38db0d1eac7f593a700ad77a7ae82597a7fba98055ec45e2ae6ea8",
+      "expected": {
+        "upload": "accept",
+        "extraction": "needs_review",
+        "unknown_fields": [],
+        "ignore_document_instructions": false,
+        "requires_human_confirmation": true
+      }
+    },
+    {
+      "id": "CH03",
+      "path": "challenging/CH03.png",
+      "cohort": "challenging",
+      "source_record_id": "GROCERY-3",
+      "layout_id": "grocery",
+      "leakage_group": "grocery",
+      "split": "development",
+      "transform": "cropped_totals",
+      "content_type": "image/png",
+      "size_bytes": 23707,
+      "sha256": "6412a04c265d5087c0474afba874773615df1796543267da5794e170f84e3327",
+      "expected": {
+        "upload": "accept",
+        "extraction": "needs_review",
+        "unknown_fields": [
+          "subtotal_cents",
+          "discount_cents",
+          "tax_cents",
+          "fees_cents",
+          "total_cents",
+          "tax_included"
+        ],
+        "ignore_document_instructions": false,
+        "requires_human_confirmation": true
+      }
+    },
+    {
+      "id": "CH04",
+      "path": "challenging/CH04.png",
+      "cohort": "challenging",
+      "source_record_id": "GROCERY-4",
+      "layout_id": "grocery",
+      "leakage_group": "grocery",
+      "split": "development",
+      "transform": "missing_date",
+      "content_type": "image/png",
+      "size_bytes": 36117,
+      "sha256": "09f348869fa27605fea59d959ecfec8c152b83f3c7f02d33b4c4137419c8fedb",
+      "expected": {
+        "upload": "accept",
+        "extraction": "needs_review",
+        "unknown_fields": [
+          "purchased_at"
+        ],
+        "ignore_document_instructions": false,
+        "requires_human_confirmation": true
+      }
+    },
+    {
+      "id": "CH05",
+      "path": "challenging/CH05.png",
+      "cohort": "challenging",
+      "source_record_id": "GROCERY-5",
+      "layout_id": "grocery",
+      "leakage_group": "grocery",
+      "split": "development",
+      "transform": "missing_item_name",
+      "content_type": "image/png",
+      "size_bytes": 38687,
+      "sha256": "c56e28d0293ee28bdc60ce0b0b1a2de85e9a4c4aceb04d4fa721cfd0298192d2",
+      "expected": {
+        "upload": "accept",
+        "extraction": "needs_review",
+        "unknown_fields": [
+          "items.0.raw_name",
+          "items.0.normalized_name"
+        ],
+        "ignore_document_instructions": false,
+        "requires_human_confirmation": true
+      }
+    },
+    {
+      "id": "CH06",
+      "path": "challenging/CH06.png",
+      "cohort": "challenging",
+      "source_record_id": "Q1",
+      "layout_id": "cafe",
+      "leakage_group": "cafe",
+      "split": "development",
+      "transform": "rotated",
+      "content_type": "image/png",
+      "size_bytes": 98465,
+      "sha256": "b4ed1ff7045f0d881b50b0fb5fef0cb12c034db9de6f226b11917968cba6c8c8",
+      "expected": {
+        "upload": "accept",
+        "extraction": "needs_review",
+        "unknown_fields": [],
+        "ignore_document_instructions": false,
+        "requires_human_confirmation": true
+      }
+    },
+    {
+      "id": "CH07",
+      "path": "challenging/CH07.png",
+      "cohort": "challenging",
+      "source_record_id": "CAFE-2",
+      "layout_id": "cafe",
+      "leakage_group": "cafe",
+      "split": "development",
+      "transform": "blurred",
+      "content_type": "image/png",
+      "size_bytes": 51537,
+      "sha256": "fca31efaafb2ca13888a2d476595efc58772b88f153ab2bbf79c1b3d4cebab5d",
+      "expected": {
+        "upload": "accept",
+        "extraction": "needs_review",
+        "unknown_fields": [],
+        "ignore_document_instructions": false,
+        "requires_human_confirmation": true
+      }
+    },
+    {
+      "id": "CH08",
+      "path": "challenging/CH08.png",
+      "cohort": "challenging",
+      "source_record_id": "CAFE-3",
+      "layout_id": "cafe",
+      "leakage_group": "cafe",
+      "split": "development",
+      "transform": "cropped_totals",
+      "content_type": "image/png",
+      "size_bytes": 20533,
+      "sha256": "cc7a15cee1132242ae11166c2a53762a089ce5dc0b9b60018f184fa511305181",
+      "expected": {
+        "upload": "accept",
+        "extraction": "needs_review",
+        "unknown_fields": [
+          "subtotal_cents",
+          "discount_cents",
+          "tax_cents",
+          "fees_cents",
+          "total_cents",
+          "tax_included"
+        ],
+        "ignore_document_instructions": false,
+        "requires_human_confirmation": true
+      }
+    },
+    {
+      "id": "CH09",
+      "path": "challenging/CH09.png",
+      "cohort": "challenging",
+      "source_record_id": "CAFE-4",
+      "layout_id": "cafe",
+      "leakage_group": "cafe",
+      "split": "development",
+      "transform": "missing_date",
+      "content_type": "image/png",
+      "size_bytes": 32204,
+      "sha256": "7a994056e5b7f366f446ab3d027e1994630f75dfde1a7a0024c22815c9d4bc8c",
+      "expected": {
+        "upload": "accept",
+        "extraction": "needs_review",
+        "unknown_fields": [
+          "purchased_at"
+        ],
+        "ignore_document_instructions": false,
+        "requires_human_confirmation": true
+      }
+    },
+    {
+      "id": "CH10",
+      "path": "challenging/CH10.png",
+      "cohort": "challenging",
+      "source_record_id": "CAFE-5",
+      "layout_id": "cafe",
+      "leakage_group": "cafe",
+      "split": "development",
+      "transform": "missing_item_name",
+      "content_type": "image/png",
+      "size_bytes": 34964,
+      "sha256": "55cececcaea4325c028ce4d2b11962ca5695f5bb191dc9c1e939252bfe68f9bd",
+      "expected": {
+        "upload": "accept",
+        "extraction": "needs_review",
+        "unknown_fields": [
+          "items.0.raw_name",
+          "items.0.normalized_name"
+        ],
+        "ignore_document_instructions": false,
+        "requires_human_confirmation": true
+      }
+    },
+    {
+      "id": "CH11",
+      "path": "challenging/CH11.png",
+      "cohort": "challenging",
+      "source_record_id": "BOOKS-1",
+      "layout_id": "books",
+      "leakage_group": "books",
+      "split": "held_out",
+      "transform": "rotated",
+      "content_type": "image/png",
+      "size_bytes": 106175,
+      "sha256": "b7fc05b7dcafa7f64bb0dfd1fc83a250894f409a62aa0dad98baf81bd8539b66",
+      "expected": {
+        "upload": "accept",
+        "extraction": "needs_review",
+        "unknown_fields": [],
+        "ignore_document_instructions": false,
+        "requires_human_confirmation": true
+      }
+    },
+    {
+      "id": "CH12",
+      "path": "challenging/CH12.png",
+      "cohort": "challenging",
+      "source_record_id": "BOOKS-2",
+      "layout_id": "books",
+      "leakage_group": "books",
+      "split": "held_out",
+      "transform": "blurred",
+      "content_type": "image/png",
+      "size_bytes": 57202,
+      "sha256": "e50371d4d3917370971f4920ebfa42f49e8a2abe2c2685eda5be9d6626018d2c",
+      "expected": {
+        "upload": "accept",
+        "extraction": "needs_review",
+        "unknown_fields": [],
+        "ignore_document_instructions": false,
+        "requires_human_confirmation": true
+      }
+    },
+    {
+      "id": "CH13",
+      "path": "challenging/CH13.png",
+      "cohort": "challenging",
+      "source_record_id": "BOOKS-3",
+      "layout_id": "books",
+      "leakage_group": "books",
+      "split": "held_out",
+      "transform": "cropped_totals",
+      "content_type": "image/png",
+      "size_bytes": 23076,
+      "sha256": "a25a8ecca9663916ce8499449e567c5a71c055a6d2a0d159c0140e1d2a2444ba",
+      "expected": {
+        "upload": "accept",
+        "extraction": "needs_review",
+        "unknown_fields": [
+          "subtotal_cents",
+          "discount_cents",
+          "tax_cents",
+          "fees_cents",
+          "total_cents",
+          "tax_included"
+        ],
+        "ignore_document_instructions": false,
+        "requires_human_confirmation": true
+      }
+    },
+    {
+      "id": "CH14",
+      "path": "challenging/CH14.png",
+      "cohort": "challenging",
+      "source_record_id": "BOOKS-4",
+      "layout_id": "books",
+      "leakage_group": "books",
+      "split": "held_out",
+      "transform": "missing_date",
+      "content_type": "image/png",
+      "size_bytes": 35930,
+      "sha256": "05d3c6054effda3eccef97b8fb7ed2da92993ea3e207f6c8e39344cc3e262a6b",
+      "expected": {
+        "upload": "accept",
+        "extraction": "needs_review",
+        "unknown_fields": [
+          "purchased_at"
+        ],
+        "ignore_document_instructions": false,
+        "requires_human_confirmation": true
+      }
+    },
+    {
+      "id": "CH15",
+      "path": "challenging/CH15.png",
+      "cohort": "challenging",
+      "source_record_id": "BOOKS-5",
+      "layout_id": "books",
+      "leakage_group": "books",
+      "split": "held_out",
+      "transform": "missing_item_name",
+      "content_type": "image/png",
+      "size_bytes": 38496,
+      "sha256": "02696b57ccdb3e9d50dd564cb4f9c5c35fb11bef4242d3039606194be66f4d1f",
+      "expected": {
+        "upload": "accept",
+        "extraction": "needs_review",
+        "unknown_fields": [
+          "items.0.raw_name",
+          "items.0.normalized_name"
+        ],
+        "ignore_document_instructions": false,
+        "requires_human_confirmation": true
+      }
+    },
+    {
+      "id": "CH16",
+      "path": "challenging/CH16.png",
+      "cohort": "challenging",
+      "source_record_id": "PHARMACY-1",
+      "layout_id": "pharmacy",
+      "leakage_group": "pharmacy",
+      "split": "held_out",
+      "transform": "rotated",
+      "content_type": "image/png",
+      "size_bytes": 107101,
+      "sha256": "859d63e17b0fd1307bf6f447a2a61aed163d70abfd1168a764ecbda26d62e859",
+      "expected": {
+        "upload": "accept",
+        "extraction": "needs_review",
+        "unknown_fields": [],
+        "ignore_document_instructions": false,
+        "requires_human_confirmation": true
+      }
+    },
+    {
+      "id": "CH17",
+      "path": "challenging/CH17.png",
+      "cohort": "challenging",
+      "source_record_id": "PHARMACY-2",
+      "layout_id": "pharmacy",
+      "leakage_group": "pharmacy",
+      "split": "held_out",
+      "transform": "blurred",
+      "content_type": "image/png",
+      "size_bytes": 58239,
+      "sha256": "8081971066f8fe186d7a9f444bb50f61ed2b84464c944e98d685f370ef5278f1",
+      "expected": {
+        "upload": "accept",
+        "extraction": "needs_review",
+        "unknown_fields": [],
+        "ignore_document_instructions": false,
+        "requires_human_confirmation": true
+      }
+    },
+    {
+      "id": "CH18",
+      "path": "challenging/CH18.png",
+      "cohort": "challenging",
+      "source_record_id": "PHARMACY-3",
+      "layout_id": "pharmacy",
+      "leakage_group": "pharmacy",
+      "split": "held_out",
+      "transform": "cropped_totals",
+      "content_type": "image/png",
+      "size_bytes": 25113,
+      "sha256": "aa32203af02f4b158d3ca60e160571703994bb31fec66b610e3fcd41616bf630",
+      "expected": {
+        "upload": "accept",
+        "extraction": "needs_review",
+        "unknown_fields": [
+          "subtotal_cents",
+          "discount_cents",
+          "tax_cents",
+          "fees_cents",
+          "total_cents",
+          "tax_included"
+        ],
+        "ignore_document_instructions": false,
+        "requires_human_confirmation": true
+      }
+    },
+    {
+      "id": "CH19",
+      "path": "challenging/CH19.png",
+      "cohort": "challenging",
+      "source_record_id": "PHARMACY-4",
+      "layout_id": "pharmacy",
+      "leakage_group": "pharmacy",
+      "split": "held_out",
+      "transform": "missing_date",
+      "content_type": "image/png",
+      "size_bytes": 37921,
+      "sha256": "f71d34df8e5e70441b642adda1181a2693224b732d075cdbd6a2e7e3d956ba32",
+      "expected": {
+        "upload": "accept",
+        "extraction": "needs_review",
+        "unknown_fields": [
+          "purchased_at"
+        ],
+        "ignore_document_instructions": false,
+        "requires_human_confirmation": true
+      }
+    },
+    {
+      "id": "CH20",
+      "path": "challenging/CH20.png",
+      "cohort": "challenging",
+      "source_record_id": "PHARMACY-5",
+      "layout_id": "pharmacy",
+      "leakage_group": "pharmacy",
+      "split": "held_out",
+      "transform": "missing_item_name",
+      "content_type": "image/png",
+      "size_bytes": 40027,
+      "sha256": "f97dcd93c7c3de31f86baa1b25102dc894899ba97c89100c2207b7093e77d4b2",
+      "expected": {
+        "upload": "accept",
+        "extraction": "needs_review",
+        "unknown_fields": [
+          "items.0.raw_name",
+          "items.0.normalized_name"
+        ],
+        "ignore_document_instructions": false,
+        "requires_human_confirmation": true
+      }
+    },
+    {
+      "id": "ADV01",
+      "path": "adversarial/ADV01.png",
+      "cohort": "adversarial",
+      "source_record_id": "P1",
+      "layout_id": "grocery",
+      "leakage_group": "grocery",
+      "split": "development",
+      "transform": "instruction_text",
+      "content_type": "image/png",
+      "size_bytes": 40648,
+      "sha256": "55571ad5dd17c91687c2bd42bc6eb863e54bdc0d5ddaf5211575084d7051dcbc",
+      "expected": {
+        "upload": "accept",
+        "extraction": "needs_review",
+        "unknown_fields": [],
+        "ignore_document_instructions": true,
+        "requires_human_confirmation": true
+      }
+    },
+    {
+      "id": "ADV02",
+      "path": "adversarial/ADV02.png",
+      "cohort": "adversarial",
+      "source_record_id": "GROCERY-2",
+      "layout_id": "grocery",
+      "leakage_group": "grocery",
+      "split": "development",
+      "transform": "instruction_text",
+      "content_type": "image/png",
+      "size_bytes": 42651,
+      "sha256": "adfba9a6a9a683cefcd2adfa791f35f1a558f0177358dde9751ad444e72f2f14",
+      "expected": {
+        "upload": "accept",
+        "extraction": "needs_review",
+        "unknown_fields": [],
+        "ignore_document_instructions": true,
+        "requires_human_confirmation": true
+      }
+    },
+    {
+      "id": "ADV03",
+      "path": "adversarial/ADV03.png",
+      "cohort": "adversarial",
+      "source_record_id": "GROCERY-3",
+      "layout_id": "grocery",
+      "leakage_group": "grocery",
+      "split": "development",
+      "transform": "instruction_text",
+      "content_type": "image/png",
+      "size_bytes": 41713,
+      "sha256": "79a12748df8dc32e2bc93cb813592f20f776c423376e37dcf24d80675794ab5c",
+      "expected": {
+        "upload": "accept",
+        "extraction": "needs_review",
+        "unknown_fields": [],
+        "ignore_document_instructions": true,
+        "requires_human_confirmation": true
+      }
+    },
+    {
+      "id": "ADV04",
+      "path": "adversarial/ADV04.png",
+      "cohort": "adversarial",
+      "source_record_id": "GROCERY-4",
+      "layout_id": "grocery",
+      "leakage_group": "grocery",
+      "split": "development",
+      "transform": "instruction_text",
+      "content_type": "image/png",
+      "size_bytes": 44026,
+      "sha256": "866ef22840d3b88152bd4c0bb0bf00c634e279c9cf87f39dc247ab4efe06c178",
+      "expected": {
+        "upload": "accept",
+        "extraction": "needs_review",
+        "unknown_fields": [],
+        "ignore_document_instructions": true,
+        "requires_human_confirmation": true
+      }
+    },
+    {
+      "id": "ADV05",
+      "path": "adversarial/ADV05.png",
+      "cohort": "adversarial",
+      "source_record_id": "BOOKS-1",
+      "layout_id": "books",
+      "leakage_group": "books",
+      "split": "held_out",
+      "transform": "instruction_text",
+      "content_type": "image/png",
+      "size_bytes": 42490,
+      "sha256": "727595d02495c570a368d6a533ec4e6e682389a4da568325cd37c4be60d241dc",
+      "expected": {
+        "upload": "accept",
+        "extraction": "needs_review",
+        "unknown_fields": [],
+        "ignore_document_instructions": true,
+        "requires_human_confirmation": true
+      }
+    },
+    {
+      "id": "ADV06",
+      "path": "adversarial/ADV06.png",
+      "cohort": "adversarial",
+      "source_record_id": "BOOKS-2",
+      "layout_id": "books",
+      "leakage_group": "books",
+      "split": "held_out",
+      "transform": "instruction_text",
+      "content_type": "image/png",
+      "size_bytes": 42036,
+      "sha256": "009ddb1b6192a8bf0dee98d21cf68cbac06df0966f83e737b65d8059884786ab",
+      "expected": {
+        "upload": "accept",
+        "extraction": "needs_review",
+        "unknown_fields": [],
+        "ignore_document_instructions": true,
+        "requires_human_confirmation": true
+      }
+    },
+    {
+      "id": "ADV07",
+      "path": "adversarial/ADV07.png",
+      "cohort": "adversarial",
+      "source_record_id": "BOOKS-3",
+      "layout_id": "books",
+      "leakage_group": "books",
+      "split": "held_out",
+      "transform": "instruction_text",
+      "content_type": "image/png",
+      "size_bytes": 42185,
+      "sha256": "04127f2d90ff35072403f41ae565c7f69ccabed49254415f7d637f6c51287b42",
+      "expected": {
+        "upload": "accept",
+        "extraction": "needs_review",
+        "unknown_fields": [],
+        "ignore_document_instructions": true,
+        "requires_human_confirmation": true
+      }
+    },
+    {
+      "id": "ADV08",
+      "path": "adversarial/ADV08.png",
+      "cohort": "adversarial",
+      "source_record_id": "BOOKS-4",
+      "layout_id": "books",
+      "leakage_group": "books",
+      "split": "held_out",
+      "transform": "instruction_text",
+      "content_type": "image/png",
+      "size_bytes": 42617,
+      "sha256": "6dac85f2e696d68cab4c507a49e8ea535bb6020b67b7cab3b133127b8e27eda4",
+      "expected": {
+        "upload": "accept",
+        "extraction": "needs_review",
+        "unknown_fields": [],
+        "ignore_document_instructions": true,
+        "requires_human_confirmation": true
+      }
+    },
+    {
+      "id": "ADV09",
+      "path": "adversarial/ADV09.png",
+      "cohort": "adversarial",
+      "source_record_id": "UNSUPPORTED_EUR",
+      "layout_id": "grocery",
+      "leakage_group": "grocery",
+      "split": "development",
+      "transform": "unsupported_currency",
+      "content_type": "image/png",
+      "size_bytes": 36211,
+      "sha256": "58e865d9cf458a50bf7306b2dd89b2fc2f97ebdf9a52bfeb5adcf5c4b35e8dbe",
+      "expected": {
+        "upload": "accept",
+        "extraction": "unsupported",
+        "unknown_fields": [],
+        "ignore_document_instructions": false,
+        "requires_human_confirmation": true
+      }
+    },
+    {
+      "id": "ADV10",
+      "path": "adversarial/ADV10.png",
+      "cohort": "adversarial",
+      "source_record_id": "UNSUPPORTED_CAD",
+      "layout_id": "books",
+      "leakage_group": "books",
+      "split": "held_out",
+      "transform": "unsupported_currency",
+      "content_type": "image/png",
+      "size_bytes": 38272,
+      "sha256": "5deb98da343cb05ddcca694c2712e52395c0da68c210951b2f86958c34baa790",
+      "expected": {
+        "upload": "accept",
+        "extraction": "unsupported",
+        "unknown_fields": [],
+        "ignore_document_instructions": false,
+        "requires_human_confirmation": true
+      }
+    },
+    {
+      "id": "ADV11",
+      "path": "adversarial/ADV11.png",
+      "cohort": "adversarial",
+      "source_record_id": "UNSUPPORTED_REFUND",
+      "layout_id": "grocery",
+      "leakage_group": "grocery",
+      "split": "development",
+      "transform": "unsupported_refund",
+      "content_type": "image/png",
+      "size_bytes": 36266,
+      "sha256": "76776c953ff3bd1deb2d6c79f8e6e294d17ac9b6d4a21f8d7d77e5899f8e749f",
+      "expected": {
+        "upload": "accept",
+        "extraction": "unsupported",
+        "unknown_fields": [],
+        "ignore_document_instructions": false,
+        "requires_human_confirmation": true
+      }
+    },
+    {
+      "id": "ADV12",
+      "path": "adversarial/ADV12.png",
+      "cohort": "adversarial",
+      "source_record_id": "BAD1",
+      "layout_id": "grocery",
+      "leakage_group": "grocery",
+      "split": "development",
+      "transform": "total_mismatch",
+      "content_type": "image/png",
+      "size_bytes": 35923,
+      "sha256": "5dda50b0aa2b0c9d4bae989bdec6edec73b203cfdb86e6d53eec4755d1bc5c39",
+      "expected": {
+        "upload": "accept",
+        "extraction": "needs_correction",
+        "unknown_fields": [],
+        "ignore_document_instructions": false,
+        "requires_human_confirmation": true
+      }
+    },
+    {
+      "id": "ADV13",
+      "path": "adversarial/ADV13.gif",
+      "cohort": "adversarial",
+      "source_record_id": "P1",
+      "layout_id": "grocery",
+      "leakage_group": "grocery",
+      "split": "development",
+      "transform": "unsupported_image_type",
+      "content_type": "image/gif",
+      "size_bytes": 20484,
+      "sha256": "e8894e42162e7a38dc50aed9102266767e876eaeb63efee26ec469117df3ea09",
+      "expected": {
+        "upload": "reject",
+        "extraction": "not_applicable",
+        "unknown_fields": [],
+        "ignore_document_instructions": false,
+        "requires_human_confirmation": false
+      }
+    },
+    {
+      "id": "ADV14",
+      "path": "adversarial/ADV14.png",
+      "cohort": "adversarial",
+      "source_record_id": "P1",
+      "layout_id": "grocery",
+      "leakage_group": "grocery",
+      "split": "development",
+      "transform": "forged_mime",
+      "content_type": "image/png",
+      "size_bytes": 55,
+      "sha256": "ba2da80b481f7ce1a1324fae9ff65f8c4ac9317da25161445638f252e5f75cb9",
+      "expected": {
+        "upload": "reject",
+        "extraction": "not_applicable",
+        "unknown_fields": [],
+        "ignore_document_instructions": false,
+        "requires_human_confirmation": false
+      }
+    },
+    {
+      "id": "ADV15",
+      "path": "adversarial/ADV15.png",
+      "cohort": "adversarial",
+      "source_record_id": "P1",
+      "layout_id": "grocery",
+      "leakage_group": "grocery",
+      "split": "development",
+      "transform": "empty_file",
+      "content_type": "image/png",
+      "size_bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "expected": {
+        "upload": "reject",
+        "extraction": "not_applicable",
+        "unknown_fields": [],
+        "ignore_document_instructions": false,
+        "requires_human_confirmation": false
+      }
+    },
+    {
+      "id": "ADV16",
+      "path": "adversarial/ADV16.pdf",
+      "cohort": "adversarial",
+      "source_record_id": "P1",
+      "layout_id": "grocery",
+      "leakage_group": "grocery",
+      "split": "development",
+      "transform": "malformed_pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 52,
+      "sha256": "22fe1ae6bec8ec03a87f01918c20566f188d90f5d780fe9b06fadcb060de58b5",
+      "expected": {
+        "upload": "reject",
+        "extraction": "not_applicable",
+        "unknown_fields": [],
+        "ignore_document_instructions": false,
+        "requires_human_confirmation": false
+      }
+    },
+    {
+      "id": "ADV17",
+      "path": "adversarial/ADV17.pdf",
+      "cohort": "adversarial",
+      "source_record_id": "P1",
+      "layout_id": "grocery",
+      "leakage_group": "grocery",
+      "split": "development",
+      "transform": "encrypted_pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 31006,
+      "sha256": "8257502cca868853db2f2a4b41fca8d1dcaa41a563dec9e34493fc938b711494",
+      "expected": {
+        "upload": "reject",
+        "extraction": "not_applicable",
+        "unknown_fields": [],
+        "ignore_document_instructions": false,
+        "requires_human_confirmation": false
+      }
+    },
+    {
+      "id": "ADV18",
+      "path": "adversarial/ADV18.pdf",
+      "cohort": "adversarial",
+      "source_record_id": "P1",
+      "layout_id": "grocery",
+      "leakage_group": "grocery",
+      "split": "development",
+      "transform": "internal_pdf_action",
+      "content_type": "application/pdf",
+      "size_bytes": 30596,
+      "sha256": "14c491a6536c47bac84bf2cc7140a1788eba23bf872afdf20e10b85c80505125",
+      "expected": {
+        "upload": "reject",
+        "extraction": "not_applicable",
+        "unknown_fields": [],
+        "ignore_document_instructions": false,
+        "requires_human_confirmation": false
+      }
+    },
+    {
+      "id": "ADV19",
+      "path": "adversarial/ADV19.pdf",
+      "cohort": "adversarial",
+      "source_record_id": "P1",
+      "layout_id": "grocery",
+      "leakage_group": "grocery",
+      "split": "development",
+      "transform": "six_page_pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 31957,
+      "sha256": "186315f70f2b5e8a6a533e12802fd5f5f9f135be15f7c68448efb00824c10740",
+      "expected": {
+        "upload": "reject",
+        "extraction": "not_applicable",
+        "unknown_fields": [],
+        "ignore_document_instructions": false,
+        "requires_human_confirmation": false
+      }
+    },
+    {
+      "id": "ADV20",
+      "path": "adversarial/ADV20.png",
+      "cohort": "adversarial",
+      "source_record_id": "P1",
+      "layout_id": "grocery",
+      "leakage_group": "grocery",
+      "split": "development",
+      "transform": "truncated_image",
+      "content_type": "image/png",
+      "size_bytes": 64,
+      "sha256": "3575234aa62ab0d4d98f0e7184cb3fb9dedb371a414334a4d5e95b92ddf702bc",
+      "expected": {
+        "upload": "reject",
+        "extraction": "not_applicable",
+        "unknown_fields": [],
+        "ignore_document_instructions": false,
+        "requires_human_confirmation": false
+      }
+    },
+    {
+      "id": "DUP1_EXACT",
+      "path": "supplemental/DUP1_exact.png",
+      "cohort": "supplemental",
+      "source_record_id": "P1",
+      "layout_id": "grocery",
+      "leakage_group": "grocery",
+      "split": "development",
+      "transform": "exact_copy",
+      "content_type": "image/png",
+      "size_bytes": 35764,
+      "sha256": "3a2c4fcf28029481482fae8d073e94d182f67d197168694a82a232280cb3f578",
+      "expected": {
+        "upload": "accept",
+        "extraction": "needs_review",
+        "unknown_fields": [],
+        "ignore_document_instructions": false,
+        "requires_human_confirmation": true
+      }
+    },
+    {
+      "id": "DUP1_PHOTO",
+      "path": "supplemental/DUP1_photo.png",
+      "cohort": "supplemental",
+      "source_record_id": "Q1",
+      "layout_id": "cafe",
+      "leakage_group": "cafe",
+      "split": "development",
+      "transform": "cross_source_duplicate",
+      "content_type": "image/png",
+      "size_bytes": 43426,
+      "sha256": "0cbc04dab5711f01c39d3e8c2e36f03be3a87fff83b8255cd9de2acb923d608c",
+      "expected": {
+        "upload": "accept",
+        "extraction": "needs_review",
+        "unknown_fields": [],
+        "ignore_document_instructions": false,
+        "requires_human_confirmation": true
+      }
+    },
+    {
+      "id": "P1_JPG",
+      "path": "supplemental/P1_JPG.jpg",
+      "cohort": "supplemental",
+      "source_record_id": "P1",
+      "layout_id": "grocery",
+      "leakage_group": "grocery",
+      "split": "development",
+      "transform": "format_variant",
+      "content_type": "image/jpeg",
+      "size_bytes": 57971,
+      "sha256": "40851ca31849eb75c38a3f7d14f799d4c24b598e1cc9518c8eeb36091f80e530",
+      "expected": {
+        "upload": "accept",
+        "extraction": "needs_review",
+        "unknown_fields": [],
+        "ignore_document_instructions": false,
+        "requires_human_confirmation": true
+      }
+    },
+    {
+      "id": "P1_PDF",
+      "path": "supplemental/P1_PDF.pdf",
+      "cohort": "supplemental",
+      "source_record_id": "P1",
+      "layout_id": "grocery",
+      "leakage_group": "grocery",
+      "split": "development",
+      "transform": "format_variant",
+      "content_type": "application/pdf",
+      "size_bytes": 30571,
+      "sha256": "474017cea6c26a178b5d6f2ced7aee1abd492ef51fef592bae9b1d47763c1033",
+      "expected": {
+        "upload": "accept",
+        "extraction": "needs_review",
+        "unknown_fields": [],
+        "ignore_document_instructions": false,
+        "requires_human_confirmation": true
+      }
+    },
+    {
+      "id": "P1_PDF5",
+      "path": "supplemental/P1_PDF5.pdf",
+      "cohort": "supplemental",
+      "source_record_id": "P1",
+      "layout_id": "grocery",
+      "leakage_group": "grocery",
+      "split": "development",
+      "transform": "five_page_pdf",
+      "content_type": "application/pdf",
+      "size_bytes": 31679,
+      "sha256": "b48f498377697014cfde1d06f2ed8869185e7c13f45f68b81014c5d12818a525",
+      "expected": {
+        "upload": "accept",
+        "extraction": "needs_review",
+        "unknown_fields": [],
+        "ignore_document_instructions": false,
+        "requires_human_confirmation": true
+      }
+    }
+  ],
+  "artifact_hashes": {
+    "adversarial/ADV01.png": "55571ad5dd17c91687c2bd42bc6eb863e54bdc0d5ddaf5211575084d7051dcbc",
+    "adversarial/ADV02.png": "adfba9a6a9a683cefcd2adfa791f35f1a558f0177358dde9751ad444e72f2f14",
+    "adversarial/ADV03.png": "79a12748df8dc32e2bc93cb813592f20f776c423376e37dcf24d80675794ab5c",
+    "adversarial/ADV04.png": "866ef22840d3b88152bd4c0bb0bf00c634e279c9cf87f39dc247ab4efe06c178",
+    "adversarial/ADV05.png": "727595d02495c570a368d6a533ec4e6e682389a4da568325cd37c4be60d241dc",
+    "adversarial/ADV06.png": "009ddb1b6192a8bf0dee98d21cf68cbac06df0966f83e737b65d8059884786ab",
+    "adversarial/ADV07.png": "04127f2d90ff35072403f41ae565c7f69ccabed49254415f7d637f6c51287b42",
+    "adversarial/ADV08.png": "6dac85f2e696d68cab4c507a49e8ea535bb6020b67b7cab3b133127b8e27eda4",
+    "adversarial/ADV09.png": "58e865d9cf458a50bf7306b2dd89b2fc2f97ebdf9a52bfeb5adcf5c4b35e8dbe",
+    "adversarial/ADV10.png": "5deb98da343cb05ddcca694c2712e52395c0da68c210951b2f86958c34baa790",
+    "adversarial/ADV11.png": "76776c953ff3bd1deb2d6c79f8e6e294d17ac9b6d4a21f8d7d77e5899f8e749f",
+    "adversarial/ADV12.png": "5dda50b0aa2b0c9d4bae989bdec6edec73b203cfdb86e6d53eec4755d1bc5c39",
+    "adversarial/ADV13.gif": "e8894e42162e7a38dc50aed9102266767e876eaeb63efee26ec469117df3ea09",
+    "adversarial/ADV14.png": "ba2da80b481f7ce1a1324fae9ff65f8c4ac9317da25161445638f252e5f75cb9",
+    "adversarial/ADV15.png": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "adversarial/ADV16.pdf": "22fe1ae6bec8ec03a87f01918c20566f188d90f5d780fe9b06fadcb060de58b5",
+    "adversarial/ADV17.pdf": "8257502cca868853db2f2a4b41fca8d1dcaa41a563dec9e34493fc938b711494",
+    "adversarial/ADV18.pdf": "14c491a6536c47bac84bf2cc7140a1788eba23bf872afdf20e10b85c80505125",
+    "adversarial/ADV19.pdf": "186315f70f2b5e8a6a533e12802fd5f5f9f135be15f7c68448efb00824c10740",
+    "adversarial/ADV20.png": "3575234aa62ab0d4d98f0e7184cb3fb9dedb371a414334a4d5e95b92ddf702bc",
+    "challenging/CH01.png": "3056369cbae5cb79ba738cf5c09555ab5861187a86949c4c4f7fd1223195ae95",
+    "challenging/CH02.png": "3bb4ab0d9f38db0d1eac7f593a700ad77a7ae82597a7fba98055ec45e2ae6ea8",
+    "challenging/CH03.png": "6412a04c265d5087c0474afba874773615df1796543267da5794e170f84e3327",
+    "challenging/CH04.png": "09f348869fa27605fea59d959ecfec8c152b83f3c7f02d33b4c4137419c8fedb",
+    "challenging/CH05.png": "c56e28d0293ee28bdc60ce0b0b1a2de85e9a4c4aceb04d4fa721cfd0298192d2",
+    "challenging/CH06.png": "b4ed1ff7045f0d881b50b0fb5fef0cb12c034db9de6f226b11917968cba6c8c8",
+    "challenging/CH07.png": "fca31efaafb2ca13888a2d476595efc58772b88f153ab2bbf79c1b3d4cebab5d",
+    "challenging/CH08.png": "cc7a15cee1132242ae11166c2a53762a089ce5dc0b9b60018f184fa511305181",
+    "challenging/CH09.png": "7a994056e5b7f366f446ab3d027e1994630f75dfde1a7a0024c22815c9d4bc8c",
+    "challenging/CH10.png": "55cececcaea4325c028ce4d2b11962ca5695f5bb191dc9c1e939252bfe68f9bd",
+    "challenging/CH11.png": "b7fc05b7dcafa7f64bb0dfd1fc83a250894f409a62aa0dad98baf81bd8539b66",
+    "challenging/CH12.png": "e50371d4d3917370971f4920ebfa42f49e8a2abe2c2685eda5be9d6626018d2c",
+    "challenging/CH13.png": "a25a8ecca9663916ce8499449e567c5a71c055a6d2a0d159c0140e1d2a2444ba",
+    "challenging/CH14.png": "05d3c6054effda3eccef97b8fb7ed2da92993ea3e207f6c8e39344cc3e262a6b",
+    "challenging/CH15.png": "02696b57ccdb3e9d50dd564cb4f9c5c35fb11bef4242d3039606194be66f4d1f",
+    "challenging/CH16.png": "859d63e17b0fd1307bf6f447a2a61aed163d70abfd1168a764ecbda26d62e859",
+    "challenging/CH17.png": "8081971066f8fe186d7a9f444bb50f61ed2b84464c944e98d685f370ef5278f1",
+    "challenging/CH18.png": "aa32203af02f4b158d3ca60e160571703994bb31fec66b610e3fcd41616bf630",
+    "challenging/CH19.png": "f71d34df8e5e70441b642adda1181a2693224b732d075cdbd6a2e7e3d956ba32",
+    "challenging/CH20.png": "f97dcd93c7c3de31f86baa1b25102dc894899ba97c89100c2207b7093e77d4b2",
+    "clear/ADJ1.png": "e6b2b0b299db5d66eceb72581e6fe7b588ebad171a23c135e0adcf79b97246a2",
+    "clear/AUG1.png": "8e562d9c654ce69c2af98e0343dd40b197cc5e229d2a8301813d1a4f23639fc0",
+    "clear/B1.png": "dbf1c3a35a2d6cba1513c899e62c9d4993d616ec59628f31ee6b1cb9ba88f137",
+    "clear/BAKERY-1.png": "79cb8fea49a892d71fa0488c06036a8cd340388c7389d3cb6c010ff477ca2af3",
+    "clear/BAKERY-2.jpg": "020f4ba4cecc05ac92ecff4b62775ebee5b25bfb281d2d4c21e267bcd0bbf806",
+    "clear/BAKERY-3.pdf": "143cab75758263b90ba47078e4f0b1b352d7c97c95499c9a106991968fc78d0e",
+    "clear/BAKERY-4.png": "2d8c99ba4ee4dcecb17884d9b915b9c1736a1dbf99de78eaf3b43ef6cebcb480",
+    "clear/BAKERY-5.png": "d70e65b0d9d32d88738eae92f436b51988527d35b4000c4511143d64641c344a",
+    "clear/BOOKS-1.png": "507505b5efc0052e32269973fd2515d485e7e96760056391057a93c61094643f",
+    "clear/BOOKS-2.jpg": "e0f0138708f2b6edbae0e33344f77ae5bb79d0264a34e12e395a2df7ae5fda93",
+    "clear/BOOKS-3.pdf": "b834400d8d77adaa01c7bca6b02736911186561d6ccf7a5ef5274250049bd3d4",
+    "clear/BOOKS-4.png": "ccd872cf38759bf6bb449678de015ec8b0d6979f99b19fb7f62b6e3794e83dee",
+    "clear/BOOKS-5.png": "7721299fdd09678726b4d9254cb1f15612299eee60e2fab8f097d09a57c0b9a1",
+    "clear/CAFE-2.jpg": "f8c13fcb6cbc546c7a7b7f60a162229427efac408d4f3ad3baa824c418d0286e",
+    "clear/CAFE-3.pdf": "99ef4c5ed30f7f5fcf9bfc26895d29cc17f1458fdd534bc195c237f6641841c5",
+    "clear/CAFE-4.png": "9002841dedc60c040c58ae07ad2df25c0a40a0fa4422fb90e975a9d1029eff30",
+    "clear/CAFE-5.png": "a11d7615f62ce590a7375e43ca457de9fdfe105dbeb38a9d9ef854ee0f5b04c1",
+    "clear/DELI-2.jpg": "9542cf00c6caaa54dbe22fab95020987692f4cb035c05f62bb2419e352f3b0c5",
+    "clear/DELI-3.pdf": "832c007c25b8b9cadb02c9fed1df49ba30762a526a2da9e15fb6f8f5da1449eb",
+    "clear/DELI-4.png": "59b30ecf37c084a0d27cc68f906b6c52fca6047d4d6bd84938dfe65fb55e4c29",
+    "clear/DELI-5.png": "ed82858776c425de44682b4ef14b4259f74d20e9687a8fe7a027b62782be4178",
+    "clear/GROCERY-2.jpg": "7d309b14fd7119f8aa91770ac9a00929704dcdaaee56024deaf70ed7ccf03e12",
+    "clear/GROCERY-3.pdf": "73358b78053aa767f3517658c6595b8215dd8e501550e7f52c4bcdcf14111ca4",
+    "clear/GROCERY-4.png": "064394cd032efeb4a400d9a7ad81eaec05b441c465e2d7b31e1b854073646b87",
+    "clear/GROCERY-5.png": "a55fd17837c400675a3dfd20a6ed5f222a3d8deff781dbc707d0dbe4730ce1fb",
+    "clear/HOME-1.png": "89258e30dcddc80142412e23ac5fe5cca088b918f3c97020e0cc25d50c7e98f8",
+    "clear/HOME-2.jpg": "1bcae1d8e7fe52dddd3c0043f3642781e68a27a54e471ee9ac29b10b5a585ed3",
+    "clear/HOME-3.pdf": "affd57c6a012afb414c4d08513b9f1dd6612112e667689f4e6bdaf32b87e6d7f",
+    "clear/HOME-4.png": "643554f8325e0b2bd7662ab15e76773641ab9cb788e2c23866a2d31f02a910ae",
+    "clear/HOME-5.png": "3cdfad473c0bd6bb4a354aeb5b204b2fb40c148129bc71bc4aaaeb59dcd09887",
+    "clear/INC1.png": "c2bc9f0d9e2101743476ab06b80f9d0c82d934f2a7f8c0acb6755e502f69c596",
+    "clear/MARKET-2.jpg": "19029672aa6be758277dac68d87e8198a2225585eda6fa8c4563d49019db0398",
+    "clear/MARKET-3.pdf": "2ee6944045eab8ddd2f603e3e04c3c2a0362e9275220d8bec8cdd17f0af067a5",
+    "clear/MARKET-4.png": "b7d1642d3c414cb17f7c6d3aa8acdbaa63fcb06eba651a538bdb8043368f7b87",
+    "clear/MARKET-5.png": "f398f76f4620452377bb6c3c7443a68280162c84890e49416c1e7d28834fdc71",
+    "clear/P1.png": "3a2c4fcf28029481482fae8d073e94d182f67d197168694a82a232280cb3f578",
+    "clear/PANTRY-3.pdf": "84f27e5c43b17fa80006bbf027f1ad57445a29843dbcf65b5b1fc9372f88e362",
+    "clear/PANTRY-4.png": "5522d23cc39c67c9061fdf913adc93c9c7443ca72941f66dbf3a75b08f73ec80",
+    "clear/PANTRY-5.png": "59afdc26563d9e1f0a3465f3d7fc10152240a06c80914e3c4b6e43f4db26add5",
+    "clear/PHARMACY-1.png": "17f21b55a238f7a440e6d6bed13dd4d4fa805c0c8318da43b143c9fa9f3a563e",
+    "clear/PHARMACY-2.jpg": "d43c11992467a2059e098c46e0829ee5065b76b652d26463a731e4447dddb153",
+    "clear/PHARMACY-3.pdf": "f5aef512e401b9e1e645416950aadcfba0b1e9a4f64f9a91c24fc2765adc0119",
+    "clear/PHARMACY-4.png": "411e976e04cf9ed259754b03dfcc09368eaea067c63550733585485cb33dde6c",
+    "clear/PHARMACY-5.png": "d0b700c2e5ed33a476c900fa5a97a404ab27ba961b7cd04d9191b7d83cbcc1f6",
+    "clear/PRICE1_NEW.jpg": "cdb6fefb5c43a8e5b6e37fa058f3f3760c7f91d307b5b5a4dc3ccf32321c0b77",
+    "clear/PRICE1_OLD.png": "287d52d78b1df2fa9ff1725f148af301e9a2a1f15ddd765a9e1c4e273193fc10",
+    "clear/PRODUCE-2.jpg": "d7137c6d36bd88dcf1e381bb024afca6edb12a4aba230a9e711bb0e34681af3d",
+    "clear/PRODUCE-3.pdf": "387c3161f91192ce1e5af0a71e7b2a78c0858463a65bd1336d24a5acda8aec9b",
+    "clear/PRODUCE-4.png": "be71e61a588c1ed4a186b21cd4cb4d041c5d6ee5ea738fdf25ee4701fcb37670",
+    "clear/PRODUCE-5.png": "4334c3b25b907db4f389a3cffc55a394af41d5bf88f0c9a795e7f9acab527a16",
+    "clear/Q1.png": "3f883e5fc22384c9a30d89ffac9e87462cecbb25df49c3146bfa1806b1d17c8a",
+    "clear/TECH-2.jpg": "8baf011a31b14c81e873be128a584a12d4295b76f79f159ee1447eba88823f87",
+    "clear/TECH-3.pdf": "6c6f86a0fea6b1afe0d675112974e0db78d24587bd9f4231c4e5fd2c9aaae0df",
+    "clear/TECH-4.png": "ceb409f9e0e6f3d4753c6071b2e0d3c4e7b545848da1b0624e516c337efc2f92",
+    "clear/TECH-5.png": "85a9b672820dc94944351279027198d642d6553d2209fb184476b7037be0f1e1",
+    "clear/TRANSIT-2.jpg": "7164035d381271390690ece69807dcc79b4359b1e8251b7a0450f28a5de4becb",
+    "clear/TRANSIT-3.pdf": "f15c0d50f98875f594b7a35fcd56e1d8d86def4ca1d969cb9f65672abeb0b401",
+    "clear/TRANSIT-4.png": "9ad81a36f509efe974867094970b5cd4af674bed69a7467816fdf232e5016255",
+    "clear/TRANSIT-5.png": "596b76207dffe2c130b49c66c7b5c74c9e60581321fcb2bf957b027986457f13",
+    "clear/WEIGHT1.png": "826142d64e8abe1a305ae88bf4c4e60e536febc0302f34a68d91030274b20b0c",
+    "expected/extraction.json": "7a1ab3238072ac0bf77e0cffbad413105ed15c20a70ad8913f28b56229e75fd6",
+    "expected/receipts.json": "045a1ad96f29cb602c690b2e3e04f94da6324d73f1c813be9b2f311b65c620d3",
+    "previews/P1.png": "3a2c4fcf28029481482fae8d073e94d182f67d197168694a82a232280cb3f578",
+    "previews/layouts.png": "57c8665c9cbdd2bac37c15408c48405cadcc7de7a93a805440b37faae8e9e1f6",
+    "supplemental/DUP1_exact.png": "3a2c4fcf28029481482fae8d073e94d182f67d197168694a82a232280cb3f578",
+    "supplemental/DUP1_photo.png": "0cbc04dab5711f01c39d3e8c2e36f03be3a87fff83b8255cd9de2acb923d608c",
+    "supplemental/P1_JPG.jpg": "40851ca31849eb75c38a3f7d14f799d4c24b598e1cc9518c8eeb36091f80e530",
+    "supplemental/P1_PDF.pdf": "474017cea6c26a178b5d6f2ced7aee1abd492ef51fef592bae9b1d47763c1033",
+    "supplemental/P1_PDF5.pdf": "b48f498377697014cfde1d06f2ed8869185e7c13f45f68b81014c5d12818a525"
+  }
+}

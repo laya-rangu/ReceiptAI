@@ -1,0 +1,3285 @@
+{
+  "P1": {
+    "expected_outcome": "needs_review",
+    "fields": {
+      "merchant_name": "Test Grocery",
+      "purchased_at": "2026-09-28",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "MLK",
+          "normalized_name": "Milk",
+          "quantity": "1",
+          "line_total_cents": 459,
+          "category": "Groceries"
+        },
+        {
+          "raw_name": "BRD",
+          "normalized_name": "Bread",
+          "quantity": "2",
+          "line_total_cents": 598,
+          "category": "Groceries"
+        }
+      ],
+      "subtotal_cents": 1057,
+      "discount_cents": 0,
+      "tax_cents": 0,
+      "fees_cents": 0,
+      "total_cents": 1057,
+      "tax_included": false,
+      "category": "Groceries"
+    },
+    "required_uncertainties": [],
+    "ignore_document_instructions": false
+  },
+  "GROCERY-2": {
+    "expected_outcome": "needs_review",
+    "fields": {
+      "merchant_name": "Test Grocery",
+      "purchased_at": "2026-09-12",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "RICE 1KG",
+          "normalized_name": "Rice, 1 kg",
+          "quantity": "2",
+          "line_total_cents": 650,
+          "category": "Groceries"
+        },
+        {
+          "raw_name": "OATS 500G",
+          "normalized_name": "Oats, 500 g",
+          "quantity": "1",
+          "line_total_cents": 450,
+          "category": "Groceries"
+        }
+      ],
+      "subtotal_cents": 1100,
+      "discount_cents": 0,
+      "tax_cents": 88,
+      "fees_cents": 0,
+      "total_cents": 1188,
+      "tax_included": false,
+      "category": "Groceries"
+    },
+    "required_uncertainties": [],
+    "ignore_document_instructions": false
+  },
+  "GROCERY-3": {
+    "expected_outcome": "needs_review",
+    "fields": {
+      "merchant_name": "Test Grocery",
+      "purchased_at": "2026-09-13",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "RICE 1KG",
+          "normalized_name": "Rice, 1 kg",
+          "quantity": "1",
+          "line_total_cents": 325,
+          "category": "Groceries"
+        },
+        {
+          "raw_name": "OATS 500G",
+          "normalized_name": "Oats, 500 g",
+          "quantity": "2",
+          "line_total_cents": 900,
+          "category": "Groceries"
+        }
+      ],
+      "subtotal_cents": 1225,
+      "discount_cents": 100,
+      "tax_cents": 90,
+      "fees_cents": 0,
+      "total_cents": 1215,
+      "tax_included": false,
+      "category": "Groceries"
+    },
+    "required_uncertainties": [],
+    "ignore_document_instructions": false
+  },
+  "GROCERY-4": {
+    "expected_outcome": "needs_review",
+    "fields": {
+      "merchant_name": "Test Grocery",
+      "purchased_at": "2026-09-14",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "RICE 1KG",
+          "normalized_name": "Rice, 1 kg",
+          "quantity": "3",
+          "line_total_cents": 975,
+          "category": "Groceries"
+        },
+        {
+          "raw_name": "OATS 500G",
+          "normalized_name": "Oats, 500 g",
+          "quantity": "2",
+          "line_total_cents": 900,
+          "category": "Groceries"
+        }
+      ],
+      "subtotal_cents": 1875,
+      "discount_cents": 0,
+      "tax_cents": 150,
+      "fees_cents": 25,
+      "total_cents": 2050,
+      "tax_included": false,
+      "category": "Groceries"
+    },
+    "required_uncertainties": [],
+    "ignore_document_instructions": false
+  },
+  "GROCERY-5": {
+    "expected_outcome": "needs_review",
+    "fields": {
+      "merchant_name": "Test Grocery",
+      "purchased_at": "2026-09-15",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "RICE 1KG",
+          "normalized_name": "Rice, 1 kg",
+          "quantity": "1",
+          "line_total_cents": 325,
+          "category": "Groceries"
+        },
+        {
+          "raw_name": "OATS 500G",
+          "normalized_name": "Oats, 500 g",
+          "quantity": "3",
+          "line_total_cents": 1350,
+          "category": "Groceries"
+        }
+      ],
+      "subtotal_cents": 1675,
+      "discount_cents": 75,
+      "tax_cents": 128,
+      "fees_cents": 0,
+      "total_cents": 1728,
+      "tax_included": false,
+      "category": "Groceries"
+    },
+    "required_uncertainties": [],
+    "ignore_document_instructions": false
+  },
+  "Q1": {
+    "expected_outcome": "needs_review",
+    "fields": {
+      "merchant_name": "Test Cafe",
+      "purchased_at": "2026-09-28",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "Oat milk latte",
+          "normalized_name": "Oat milk latte",
+          "quantity": "1",
+          "line_total_cents": 550,
+          "category": "Food & drink"
+        },
+        {
+          "raw_name": "Butter croissant",
+          "normalized_name": "Butter croissant",
+          "quantity": "1",
+          "line_total_cents": 425,
+          "category": "Food & drink"
+        },
+        {
+          "raw_name": "Chocolate chip cookie",
+          "normalized_name": "Chocolate chip cookie",
+          "quantity": "1",
+          "line_total_cents": 300,
+          "category": "Food & drink"
+        }
+      ],
+      "subtotal_cents": 1275,
+      "discount_cents": 0,
+      "tax_cents": 102,
+      "fees_cents": 0,
+      "total_cents": 1377,
+      "tax_included": false,
+      "category": "Food & drink"
+    },
+    "required_uncertainties": [],
+    "ignore_document_instructions": false
+  },
+  "CAFE-2": {
+    "expected_outcome": "needs_review",
+    "fields": {
+      "merchant_name": "Test Cafe",
+      "purchased_at": "2026-09-12",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "FILTER COFFEE",
+          "normalized_name": "Filter coffee",
+          "quantity": "2",
+          "line_total_cents": 650,
+          "category": "Food & drink"
+        },
+        {
+          "raw_name": "PLAIN BAGEL",
+          "normalized_name": "Plain bagel",
+          "quantity": "1",
+          "line_total_cents": 450,
+          "category": "Food & drink"
+        }
+      ],
+      "subtotal_cents": 1100,
+      "discount_cents": 0,
+      "tax_cents": 88,
+      "fees_cents": 0,
+      "total_cents": 1188,
+      "tax_included": false,
+      "category": "Food & drink"
+    },
+    "required_uncertainties": [],
+    "ignore_document_instructions": false
+  },
+  "CAFE-3": {
+    "expected_outcome": "needs_review",
+    "fields": {
+      "merchant_name": "Test Cafe",
+      "purchased_at": "2026-09-13",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "FILTER COFFEE",
+          "normalized_name": "Filter coffee",
+          "quantity": "1",
+          "line_total_cents": 325,
+          "category": "Food & drink"
+        },
+        {
+          "raw_name": "PLAIN BAGEL",
+          "normalized_name": "Plain bagel",
+          "quantity": "2",
+          "line_total_cents": 900,
+          "category": "Food & drink"
+        }
+      ],
+      "subtotal_cents": 1225,
+      "discount_cents": 100,
+      "tax_cents": 90,
+      "fees_cents": 0,
+      "total_cents": 1215,
+      "tax_included": false,
+      "category": "Food & drink"
+    },
+    "required_uncertainties": [],
+    "ignore_document_instructions": false
+  },
+  "CAFE-4": {
+    "expected_outcome": "needs_review",
+    "fields": {
+      "merchant_name": "Test Cafe",
+      "purchased_at": "2026-09-14",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "FILTER COFFEE",
+          "normalized_name": "Filter coffee",
+          "quantity": "3",
+          "line_total_cents": 975,
+          "category": "Food & drink"
+        },
+        {
+          "raw_name": "PLAIN BAGEL",
+          "normalized_name": "Plain bagel",
+          "quantity": "2",
+          "line_total_cents": 900,
+          "category": "Food & drink"
+        }
+      ],
+      "subtotal_cents": 1875,
+      "discount_cents": 0,
+      "tax_cents": 150,
+      "fees_cents": 25,
+      "total_cents": 2050,
+      "tax_included": false,
+      "category": "Food & drink"
+    },
+    "required_uncertainties": [],
+    "ignore_document_instructions": false
+  },
+  "CAFE-5": {
+    "expected_outcome": "needs_review",
+    "fields": {
+      "merchant_name": "Test Cafe",
+      "purchased_at": "2026-09-15",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "FILTER COFFEE",
+          "normalized_name": "Filter coffee",
+          "quantity": "1",
+          "line_total_cents": 325,
+          "category": "Food & drink"
+        },
+        {
+          "raw_name": "PLAIN BAGEL",
+          "normalized_name": "Plain bagel",
+          "quantity": "3",
+          "line_total_cents": 1350,
+          "category": "Food & drink"
+        }
+      ],
+      "subtotal_cents": 1675,
+      "discount_cents": 75,
+      "tax_cents": 128,
+      "fees_cents": 0,
+      "total_cents": 1728,
+      "tax_included": false,
+      "category": "Food & drink"
+    },
+    "required_uncertainties": [],
+    "ignore_document_instructions": false
+  },
+  "AUG1": {
+    "expected_outcome": "needs_review",
+    "fields": {
+      "merchant_name": "Test Transit",
+      "purchased_at": "2026-08-31",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "DAY TICKET",
+          "normalized_name": "Day ticket",
+          "quantity": "1",
+          "line_total_cents": 800,
+          "category": "Transport"
+        }
+      ],
+      "subtotal_cents": 800,
+      "discount_cents": 0,
+      "tax_cents": 0,
+      "fees_cents": 0,
+      "total_cents": 800,
+      "tax_included": false,
+      "category": "Transport"
+    },
+    "required_uncertainties": [],
+    "ignore_document_instructions": false
+  },
+  "TRANSIT-2": {
+    "expected_outcome": "needs_review",
+    "fields": {
+      "merchant_name": "Test Transit",
+      "purchased_at": "2026-09-12",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "DAY TICKET",
+          "normalized_name": "Day ticket",
+          "quantity": "2",
+          "line_total_cents": 650,
+          "category": "Transport"
+        },
+        {
+          "raw_name": "AIRPORT ADDON",
+          "normalized_name": "Airport supplement",
+          "quantity": "1",
+          "line_total_cents": 450,
+          "category": "Transport"
+        }
+      ],
+      "subtotal_cents": 1100,
+      "discount_cents": 0,
+      "tax_cents": 88,
+      "fees_cents": 0,
+      "total_cents": 1188,
+      "tax_included": false,
+      "category": "Transport"
+    },
+    "required_uncertainties": [],
+    "ignore_document_instructions": false
+  },
+  "TRANSIT-3": {
+    "expected_outcome": "needs_review",
+    "fields": {
+      "merchant_name": "Test Transit",
+      "purchased_at": "2026-09-13",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "DAY TICKET",
+          "normalized_name": "Day ticket",
+          "quantity": "1",
+          "line_total_cents": 325,
+          "category": "Transport"
+        },
+        {
+          "raw_name": "AIRPORT ADDON",
+          "normalized_name": "Airport supplement",
+          "quantity": "2",
+          "line_total_cents": 900,
+          "category": "Transport"
+        }
+      ],
+      "subtotal_cents": 1225,
+      "discount_cents": 100,
+      "tax_cents": 90,
+      "fees_cents": 0,
+      "total_cents": 1215,
+      "tax_included": false,
+      "category": "Transport"
+    },
+    "required_uncertainties": [],
+    "ignore_document_instructions": false
+  },
+  "TRANSIT-4": {
+    "expected_outcome": "needs_review",
+    "fields": {
+      "merchant_name": "Test Transit",
+      "purchased_at": "2026-09-14",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "DAY TICKET",
+          "normalized_name": "Day ticket",
+          "quantity": "3",
+          "line_total_cents": 975,
+          "category": "Transport"
+        },
+        {
+          "raw_name": "AIRPORT ADDON",
+          "normalized_name": "Airport supplement",
+          "quantity": "2",
+          "line_total_cents": 900,
+          "category": "Transport"
+        }
+      ],
+      "subtotal_cents": 1875,
+      "discount_cents": 0,
+      "tax_cents": 150,
+      "fees_cents": 25,
+      "total_cents": 2050,
+      "tax_included": false,
+      "category": "Transport"
+    },
+    "required_uncertainties": [],
+    "ignore_document_instructions": false
+  },
+  "TRANSIT-5": {
+    "expected_outcome": "needs_review",
+    "fields": {
+      "merchant_name": "Test Transit",
+      "purchased_at": "2026-09-15",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "DAY TICKET",
+          "normalized_name": "Day ticket",
+          "quantity": "1",
+          "line_total_cents": 325,
+          "category": "Transport"
+        },
+        {
+          "raw_name": "AIRPORT ADDON",
+          "normalized_name": "Airport supplement",
+          "quantity": "3",
+          "line_total_cents": 1350,
+          "category": "Transport"
+        }
+      ],
+      "subtotal_cents": 1675,
+      "discount_cents": 75,
+      "tax_cents": 128,
+      "fees_cents": 0,
+      "total_cents": 1728,
+      "tax_included": false,
+      "category": "Transport"
+    },
+    "required_uncertainties": [],
+    "ignore_document_instructions": false
+  },
+  "B1": {
+    "expected_outcome": "needs_review",
+    "fields": {
+      "merchant_name": "Test Electronics",
+      "purchased_at": "2026-09-28",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "WIRELESS HEADPHONES",
+          "normalized_name": "Wireless headphones",
+          "quantity": "1",
+          "line_total_cents": 9999,
+          "category": "Shopping"
+        }
+      ],
+      "subtotal_cents": 9999,
+      "discount_cents": 0,
+      "tax_cents": 0,
+      "fees_cents": 0,
+      "total_cents": 9999,
+      "tax_included": false,
+      "category": "Shopping"
+    },
+    "required_uncertainties": [],
+    "ignore_document_instructions": false
+  },
+  "TECH-2": {
+    "expected_outcome": "needs_review",
+    "fields": {
+      "merchant_name": "Test Electronics",
+      "purchased_at": "2026-09-12",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "USB-C CABLE",
+          "normalized_name": "USB-C cable",
+          "quantity": "2",
+          "line_total_cents": 650,
+          "category": "Shopping"
+        },
+        {
+          "raw_name": "DESK STAND",
+          "normalized_name": "Desk stand",
+          "quantity": "1",
+          "line_total_cents": 450,
+          "category": "Shopping"
+        }
+      ],
+      "subtotal_cents": 1100,
+      "discount_cents": 0,
+      "tax_cents": 88,
+      "fees_cents": 0,
+      "total_cents": 1188,
+      "tax_included": false,
+      "category": "Shopping"
+    },
+    "required_uncertainties": [],
+    "ignore_document_instructions": false
+  },
+  "TECH-3": {
+    "expected_outcome": "needs_review",
+    "fields": {
+      "merchant_name": "Test Electronics",
+      "purchased_at": "2026-09-13",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "USB-C CABLE",
+          "normalized_name": "USB-C cable",
+          "quantity": "1",
+          "line_total_cents": 325,
+          "category": "Shopping"
+        },
+        {
+          "raw_name": "DESK STAND",
+          "normalized_name": "Desk stand",
+          "quantity": "2",
+          "line_total_cents": 900,
+          "category": "Shopping"
+        }
+      ],
+      "subtotal_cents": 1225,
+      "discount_cents": 100,
+      "tax_cents": 90,
+      "fees_cents": 0,
+      "total_cents": 1215,
+      "tax_included": false,
+      "category": "Shopping"
+    },
+    "required_uncertainties": [],
+    "ignore_document_instructions": false
+  },
+  "TECH-4": {
+    "expected_outcome": "needs_review",
+    "fields": {
+      "merchant_name": "Test Electronics",
+      "purchased_at": "2026-09-14",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "USB-C CABLE",
+          "normalized_name": "USB-C cable",
+          "quantity": "3",
+          "line_total_cents": 975,
+          "category": "Shopping"
+        },
+        {
+          "raw_name": "DESK STAND",
+          "normalized_name": "Desk stand",
+          "quantity": "2",
+          "line_total_cents": 900,
+          "category": "Shopping"
+        }
+      ],
+      "subtotal_cents": 1875,
+      "discount_cents": 0,
+      "tax_cents": 150,
+      "fees_cents": 25,
+      "total_cents": 2050,
+      "tax_included": false,
+      "category": "Shopping"
+    },
+    "required_uncertainties": [],
+    "ignore_document_instructions": false
+  },
+  "TECH-5": {
+    "expected_outcome": "needs_review",
+    "fields": {
+      "merchant_name": "Test Electronics",
+      "purchased_at": "2026-09-15",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "USB-C CABLE",
+          "normalized_name": "USB-C cable",
+          "quantity": "1",
+          "line_total_cents": 325,
+          "category": "Shopping"
+        },
+        {
+          "raw_name": "DESK STAND",
+          "normalized_name": "Desk stand",
+          "quantity": "3",
+          "line_total_cents": 1350,
+          "category": "Shopping"
+        }
+      ],
+      "subtotal_cents": 1675,
+      "discount_cents": 75,
+      "tax_cents": 128,
+      "fees_cents": 0,
+      "total_cents": 1728,
+      "tax_included": false,
+      "category": "Shopping"
+    },
+    "required_uncertainties": [],
+    "ignore_document_instructions": false
+  },
+  "ADJ1": {
+    "expected_outcome": "needs_review",
+    "fields": {
+      "merchant_name": "Test Market",
+      "purchased_at": "2026-09-28",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "COFFEE BEANS",
+          "normalized_name": "Coffee beans",
+          "quantity": "1",
+          "line_total_cents": 1000,
+          "category": "Groceries"
+        },
+        {
+          "raw_name": "GRANOLA",
+          "normalized_name": "Granola",
+          "quantity": "1",
+          "line_total_cents": 500,
+          "category": "Groceries"
+        }
+      ],
+      "subtotal_cents": 1500,
+      "discount_cents": 200,
+      "tax_cents": 104,
+      "fees_cents": 50,
+      "total_cents": 1454,
+      "tax_included": false,
+      "category": "Groceries"
+    },
+    "required_uncertainties": [],
+    "ignore_document_instructions": false
+  },
+  "MARKET-2": {
+    "expected_outcome": "needs_review",
+    "fields": {
+      "merchant_name": "Test Market",
+      "purchased_at": "2026-09-12",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "ORG APPLES",
+          "normalized_name": "Organic apples",
+          "quantity": "2",
+          "line_total_cents": 650,
+          "category": "Groceries"
+        },
+        {
+          "raw_name": "BROWN RICE",
+          "normalized_name": "Brown rice",
+          "quantity": "1",
+          "line_total_cents": 450,
+          "category": "Groceries"
+        }
+      ],
+      "subtotal_cents": 1100,
+      "discount_cents": 0,
+      "tax_cents": 88,
+      "fees_cents": 0,
+      "total_cents": 1188,
+      "tax_included": false,
+      "category": "Groceries"
+    },
+    "required_uncertainties": [],
+    "ignore_document_instructions": false
+  },
+  "MARKET-3": {
+    "expected_outcome": "needs_review",
+    "fields": {
+      "merchant_name": "Test Market",
+      "purchased_at": "2026-09-13",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "ORG APPLES",
+          "normalized_name": "Organic apples",
+          "quantity": "1",
+          "line_total_cents": 325,
+          "category": "Groceries"
+        },
+        {
+          "raw_name": "BROWN RICE",
+          "normalized_name": "Brown rice",
+          "quantity": "2",
+          "line_total_cents": 900,
+          "category": "Groceries"
+        }
+      ],
+      "subtotal_cents": 1225,
+      "discount_cents": 100,
+      "tax_cents": 90,
+      "fees_cents": 0,
+      "total_cents": 1215,
+      "tax_included": false,
+      "category": "Groceries"
+    },
+    "required_uncertainties": [],
+    "ignore_document_instructions": false
+  },
+  "MARKET-4": {
+    "expected_outcome": "needs_review",
+    "fields": {
+      "merchant_name": "Test Market",
+      "purchased_at": "2026-09-14",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "ORG APPLES",
+          "normalized_name": "Organic apples",
+          "quantity": "3",
+          "line_total_cents": 975,
+          "category": "Groceries"
+        },
+        {
+          "raw_name": "BROWN RICE",
+          "normalized_name": "Brown rice",
+          "quantity": "2",
+          "line_total_cents": 900,
+          "category": "Groceries"
+        }
+      ],
+      "subtotal_cents": 1875,
+      "discount_cents": 0,
+      "tax_cents": 150,
+      "fees_cents": 25,
+      "total_cents": 2050,
+      "tax_included": false,
+      "category": "Groceries"
+    },
+    "required_uncertainties": [],
+    "ignore_document_instructions": false
+  },
+  "MARKET-5": {
+    "expected_outcome": "needs_review",
+    "fields": {
+      "merchant_name": "Test Market",
+      "purchased_at": "2026-09-15",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "ORG APPLES",
+          "normalized_name": "Organic apples",
+          "quantity": "1",
+          "line_total_cents": 325,
+          "category": "Groceries"
+        },
+        {
+          "raw_name": "BROWN RICE",
+          "normalized_name": "Brown rice",
+          "quantity": "3",
+          "line_total_cents": 1350,
+          "category": "Groceries"
+        }
+      ],
+      "subtotal_cents": 1675,
+      "discount_cents": 75,
+      "tax_cents": 128,
+      "fees_cents": 0,
+      "total_cents": 1728,
+      "tax_included": false,
+      "category": "Groceries"
+    },
+    "required_uncertainties": [],
+    "ignore_document_instructions": false
+  },
+  "INC1": {
+    "expected_outcome": "needs_review",
+    "fields": {
+      "merchant_name": "Test Deli",
+      "purchased_at": "2026-09-28",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "SOUP",
+          "normalized_name": "Soup",
+          "quantity": "1",
+          "line_total_cents": 700,
+          "category": "Food & drink"
+        },
+        {
+          "raw_name": "ROLL",
+          "normalized_name": "Bread roll",
+          "quantity": "1",
+          "line_total_cents": 500,
+          "category": "Food & drink"
+        }
+      ],
+      "subtotal_cents": 1200,
+      "discount_cents": 0,
+      "tax_cents": 100,
+      "fees_cents": 0,
+      "total_cents": 1200,
+      "tax_included": true,
+      "category": "Food & drink"
+    },
+    "required_uncertainties": [],
+    "ignore_document_instructions": false
+  },
+  "DELI-2": {
+    "expected_outcome": "needs_review",
+    "fields": {
+      "merchant_name": "Test Deli",
+      "purchased_at": "2026-09-12",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "GARDEN WRAP",
+          "normalized_name": "Garden wrap",
+          "quantity": "2",
+          "line_total_cents": 650,
+          "category": "Food & drink"
+        },
+        {
+          "raw_name": "STILL WATER",
+          "normalized_name": "Still water",
+          "quantity": "1",
+          "line_total_cents": 450,
+          "category": "Food & drink"
+        }
+      ],
+      "subtotal_cents": 1100,
+      "discount_cents": 0,
+      "tax_cents": 88,
+      "fees_cents": 0,
+      "total_cents": 1188,
+      "tax_included": false,
+      "category": "Food & drink"
+    },
+    "required_uncertainties": [],
+    "ignore_document_instructions": false
+  },
+  "DELI-3": {
+    "expected_outcome": "needs_review",
+    "fields": {
+      "merchant_name": "Test Deli",
+      "purchased_at": "2026-09-13",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "GARDEN WRAP",
+          "normalized_name": "Garden wrap",
+          "quantity": "1",
+          "line_total_cents": 325,
+          "category": "Food & drink"
+        },
+        {
+          "raw_name": "STILL WATER",
+          "normalized_name": "Still water",
+          "quantity": "2",
+          "line_total_cents": 900,
+          "category": "Food & drink"
+        }
+      ],
+      "subtotal_cents": 1225,
+      "discount_cents": 100,
+      "tax_cents": 90,
+      "fees_cents": 0,
+      "total_cents": 1215,
+      "tax_included": false,
+      "category": "Food & drink"
+    },
+    "required_uncertainties": [],
+    "ignore_document_instructions": false
+  },
+  "DELI-4": {
+    "expected_outcome": "needs_review",
+    "fields": {
+      "merchant_name": "Test Deli",
+      "purchased_at": "2026-09-14",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "GARDEN WRAP",
+          "normalized_name": "Garden wrap",
+          "quantity": "3",
+          "line_total_cents": 975,
+          "category": "Food & drink"
+        },
+        {
+          "raw_name": "STILL WATER",
+          "normalized_name": "Still water",
+          "quantity": "2",
+          "line_total_cents": 900,
+          "category": "Food & drink"
+        }
+      ],
+      "subtotal_cents": 1875,
+      "discount_cents": 0,
+      "tax_cents": 150,
+      "fees_cents": 25,
+      "total_cents": 2050,
+      "tax_included": false,
+      "category": "Food & drink"
+    },
+    "required_uncertainties": [],
+    "ignore_document_instructions": false
+  },
+  "DELI-5": {
+    "expected_outcome": "needs_review",
+    "fields": {
+      "merchant_name": "Test Deli",
+      "purchased_at": "2026-09-15",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "GARDEN WRAP",
+          "normalized_name": "Garden wrap",
+          "quantity": "1",
+          "line_total_cents": 325,
+          "category": "Food & drink"
+        },
+        {
+          "raw_name": "STILL WATER",
+          "normalized_name": "Still water",
+          "quantity": "3",
+          "line_total_cents": 1350,
+          "category": "Food & drink"
+        }
+      ],
+      "subtotal_cents": 1675,
+      "discount_cents": 75,
+      "tax_cents": 128,
+      "fees_cents": 0,
+      "total_cents": 1728,
+      "tax_included": false,
+      "category": "Food & drink"
+    },
+    "required_uncertainties": [],
+    "ignore_document_instructions": false
+  },
+  "WEIGHT1": {
+    "expected_outcome": "needs_review",
+    "fields": {
+      "merchant_name": "Test Produce",
+      "purchased_at": "2026-09-28",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "APPLES 0.750KG",
+          "normalized_name": "Apples",
+          "quantity": "0.750",
+          "line_total_cents": 299,
+          "category": "Groceries"
+        }
+      ],
+      "subtotal_cents": 299,
+      "discount_cents": 0,
+      "tax_cents": 0,
+      "fees_cents": 0,
+      "total_cents": 299,
+      "tax_included": false,
+      "category": "Groceries"
+    },
+    "required_uncertainties": [],
+    "ignore_document_instructions": false
+  },
+  "PRODUCE-2": {
+    "expected_outcome": "needs_review",
+    "fields": {
+      "merchant_name": "Test Produce",
+      "purchased_at": "2026-09-12",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "PEARS",
+          "normalized_name": "Pears",
+          "quantity": "2",
+          "line_total_cents": 650,
+          "category": "Groceries"
+        },
+        {
+          "raw_name": "BUNCH KALE",
+          "normalized_name": "Bunch of kale",
+          "quantity": "1",
+          "line_total_cents": 450,
+          "category": "Groceries"
+        }
+      ],
+      "subtotal_cents": 1100,
+      "discount_cents": 0,
+      "tax_cents": 88,
+      "fees_cents": 0,
+      "total_cents": 1188,
+      "tax_included": false,
+      "category": "Groceries"
+    },
+    "required_uncertainties": [],
+    "ignore_document_instructions": false
+  },
+  "PRODUCE-3": {
+    "expected_outcome": "needs_review",
+    "fields": {
+      "merchant_name": "Test Produce",
+      "purchased_at": "2026-09-13",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "PEARS",
+          "normalized_name": "Pears",
+          "quantity": "1",
+          "line_total_cents": 325,
+          "category": "Groceries"
+        },
+        {
+          "raw_name": "BUNCH KALE",
+          "normalized_name": "Bunch of kale",
+          "quantity": "2",
+          "line_total_cents": 900,
+          "category": "Groceries"
+        }
+      ],
+      "subtotal_cents": 1225,
+      "discount_cents": 100,
+      "tax_cents": 90,
+      "fees_cents": 0,
+      "total_cents": 1215,
+      "tax_included": false,
+      "category": "Groceries"
+    },
+    "required_uncertainties": [],
+    "ignore_document_instructions": false
+  },
+  "PRODUCE-4": {
+    "expected_outcome": "needs_review",
+    "fields": {
+      "merchant_name": "Test Produce",
+      "purchased_at": "2026-09-14",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "PEARS",
+          "normalized_name": "Pears",
+          "quantity": "3",
+          "line_total_cents": 975,
+          "category": "Groceries"
+        },
+        {
+          "raw_name": "BUNCH KALE",
+          "normalized_name": "Bunch of kale",
+          "quantity": "2",
+          "line_total_cents": 900,
+          "category": "Groceries"
+        }
+      ],
+      "subtotal_cents": 1875,
+      "discount_cents": 0,
+      "tax_cents": 150,
+      "fees_cents": 25,
+      "total_cents": 2050,
+      "tax_included": false,
+      "category": "Groceries"
+    },
+    "required_uncertainties": [],
+    "ignore_document_instructions": false
+  },
+  "PRODUCE-5": {
+    "expected_outcome": "needs_review",
+    "fields": {
+      "merchant_name": "Test Produce",
+      "purchased_at": "2026-09-15",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "PEARS",
+          "normalized_name": "Pears",
+          "quantity": "1",
+          "line_total_cents": 325,
+          "category": "Groceries"
+        },
+        {
+          "raw_name": "BUNCH KALE",
+          "normalized_name": "Bunch of kale",
+          "quantity": "3",
+          "line_total_cents": 1350,
+          "category": "Groceries"
+        }
+      ],
+      "subtotal_cents": 1675,
+      "discount_cents": 75,
+      "tax_cents": 128,
+      "fees_cents": 0,
+      "total_cents": 1728,
+      "tax_included": false,
+      "category": "Groceries"
+    },
+    "required_uncertainties": [],
+    "ignore_document_instructions": false
+  },
+  "PRICE1_OLD": {
+    "expected_outcome": "needs_review",
+    "fields": {
+      "merchant_name": "Test Pantry",
+      "purchased_at": "2026-08-15",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "OAT MILK 1L",
+          "normalized_name": "Oat milk, 1 litre",
+          "quantity": "1",
+          "line_total_cents": 449,
+          "category": "Groceries"
+        }
+      ],
+      "subtotal_cents": 449,
+      "discount_cents": 0,
+      "tax_cents": 0,
+      "fees_cents": 0,
+      "total_cents": 449,
+      "tax_included": false,
+      "category": "Groceries"
+    },
+    "required_uncertainties": [],
+    "ignore_document_instructions": false
+  },
+  "PRICE1_NEW": {
+    "expected_outcome": "needs_review",
+    "fields": {
+      "merchant_name": "Test Pantry",
+      "purchased_at": "2026-09-15",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "OAT MILK 1L",
+          "normalized_name": "Oat milk, 1 litre",
+          "quantity": "2",
+          "line_total_cents": 998,
+          "category": "Groceries"
+        }
+      ],
+      "subtotal_cents": 998,
+      "discount_cents": 0,
+      "tax_cents": 0,
+      "fees_cents": 0,
+      "total_cents": 998,
+      "tax_included": false,
+      "category": "Groceries"
+    },
+    "required_uncertainties": [],
+    "ignore_document_instructions": false
+  },
+  "PANTRY-3": {
+    "expected_outcome": "needs_review",
+    "fields": {
+      "merchant_name": "Test Pantry",
+      "purchased_at": "2026-09-13",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "OLIVE OIL",
+          "normalized_name": "Olive oil",
+          "quantity": "1",
+          "line_total_cents": 325,
+          "category": "Groceries"
+        },
+        {
+          "raw_name": "CHICKPEAS",
+          "normalized_name": "Chickpeas",
+          "quantity": "2",
+          "line_total_cents": 900,
+          "category": "Groceries"
+        }
+      ],
+      "subtotal_cents": 1225,
+      "discount_cents": 100,
+      "tax_cents": 90,
+      "fees_cents": 0,
+      "total_cents": 1215,
+      "tax_included": false,
+      "category": "Groceries"
+    },
+    "required_uncertainties": [],
+    "ignore_document_instructions": false
+  },
+  "PANTRY-4": {
+    "expected_outcome": "needs_review",
+    "fields": {
+      "merchant_name": "Test Pantry",
+      "purchased_at": "2026-09-14",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "OLIVE OIL",
+          "normalized_name": "Olive oil",
+          "quantity": "3",
+          "line_total_cents": 975,
+          "category": "Groceries"
+        },
+        {
+          "raw_name": "CHICKPEAS",
+          "normalized_name": "Chickpeas",
+          "quantity": "2",
+          "line_total_cents": 900,
+          "category": "Groceries"
+        }
+      ],
+      "subtotal_cents": 1875,
+      "discount_cents": 0,
+      "tax_cents": 150,
+      "fees_cents": 25,
+      "total_cents": 2050,
+      "tax_included": false,
+      "category": "Groceries"
+    },
+    "required_uncertainties": [],
+    "ignore_document_instructions": false
+  },
+  "PANTRY-5": {
+    "expected_outcome": "needs_review",
+    "fields": {
+      "merchant_name": "Test Pantry",
+      "purchased_at": "2026-09-15",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "OLIVE OIL",
+          "normalized_name": "Olive oil",
+          "quantity": "1",
+          "line_total_cents": 325,
+          "category": "Groceries"
+        },
+        {
+          "raw_name": "CHICKPEAS",
+          "normalized_name": "Chickpeas",
+          "quantity": "3",
+          "line_total_cents": 1350,
+          "category": "Groceries"
+        }
+      ],
+      "subtotal_cents": 1675,
+      "discount_cents": 75,
+      "tax_cents": 128,
+      "fees_cents": 0,
+      "total_cents": 1728,
+      "tax_included": false,
+      "category": "Groceries"
+    },
+    "required_uncertainties": [],
+    "ignore_document_instructions": false
+  },
+  "BOOKS-1": {
+    "expected_outcome": "needs_review",
+    "fields": {
+      "merchant_name": "Test Books",
+      "purchased_at": "2026-09-11",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "PAPERBACK",
+          "normalized_name": "Paperback book",
+          "quantity": "1",
+          "line_total_cents": 325,
+          "category": "Shopping"
+        },
+        {
+          "raw_name": "NOTEBOOK A5",
+          "normalized_name": "A5 notebook",
+          "quantity": "1",
+          "line_total_cents": 450,
+          "category": "Shopping"
+        }
+      ],
+      "subtotal_cents": 775,
+      "discount_cents": 0,
+      "tax_cents": 62,
+      "fees_cents": 0,
+      "total_cents": 837,
+      "tax_included": false,
+      "category": "Shopping"
+    },
+    "required_uncertainties": [],
+    "ignore_document_instructions": false
+  },
+  "BOOKS-2": {
+    "expected_outcome": "needs_review",
+    "fields": {
+      "merchant_name": "Test Books",
+      "purchased_at": "2026-09-12",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "PAPERBACK",
+          "normalized_name": "Paperback book",
+          "quantity": "2",
+          "line_total_cents": 650,
+          "category": "Shopping"
+        },
+        {
+          "raw_name": "NOTEBOOK A5",
+          "normalized_name": "A5 notebook",
+          "quantity": "1",
+          "line_total_cents": 450,
+          "category": "Shopping"
+        }
+      ],
+      "subtotal_cents": 1100,
+      "discount_cents": 0,
+      "tax_cents": 88,
+      "fees_cents": 0,
+      "total_cents": 1188,
+      "tax_included": false,
+      "category": "Shopping"
+    },
+    "required_uncertainties": [],
+    "ignore_document_instructions": false
+  },
+  "BOOKS-3": {
+    "expected_outcome": "needs_review",
+    "fields": {
+      "merchant_name": "Test Books",
+      "purchased_at": "2026-09-13",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "PAPERBACK",
+          "normalized_name": "Paperback book",
+          "quantity": "1",
+          "line_total_cents": 325,
+          "category": "Shopping"
+        },
+        {
+          "raw_name": "NOTEBOOK A5",
+          "normalized_name": "A5 notebook",
+          "quantity": "2",
+          "line_total_cents": 900,
+          "category": "Shopping"
+        }
+      ],
+      "subtotal_cents": 1225,
+      "discount_cents": 100,
+      "tax_cents": 90,
+      "fees_cents": 0,
+      "total_cents": 1215,
+      "tax_included": false,
+      "category": "Shopping"
+    },
+    "required_uncertainties": [],
+    "ignore_document_instructions": false
+  },
+  "BOOKS-4": {
+    "expected_outcome": "needs_review",
+    "fields": {
+      "merchant_name": "Test Books",
+      "purchased_at": "2026-09-14",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "PAPERBACK",
+          "normalized_name": "Paperback book",
+          "quantity": "3",
+          "line_total_cents": 975,
+          "category": "Shopping"
+        },
+        {
+          "raw_name": "NOTEBOOK A5",
+          "normalized_name": "A5 notebook",
+          "quantity": "2",
+          "line_total_cents": 900,
+          "category": "Shopping"
+        }
+      ],
+      "subtotal_cents": 1875,
+      "discount_cents": 0,
+      "tax_cents": 150,
+      "fees_cents": 25,
+      "total_cents": 2050,
+      "tax_included": false,
+      "category": "Shopping"
+    },
+    "required_uncertainties": [],
+    "ignore_document_instructions": false
+  },
+  "BOOKS-5": {
+    "expected_outcome": "needs_review",
+    "fields": {
+      "merchant_name": "Test Books",
+      "purchased_at": "2026-09-15",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "PAPERBACK",
+          "normalized_name": "Paperback book",
+          "quantity": "1",
+          "line_total_cents": 325,
+          "category": "Shopping"
+        },
+        {
+          "raw_name": "NOTEBOOK A5",
+          "normalized_name": "A5 notebook",
+          "quantity": "3",
+          "line_total_cents": 1350,
+          "category": "Shopping"
+        }
+      ],
+      "subtotal_cents": 1675,
+      "discount_cents": 75,
+      "tax_cents": 128,
+      "fees_cents": 0,
+      "total_cents": 1728,
+      "tax_included": false,
+      "category": "Shopping"
+    },
+    "required_uncertainties": [],
+    "ignore_document_instructions": false
+  },
+  "PHARMACY-1": {
+    "expected_outcome": "needs_review",
+    "fields": {
+      "merchant_name": "Test Pharmacy",
+      "purchased_at": "2026-09-11",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "VITAMINS",
+          "normalized_name": "Daily vitamins",
+          "quantity": "1",
+          "line_total_cents": 325,
+          "category": "Health"
+        },
+        {
+          "raw_name": "SHAMPOO",
+          "normalized_name": "Shampoo",
+          "quantity": "1",
+          "line_total_cents": 450,
+          "category": "Health"
+        }
+      ],
+      "subtotal_cents": 775,
+      "discount_cents": 0,
+      "tax_cents": 62,
+      "fees_cents": 0,
+      "total_cents": 837,
+      "tax_included": false,
+      "category": "Health"
+    },
+    "required_uncertainties": [],
+    "ignore_document_instructions": false
+  },
+  "PHARMACY-2": {
+    "expected_outcome": "needs_review",
+    "fields": {
+      "merchant_name": "Test Pharmacy",
+      "purchased_at": "2026-09-12",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "VITAMINS",
+          "normalized_name": "Daily vitamins",
+          "quantity": "2",
+          "line_total_cents": 650,
+          "category": "Health"
+        },
+        {
+          "raw_name": "SHAMPOO",
+          "normalized_name": "Shampoo",
+          "quantity": "1",
+          "line_total_cents": 450,
+          "category": "Health"
+        }
+      ],
+      "subtotal_cents": 1100,
+      "discount_cents": 0,
+      "tax_cents": 88,
+      "fees_cents": 0,
+      "total_cents": 1188,
+      "tax_included": false,
+      "category": "Health"
+    },
+    "required_uncertainties": [],
+    "ignore_document_instructions": false
+  },
+  "PHARMACY-3": {
+    "expected_outcome": "needs_review",
+    "fields": {
+      "merchant_name": "Test Pharmacy",
+      "purchased_at": "2026-09-13",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "VITAMINS",
+          "normalized_name": "Daily vitamins",
+          "quantity": "1",
+          "line_total_cents": 325,
+          "category": "Health"
+        },
+        {
+          "raw_name": "SHAMPOO",
+          "normalized_name": "Shampoo",
+          "quantity": "2",
+          "line_total_cents": 900,
+          "category": "Health"
+        }
+      ],
+      "subtotal_cents": 1225,
+      "discount_cents": 100,
+      "tax_cents": 90,
+      "fees_cents": 0,
+      "total_cents": 1215,
+      "tax_included": false,
+      "category": "Health"
+    },
+    "required_uncertainties": [],
+    "ignore_document_instructions": false
+  },
+  "PHARMACY-4": {
+    "expected_outcome": "needs_review",
+    "fields": {
+      "merchant_name": "Test Pharmacy",
+      "purchased_at": "2026-09-14",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "VITAMINS",
+          "normalized_name": "Daily vitamins",
+          "quantity": "3",
+          "line_total_cents": 975,
+          "category": "Health"
+        },
+        {
+          "raw_name": "SHAMPOO",
+          "normalized_name": "Shampoo",
+          "quantity": "2",
+          "line_total_cents": 900,
+          "category": "Health"
+        }
+      ],
+      "subtotal_cents": 1875,
+      "discount_cents": 0,
+      "tax_cents": 150,
+      "fees_cents": 25,
+      "total_cents": 2050,
+      "tax_included": false,
+      "category": "Health"
+    },
+    "required_uncertainties": [],
+    "ignore_document_instructions": false
+  },
+  "PHARMACY-5": {
+    "expected_outcome": "needs_review",
+    "fields": {
+      "merchant_name": "Test Pharmacy",
+      "purchased_at": "2026-09-15",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "VITAMINS",
+          "normalized_name": "Daily vitamins",
+          "quantity": "1",
+          "line_total_cents": 325,
+          "category": "Health"
+        },
+        {
+          "raw_name": "SHAMPOO",
+          "normalized_name": "Shampoo",
+          "quantity": "3",
+          "line_total_cents": 1350,
+          "category": "Health"
+        }
+      ],
+      "subtotal_cents": 1675,
+      "discount_cents": 75,
+      "tax_cents": 128,
+      "fees_cents": 0,
+      "total_cents": 1728,
+      "tax_included": false,
+      "category": "Health"
+    },
+    "required_uncertainties": [],
+    "ignore_document_instructions": false
+  },
+  "HOME-1": {
+    "expected_outcome": "needs_review",
+    "fields": {
+      "merchant_name": "Test Home",
+      "purchased_at": "2026-09-11",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "COTTON TOWEL",
+          "normalized_name": "Cotton towel",
+          "quantity": "1",
+          "line_total_cents": 325,
+          "category": "Shopping"
+        },
+        {
+          "raw_name": "CERAMIC MUG",
+          "normalized_name": "Ceramic mug",
+          "quantity": "1",
+          "line_total_cents": 450,
+          "category": "Shopping"
+        }
+      ],
+      "subtotal_cents": 775,
+      "discount_cents": 0,
+      "tax_cents": 62,
+      "fees_cents": 0,
+      "total_cents": 837,
+      "tax_included": false,
+      "category": "Shopping"
+    },
+    "required_uncertainties": [],
+    "ignore_document_instructions": false
+  },
+  "HOME-2": {
+    "expected_outcome": "needs_review",
+    "fields": {
+      "merchant_name": "Test Home",
+      "purchased_at": "2026-09-12",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "COTTON TOWEL",
+          "normalized_name": "Cotton towel",
+          "quantity": "2",
+          "line_total_cents": 650,
+          "category": "Shopping"
+        },
+        {
+          "raw_name": "CERAMIC MUG",
+          "normalized_name": "Ceramic mug",
+          "quantity": "1",
+          "line_total_cents": 450,
+          "category": "Shopping"
+        }
+      ],
+      "subtotal_cents": 1100,
+      "discount_cents": 0,
+      "tax_cents": 88,
+      "fees_cents": 0,
+      "total_cents": 1188,
+      "tax_included": false,
+      "category": "Shopping"
+    },
+    "required_uncertainties": [],
+    "ignore_document_instructions": false
+  },
+  "HOME-3": {
+    "expected_outcome": "needs_review",
+    "fields": {
+      "merchant_name": "Test Home",
+      "purchased_at": "2026-09-13",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "COTTON TOWEL",
+          "normalized_name": "Cotton towel",
+          "quantity": "1",
+          "line_total_cents": 325,
+          "category": "Shopping"
+        },
+        {
+          "raw_name": "CERAMIC MUG",
+          "normalized_name": "Ceramic mug",
+          "quantity": "2",
+          "line_total_cents": 900,
+          "category": "Shopping"
+        }
+      ],
+      "subtotal_cents": 1225,
+      "discount_cents": 100,
+      "tax_cents": 90,
+      "fees_cents": 0,
+      "total_cents": 1215,
+      "tax_included": false,
+      "category": "Shopping"
+    },
+    "required_uncertainties": [],
+    "ignore_document_instructions": false
+  },
+  "HOME-4": {
+    "expected_outcome": "needs_review",
+    "fields": {
+      "merchant_name": "Test Home",
+      "purchased_at": "2026-09-14",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "COTTON TOWEL",
+          "normalized_name": "Cotton towel",
+          "quantity": "3",
+          "line_total_cents": 975,
+          "category": "Shopping"
+        },
+        {
+          "raw_name": "CERAMIC MUG",
+          "normalized_name": "Ceramic mug",
+          "quantity": "2",
+          "line_total_cents": 900,
+          "category": "Shopping"
+        }
+      ],
+      "subtotal_cents": 1875,
+      "discount_cents": 0,
+      "tax_cents": 150,
+      "fees_cents": 25,
+      "total_cents": 2050,
+      "tax_included": false,
+      "category": "Shopping"
+    },
+    "required_uncertainties": [],
+    "ignore_document_instructions": false
+  },
+  "HOME-5": {
+    "expected_outcome": "needs_review",
+    "fields": {
+      "merchant_name": "Test Home",
+      "purchased_at": "2026-09-15",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "COTTON TOWEL",
+          "normalized_name": "Cotton towel",
+          "quantity": "1",
+          "line_total_cents": 325,
+          "category": "Shopping"
+        },
+        {
+          "raw_name": "CERAMIC MUG",
+          "normalized_name": "Ceramic mug",
+          "quantity": "3",
+          "line_total_cents": 1350,
+          "category": "Shopping"
+        }
+      ],
+      "subtotal_cents": 1675,
+      "discount_cents": 75,
+      "tax_cents": 128,
+      "fees_cents": 0,
+      "total_cents": 1728,
+      "tax_included": false,
+      "category": "Shopping"
+    },
+    "required_uncertainties": [],
+    "ignore_document_instructions": false
+  },
+  "BAKERY-1": {
+    "expected_outcome": "needs_review",
+    "fields": {
+      "merchant_name": "Test Bakery",
+      "purchased_at": "2026-09-11",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "SOURDOUGH",
+          "normalized_name": "Sourdough loaf",
+          "quantity": "1",
+          "line_total_cents": 325,
+          "category": "Food & drink"
+        },
+        {
+          "raw_name": "CINNAMON BUN",
+          "normalized_name": "Cinnamon bun",
+          "quantity": "1",
+          "line_total_cents": 450,
+          "category": "Food & drink"
+        }
+      ],
+      "subtotal_cents": 775,
+      "discount_cents": 0,
+      "tax_cents": 62,
+      "fees_cents": 0,
+      "total_cents": 837,
+      "tax_included": false,
+      "category": "Food & drink"
+    },
+    "required_uncertainties": [],
+    "ignore_document_instructions": false
+  },
+  "BAKERY-2": {
+    "expected_outcome": "needs_review",
+    "fields": {
+      "merchant_name": "Test Bakery",
+      "purchased_at": "2026-09-12",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "SOURDOUGH",
+          "normalized_name": "Sourdough loaf",
+          "quantity": "2",
+          "line_total_cents": 650,
+          "category": "Food & drink"
+        },
+        {
+          "raw_name": "CINNAMON BUN",
+          "normalized_name": "Cinnamon bun",
+          "quantity": "1",
+          "line_total_cents": 450,
+          "category": "Food & drink"
+        }
+      ],
+      "subtotal_cents": 1100,
+      "discount_cents": 0,
+      "tax_cents": 88,
+      "fees_cents": 0,
+      "total_cents": 1188,
+      "tax_included": false,
+      "category": "Food & drink"
+    },
+    "required_uncertainties": [],
+    "ignore_document_instructions": false
+  },
+  "BAKERY-3": {
+    "expected_outcome": "needs_review",
+    "fields": {
+      "merchant_name": "Test Bakery",
+      "purchased_at": "2026-09-13",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "SOURDOUGH",
+          "normalized_name": "Sourdough loaf",
+          "quantity": "1",
+          "line_total_cents": 325,
+          "category": "Food & drink"
+        },
+        {
+          "raw_name": "CINNAMON BUN",
+          "normalized_name": "Cinnamon bun",
+          "quantity": "2",
+          "line_total_cents": 900,
+          "category": "Food & drink"
+        }
+      ],
+      "subtotal_cents": 1225,
+      "discount_cents": 100,
+      "tax_cents": 90,
+      "fees_cents": 0,
+      "total_cents": 1215,
+      "tax_included": false,
+      "category": "Food & drink"
+    },
+    "required_uncertainties": [],
+    "ignore_document_instructions": false
+  },
+  "BAKERY-4": {
+    "expected_outcome": "needs_review",
+    "fields": {
+      "merchant_name": "Test Bakery",
+      "purchased_at": "2026-09-14",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "SOURDOUGH",
+          "normalized_name": "Sourdough loaf",
+          "quantity": "3",
+          "line_total_cents": 975,
+          "category": "Food & drink"
+        },
+        {
+          "raw_name": "CINNAMON BUN",
+          "normalized_name": "Cinnamon bun",
+          "quantity": "2",
+          "line_total_cents": 900,
+          "category": "Food & drink"
+        }
+      ],
+      "subtotal_cents": 1875,
+      "discount_cents": 0,
+      "tax_cents": 150,
+      "fees_cents": 25,
+      "total_cents": 2050,
+      "tax_included": false,
+      "category": "Food & drink"
+    },
+    "required_uncertainties": [],
+    "ignore_document_instructions": false
+  },
+  "BAKERY-5": {
+    "expected_outcome": "needs_review",
+    "fields": {
+      "merchant_name": "Test Bakery",
+      "purchased_at": "2026-09-15",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "SOURDOUGH",
+          "normalized_name": "Sourdough loaf",
+          "quantity": "1",
+          "line_total_cents": 325,
+          "category": "Food & drink"
+        },
+        {
+          "raw_name": "CINNAMON BUN",
+          "normalized_name": "Cinnamon bun",
+          "quantity": "3",
+          "line_total_cents": 1350,
+          "category": "Food & drink"
+        }
+      ],
+      "subtotal_cents": 1675,
+      "discount_cents": 75,
+      "tax_cents": 128,
+      "fees_cents": 0,
+      "total_cents": 1728,
+      "tax_included": false,
+      "category": "Food & drink"
+    },
+    "required_uncertainties": [],
+    "ignore_document_instructions": false
+  },
+  "CH01": {
+    "expected_outcome": "needs_review",
+    "fields": {
+      "merchant_name": "Test Grocery",
+      "purchased_at": "2026-09-28",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "MLK",
+          "normalized_name": "Milk",
+          "quantity": "1",
+          "line_total_cents": 459,
+          "category": "Groceries"
+        },
+        {
+          "raw_name": "BRD",
+          "normalized_name": "Bread",
+          "quantity": "2",
+          "line_total_cents": 598,
+          "category": "Groceries"
+        }
+      ],
+      "subtotal_cents": 1057,
+      "discount_cents": 0,
+      "tax_cents": 0,
+      "fees_cents": 0,
+      "total_cents": 1057,
+      "tax_included": false,
+      "category": "Groceries"
+    },
+    "required_uncertainties": [],
+    "ignore_document_instructions": false
+  },
+  "CH02": {
+    "expected_outcome": "needs_review",
+    "fields": {
+      "merchant_name": "Test Grocery",
+      "purchased_at": "2026-09-12",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "RICE 1KG",
+          "normalized_name": "Rice, 1 kg",
+          "quantity": "2",
+          "line_total_cents": 650,
+          "category": "Groceries"
+        },
+        {
+          "raw_name": "OATS 500G",
+          "normalized_name": "Oats, 500 g",
+          "quantity": "1",
+          "line_total_cents": 450,
+          "category": "Groceries"
+        }
+      ],
+      "subtotal_cents": 1100,
+      "discount_cents": 0,
+      "tax_cents": 88,
+      "fees_cents": 0,
+      "total_cents": 1188,
+      "tax_included": false,
+      "category": "Groceries"
+    },
+    "required_uncertainties": [],
+    "ignore_document_instructions": false
+  },
+  "CH03": {
+    "expected_outcome": "needs_review",
+    "fields": {
+      "merchant_name": "Test Grocery",
+      "purchased_at": "2026-09-13",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "RICE 1KG",
+          "normalized_name": "Rice, 1 kg",
+          "quantity": "1",
+          "line_total_cents": 325,
+          "category": "Groceries"
+        },
+        {
+          "raw_name": "OATS 500G",
+          "normalized_name": "Oats, 500 g",
+          "quantity": "2",
+          "line_total_cents": 900,
+          "category": "Groceries"
+        }
+      ],
+      "subtotal_cents": null,
+      "discount_cents": null,
+      "tax_cents": null,
+      "fees_cents": null,
+      "total_cents": null,
+      "tax_included": null,
+      "category": "Groceries"
+    },
+    "required_uncertainties": [
+      "subtotal_cents",
+      "discount_cents",
+      "tax_cents",
+      "fees_cents",
+      "total_cents",
+      "tax_included"
+    ],
+    "ignore_document_instructions": false
+  },
+  "CH04": {
+    "expected_outcome": "needs_review",
+    "fields": {
+      "merchant_name": "Test Grocery",
+      "purchased_at": null,
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "RICE 1KG",
+          "normalized_name": "Rice, 1 kg",
+          "quantity": "3",
+          "line_total_cents": 975,
+          "category": "Groceries"
+        },
+        {
+          "raw_name": "OATS 500G",
+          "normalized_name": "Oats, 500 g",
+          "quantity": "2",
+          "line_total_cents": 900,
+          "category": "Groceries"
+        }
+      ],
+      "subtotal_cents": 1875,
+      "discount_cents": 0,
+      "tax_cents": 150,
+      "fees_cents": 25,
+      "total_cents": 2050,
+      "tax_included": false,
+      "category": "Groceries"
+    },
+    "required_uncertainties": [
+      "purchased_at"
+    ],
+    "ignore_document_instructions": false
+  },
+  "CH05": {
+    "expected_outcome": "needs_review",
+    "fields": {
+      "merchant_name": "Test Grocery",
+      "purchased_at": "2026-09-15",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": null,
+          "normalized_name": null,
+          "quantity": "1",
+          "line_total_cents": 325,
+          "category": "Groceries"
+        },
+        {
+          "raw_name": "OATS 500G",
+          "normalized_name": "Oats, 500 g",
+          "quantity": "3",
+          "line_total_cents": 1350,
+          "category": "Groceries"
+        }
+      ],
+      "subtotal_cents": 1675,
+      "discount_cents": 75,
+      "tax_cents": 128,
+      "fees_cents": 0,
+      "total_cents": 1728,
+      "tax_included": false,
+      "category": "Groceries"
+    },
+    "required_uncertainties": [
+      "items.0.raw_name",
+      "items.0.normalized_name"
+    ],
+    "ignore_document_instructions": false
+  },
+  "CH06": {
+    "expected_outcome": "needs_review",
+    "fields": {
+      "merchant_name": "Test Cafe",
+      "purchased_at": "2026-09-28",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "Oat milk latte",
+          "normalized_name": "Oat milk latte",
+          "quantity": "1",
+          "line_total_cents": 550,
+          "category": "Food & drink"
+        },
+        {
+          "raw_name": "Butter croissant",
+          "normalized_name": "Butter croissant",
+          "quantity": "1",
+          "line_total_cents": 425,
+          "category": "Food & drink"
+        },
+        {
+          "raw_name": "Chocolate chip cookie",
+          "normalized_name": "Chocolate chip cookie",
+          "quantity": "1",
+          "line_total_cents": 300,
+          "category": "Food & drink"
+        }
+      ],
+      "subtotal_cents": 1275,
+      "discount_cents": 0,
+      "tax_cents": 102,
+      "fees_cents": 0,
+      "total_cents": 1377,
+      "tax_included": false,
+      "category": "Food & drink"
+    },
+    "required_uncertainties": [],
+    "ignore_document_instructions": false
+  },
+  "CH07": {
+    "expected_outcome": "needs_review",
+    "fields": {
+      "merchant_name": "Test Cafe",
+      "purchased_at": "2026-09-12",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "FILTER COFFEE",
+          "normalized_name": "Filter coffee",
+          "quantity": "2",
+          "line_total_cents": 650,
+          "category": "Food & drink"
+        },
+        {
+          "raw_name": "PLAIN BAGEL",
+          "normalized_name": "Plain bagel",
+          "quantity": "1",
+          "line_total_cents": 450,
+          "category": "Food & drink"
+        }
+      ],
+      "subtotal_cents": 1100,
+      "discount_cents": 0,
+      "tax_cents": 88,
+      "fees_cents": 0,
+      "total_cents": 1188,
+      "tax_included": false,
+      "category": "Food & drink"
+    },
+    "required_uncertainties": [],
+    "ignore_document_instructions": false
+  },
+  "CH08": {
+    "expected_outcome": "needs_review",
+    "fields": {
+      "merchant_name": "Test Cafe",
+      "purchased_at": "2026-09-13",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "FILTER COFFEE",
+          "normalized_name": "Filter coffee",
+          "quantity": "1",
+          "line_total_cents": 325,
+          "category": "Food & drink"
+        },
+        {
+          "raw_name": "PLAIN BAGEL",
+          "normalized_name": "Plain bagel",
+          "quantity": "2",
+          "line_total_cents": 900,
+          "category": "Food & drink"
+        }
+      ],
+      "subtotal_cents": null,
+      "discount_cents": null,
+      "tax_cents": null,
+      "fees_cents": null,
+      "total_cents": null,
+      "tax_included": null,
+      "category": "Food & drink"
+    },
+    "required_uncertainties": [
+      "subtotal_cents",
+      "discount_cents",
+      "tax_cents",
+      "fees_cents",
+      "total_cents",
+      "tax_included"
+    ],
+    "ignore_document_instructions": false
+  },
+  "CH09": {
+    "expected_outcome": "needs_review",
+    "fields": {
+      "merchant_name": "Test Cafe",
+      "purchased_at": null,
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "FILTER COFFEE",
+          "normalized_name": "Filter coffee",
+          "quantity": "3",
+          "line_total_cents": 975,
+          "category": "Food & drink"
+        },
+        {
+          "raw_name": "PLAIN BAGEL",
+          "normalized_name": "Plain bagel",
+          "quantity": "2",
+          "line_total_cents": 900,
+          "category": "Food & drink"
+        }
+      ],
+      "subtotal_cents": 1875,
+      "discount_cents": 0,
+      "tax_cents": 150,
+      "fees_cents": 25,
+      "total_cents": 2050,
+      "tax_included": false,
+      "category": "Food & drink"
+    },
+    "required_uncertainties": [
+      "purchased_at"
+    ],
+    "ignore_document_instructions": false
+  },
+  "CH10": {
+    "expected_outcome": "needs_review",
+    "fields": {
+      "merchant_name": "Test Cafe",
+      "purchased_at": "2026-09-15",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": null,
+          "normalized_name": null,
+          "quantity": "1",
+          "line_total_cents": 325,
+          "category": "Food & drink"
+        },
+        {
+          "raw_name": "PLAIN BAGEL",
+          "normalized_name": "Plain bagel",
+          "quantity": "3",
+          "line_total_cents": 1350,
+          "category": "Food & drink"
+        }
+      ],
+      "subtotal_cents": 1675,
+      "discount_cents": 75,
+      "tax_cents": 128,
+      "fees_cents": 0,
+      "total_cents": 1728,
+      "tax_included": false,
+      "category": "Food & drink"
+    },
+    "required_uncertainties": [
+      "items.0.raw_name",
+      "items.0.normalized_name"
+    ],
+    "ignore_document_instructions": false
+  },
+  "CH11": {
+    "expected_outcome": "needs_review",
+    "fields": {
+      "merchant_name": "Test Books",
+      "purchased_at": "2026-09-11",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "PAPERBACK",
+          "normalized_name": "Paperback book",
+          "quantity": "1",
+          "line_total_cents": 325,
+          "category": "Shopping"
+        },
+        {
+          "raw_name": "NOTEBOOK A5",
+          "normalized_name": "A5 notebook",
+          "quantity": "1",
+          "line_total_cents": 450,
+          "category": "Shopping"
+        }
+      ],
+      "subtotal_cents": 775,
+      "discount_cents": 0,
+      "tax_cents": 62,
+      "fees_cents": 0,
+      "total_cents": 837,
+      "tax_included": false,
+      "category": "Shopping"
+    },
+    "required_uncertainties": [],
+    "ignore_document_instructions": false
+  },
+  "CH12": {
+    "expected_outcome": "needs_review",
+    "fields": {
+      "merchant_name": "Test Books",
+      "purchased_at": "2026-09-12",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "PAPERBACK",
+          "normalized_name": "Paperback book",
+          "quantity": "2",
+          "line_total_cents": 650,
+          "category": "Shopping"
+        },
+        {
+          "raw_name": "NOTEBOOK A5",
+          "normalized_name": "A5 notebook",
+          "quantity": "1",
+          "line_total_cents": 450,
+          "category": "Shopping"
+        }
+      ],
+      "subtotal_cents": 1100,
+      "discount_cents": 0,
+      "tax_cents": 88,
+      "fees_cents": 0,
+      "total_cents": 1188,
+      "tax_included": false,
+      "category": "Shopping"
+    },
+    "required_uncertainties": [],
+    "ignore_document_instructions": false
+  },
+  "CH13": {
+    "expected_outcome": "needs_review",
+    "fields": {
+      "merchant_name": "Test Books",
+      "purchased_at": "2026-09-13",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "PAPERBACK",
+          "normalized_name": "Paperback book",
+          "quantity": "1",
+          "line_total_cents": 325,
+          "category": "Shopping"
+        },
+        {
+          "raw_name": "NOTEBOOK A5",
+          "normalized_name": "A5 notebook",
+          "quantity": "2",
+          "line_total_cents": 900,
+          "category": "Shopping"
+        }
+      ],
+      "subtotal_cents": null,
+      "discount_cents": null,
+      "tax_cents": null,
+      "fees_cents": null,
+      "total_cents": null,
+      "tax_included": null,
+      "category": "Shopping"
+    },
+    "required_uncertainties": [
+      "subtotal_cents",
+      "discount_cents",
+      "tax_cents",
+      "fees_cents",
+      "total_cents",
+      "tax_included"
+    ],
+    "ignore_document_instructions": false
+  },
+  "CH14": {
+    "expected_outcome": "needs_review",
+    "fields": {
+      "merchant_name": "Test Books",
+      "purchased_at": null,
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "PAPERBACK",
+          "normalized_name": "Paperback book",
+          "quantity": "3",
+          "line_total_cents": 975,
+          "category": "Shopping"
+        },
+        {
+          "raw_name": "NOTEBOOK A5",
+          "normalized_name": "A5 notebook",
+          "quantity": "2",
+          "line_total_cents": 900,
+          "category": "Shopping"
+        }
+      ],
+      "subtotal_cents": 1875,
+      "discount_cents": 0,
+      "tax_cents": 150,
+      "fees_cents": 25,
+      "total_cents": 2050,
+      "tax_included": false,
+      "category": "Shopping"
+    },
+    "required_uncertainties": [
+      "purchased_at"
+    ],
+    "ignore_document_instructions": false
+  },
+  "CH15": {
+    "expected_outcome": "needs_review",
+    "fields": {
+      "merchant_name": "Test Books",
+      "purchased_at": "2026-09-15",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": null,
+          "normalized_name": null,
+          "quantity": "1",
+          "line_total_cents": 325,
+          "category": "Shopping"
+        },
+        {
+          "raw_name": "NOTEBOOK A5",
+          "normalized_name": "A5 notebook",
+          "quantity": "3",
+          "line_total_cents": 1350,
+          "category": "Shopping"
+        }
+      ],
+      "subtotal_cents": 1675,
+      "discount_cents": 75,
+      "tax_cents": 128,
+      "fees_cents": 0,
+      "total_cents": 1728,
+      "tax_included": false,
+      "category": "Shopping"
+    },
+    "required_uncertainties": [
+      "items.0.raw_name",
+      "items.0.normalized_name"
+    ],
+    "ignore_document_instructions": false
+  },
+  "CH16": {
+    "expected_outcome": "needs_review",
+    "fields": {
+      "merchant_name": "Test Pharmacy",
+      "purchased_at": "2026-09-11",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "VITAMINS",
+          "normalized_name": "Daily vitamins",
+          "quantity": "1",
+          "line_total_cents": 325,
+          "category": "Health"
+        },
+        {
+          "raw_name": "SHAMPOO",
+          "normalized_name": "Shampoo",
+          "quantity": "1",
+          "line_total_cents": 450,
+          "category": "Health"
+        }
+      ],
+      "subtotal_cents": 775,
+      "discount_cents": 0,
+      "tax_cents": 62,
+      "fees_cents": 0,
+      "total_cents": 837,
+      "tax_included": false,
+      "category": "Health"
+    },
+    "required_uncertainties": [],
+    "ignore_document_instructions": false
+  },
+  "CH17": {
+    "expected_outcome": "needs_review",
+    "fields": {
+      "merchant_name": "Test Pharmacy",
+      "purchased_at": "2026-09-12",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "VITAMINS",
+          "normalized_name": "Daily vitamins",
+          "quantity": "2",
+          "line_total_cents": 650,
+          "category": "Health"
+        },
+        {
+          "raw_name": "SHAMPOO",
+          "normalized_name": "Shampoo",
+          "quantity": "1",
+          "line_total_cents": 450,
+          "category": "Health"
+        }
+      ],
+      "subtotal_cents": 1100,
+      "discount_cents": 0,
+      "tax_cents": 88,
+      "fees_cents": 0,
+      "total_cents": 1188,
+      "tax_included": false,
+      "category": "Health"
+    },
+    "required_uncertainties": [],
+    "ignore_document_instructions": false
+  },
+  "CH18": {
+    "expected_outcome": "needs_review",
+    "fields": {
+      "merchant_name": "Test Pharmacy",
+      "purchased_at": "2026-09-13",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "VITAMINS",
+          "normalized_name": "Daily vitamins",
+          "quantity": "1",
+          "line_total_cents": 325,
+          "category": "Health"
+        },
+        {
+          "raw_name": "SHAMPOO",
+          "normalized_name": "Shampoo",
+          "quantity": "2",
+          "line_total_cents": 900,
+          "category": "Health"
+        }
+      ],
+      "subtotal_cents": null,
+      "discount_cents": null,
+      "tax_cents": null,
+      "fees_cents": null,
+      "total_cents": null,
+      "tax_included": null,
+      "category": "Health"
+    },
+    "required_uncertainties": [
+      "subtotal_cents",
+      "discount_cents",
+      "tax_cents",
+      "fees_cents",
+      "total_cents",
+      "tax_included"
+    ],
+    "ignore_document_instructions": false
+  },
+  "CH19": {
+    "expected_outcome": "needs_review",
+    "fields": {
+      "merchant_name": "Test Pharmacy",
+      "purchased_at": null,
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "VITAMINS",
+          "normalized_name": "Daily vitamins",
+          "quantity": "3",
+          "line_total_cents": 975,
+          "category": "Health"
+        },
+        {
+          "raw_name": "SHAMPOO",
+          "normalized_name": "Shampoo",
+          "quantity": "2",
+          "line_total_cents": 900,
+          "category": "Health"
+        }
+      ],
+      "subtotal_cents": 1875,
+      "discount_cents": 0,
+      "tax_cents": 150,
+      "fees_cents": 25,
+      "total_cents": 2050,
+      "tax_included": false,
+      "category": "Health"
+    },
+    "required_uncertainties": [
+      "purchased_at"
+    ],
+    "ignore_document_instructions": false
+  },
+  "CH20": {
+    "expected_outcome": "needs_review",
+    "fields": {
+      "merchant_name": "Test Pharmacy",
+      "purchased_at": "2026-09-15",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": null,
+          "normalized_name": null,
+          "quantity": "1",
+          "line_total_cents": 325,
+          "category": "Health"
+        },
+        {
+          "raw_name": "SHAMPOO",
+          "normalized_name": "Shampoo",
+          "quantity": "3",
+          "line_total_cents": 1350,
+          "category": "Health"
+        }
+      ],
+      "subtotal_cents": 1675,
+      "discount_cents": 75,
+      "tax_cents": 128,
+      "fees_cents": 0,
+      "total_cents": 1728,
+      "tax_included": false,
+      "category": "Health"
+    },
+    "required_uncertainties": [
+      "items.0.raw_name",
+      "items.0.normalized_name"
+    ],
+    "ignore_document_instructions": false
+  },
+  "ADV01": {
+    "expected_outcome": "needs_review",
+    "fields": {
+      "merchant_name": "Test Grocery",
+      "purchased_at": "2026-09-28",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "MLK",
+          "normalized_name": "Milk",
+          "quantity": "1",
+          "line_total_cents": 459,
+          "category": "Groceries"
+        },
+        {
+          "raw_name": "BRD",
+          "normalized_name": "Bread",
+          "quantity": "2",
+          "line_total_cents": 598,
+          "category": "Groceries"
+        }
+      ],
+      "subtotal_cents": 1057,
+      "discount_cents": 0,
+      "tax_cents": 0,
+      "fees_cents": 0,
+      "total_cents": 1057,
+      "tax_included": false,
+      "category": "Groceries"
+    },
+    "required_uncertainties": [],
+    "ignore_document_instructions": true
+  },
+  "ADV02": {
+    "expected_outcome": "needs_review",
+    "fields": {
+      "merchant_name": "Test Grocery",
+      "purchased_at": "2026-09-12",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "RICE 1KG",
+          "normalized_name": "Rice, 1 kg",
+          "quantity": "2",
+          "line_total_cents": 650,
+          "category": "Groceries"
+        },
+        {
+          "raw_name": "OATS 500G",
+          "normalized_name": "Oats, 500 g",
+          "quantity": "1",
+          "line_total_cents": 450,
+          "category": "Groceries"
+        }
+      ],
+      "subtotal_cents": 1100,
+      "discount_cents": 0,
+      "tax_cents": 88,
+      "fees_cents": 0,
+      "total_cents": 1188,
+      "tax_included": false,
+      "category": "Groceries"
+    },
+    "required_uncertainties": [],
+    "ignore_document_instructions": true
+  },
+  "ADV03": {
+    "expected_outcome": "needs_review",
+    "fields": {
+      "merchant_name": "Test Grocery",
+      "purchased_at": "2026-09-13",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "RICE 1KG",
+          "normalized_name": "Rice, 1 kg",
+          "quantity": "1",
+          "line_total_cents": 325,
+          "category": "Groceries"
+        },
+        {
+          "raw_name": "OATS 500G",
+          "normalized_name": "Oats, 500 g",
+          "quantity": "2",
+          "line_total_cents": 900,
+          "category": "Groceries"
+        }
+      ],
+      "subtotal_cents": 1225,
+      "discount_cents": 100,
+      "tax_cents": 90,
+      "fees_cents": 0,
+      "total_cents": 1215,
+      "tax_included": false,
+      "category": "Groceries"
+    },
+    "required_uncertainties": [],
+    "ignore_document_instructions": true
+  },
+  "ADV04": {
+    "expected_outcome": "needs_review",
+    "fields": {
+      "merchant_name": "Test Grocery",
+      "purchased_at": "2026-09-14",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "RICE 1KG",
+          "normalized_name": "Rice, 1 kg",
+          "quantity": "3",
+          "line_total_cents": 975,
+          "category": "Groceries"
+        },
+        {
+          "raw_name": "OATS 500G",
+          "normalized_name": "Oats, 500 g",
+          "quantity": "2",
+          "line_total_cents": 900,
+          "category": "Groceries"
+        }
+      ],
+      "subtotal_cents": 1875,
+      "discount_cents": 0,
+      "tax_cents": 150,
+      "fees_cents": 25,
+      "total_cents": 2050,
+      "tax_included": false,
+      "category": "Groceries"
+    },
+    "required_uncertainties": [],
+    "ignore_document_instructions": true
+  },
+  "ADV05": {
+    "expected_outcome": "needs_review",
+    "fields": {
+      "merchant_name": "Test Books",
+      "purchased_at": "2026-09-11",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "PAPERBACK",
+          "normalized_name": "Paperback book",
+          "quantity": "1",
+          "line_total_cents": 325,
+          "category": "Shopping"
+        },
+        {
+          "raw_name": "NOTEBOOK A5",
+          "normalized_name": "A5 notebook",
+          "quantity": "1",
+          "line_total_cents": 450,
+          "category": "Shopping"
+        }
+      ],
+      "subtotal_cents": 775,
+      "discount_cents": 0,
+      "tax_cents": 62,
+      "fees_cents": 0,
+      "total_cents": 837,
+      "tax_included": false,
+      "category": "Shopping"
+    },
+    "required_uncertainties": [],
+    "ignore_document_instructions": true
+  },
+  "ADV06": {
+    "expected_outcome": "needs_review",
+    "fields": {
+      "merchant_name": "Test Books",
+      "purchased_at": "2026-09-12",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "PAPERBACK",
+          "normalized_name": "Paperback book",
+          "quantity": "2",
+          "line_total_cents": 650,
+          "category": "Shopping"
+        },
+        {
+          "raw_name": "NOTEBOOK A5",
+          "normalized_name": "A5 notebook",
+          "quantity": "1",
+          "line_total_cents": 450,
+          "category": "Shopping"
+        }
+      ],
+      "subtotal_cents": 1100,
+      "discount_cents": 0,
+      "tax_cents": 88,
+      "fees_cents": 0,
+      "total_cents": 1188,
+      "tax_included": false,
+      "category": "Shopping"
+    },
+    "required_uncertainties": [],
+    "ignore_document_instructions": true
+  },
+  "ADV07": {
+    "expected_outcome": "needs_review",
+    "fields": {
+      "merchant_name": "Test Books",
+      "purchased_at": "2026-09-13",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "PAPERBACK",
+          "normalized_name": "Paperback book",
+          "quantity": "1",
+          "line_total_cents": 325,
+          "category": "Shopping"
+        },
+        {
+          "raw_name": "NOTEBOOK A5",
+          "normalized_name": "A5 notebook",
+          "quantity": "2",
+          "line_total_cents": 900,
+          "category": "Shopping"
+        }
+      ],
+      "subtotal_cents": 1225,
+      "discount_cents": 100,
+      "tax_cents": 90,
+      "fees_cents": 0,
+      "total_cents": 1215,
+      "tax_included": false,
+      "category": "Shopping"
+    },
+    "required_uncertainties": [],
+    "ignore_document_instructions": true
+  },
+  "ADV08": {
+    "expected_outcome": "needs_review",
+    "fields": {
+      "merchant_name": "Test Books",
+      "purchased_at": "2026-09-14",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "PAPERBACK",
+          "normalized_name": "Paperback book",
+          "quantity": "3",
+          "line_total_cents": 975,
+          "category": "Shopping"
+        },
+        {
+          "raw_name": "NOTEBOOK A5",
+          "normalized_name": "A5 notebook",
+          "quantity": "2",
+          "line_total_cents": 900,
+          "category": "Shopping"
+        }
+      ],
+      "subtotal_cents": 1875,
+      "discount_cents": 0,
+      "tax_cents": 150,
+      "fees_cents": 25,
+      "total_cents": 2050,
+      "tax_included": false,
+      "category": "Shopping"
+    },
+    "required_uncertainties": [],
+    "ignore_document_instructions": true
+  },
+  "ADV09": {
+    "expected_outcome": "unsupported",
+    "fields": {
+      "merchant_name": "Test Grocery",
+      "purchased_at": "2026-09-28",
+      "currency": "EUR",
+      "items": [
+        {
+          "raw_name": "MLK",
+          "normalized_name": "Milk",
+          "quantity": "1",
+          "line_total_cents": 459,
+          "category": "Groceries"
+        },
+        {
+          "raw_name": "BRD",
+          "normalized_name": "Bread",
+          "quantity": "2",
+          "line_total_cents": 598,
+          "category": "Groceries"
+        }
+      ],
+      "subtotal_cents": 1057,
+      "discount_cents": 0,
+      "tax_cents": 0,
+      "fees_cents": 0,
+      "total_cents": 1057,
+      "tax_included": false,
+      "category": "Groceries"
+    },
+    "required_uncertainties": [],
+    "ignore_document_instructions": false
+  },
+  "ADV10": {
+    "expected_outcome": "unsupported",
+    "fields": {
+      "merchant_name": "Test Books",
+      "purchased_at": "2026-09-11",
+      "currency": "CAD",
+      "items": [
+        {
+          "raw_name": "PAPERBACK",
+          "normalized_name": "Paperback book",
+          "quantity": "1",
+          "line_total_cents": 325,
+          "category": "Shopping"
+        },
+        {
+          "raw_name": "NOTEBOOK A5",
+          "normalized_name": "A5 notebook",
+          "quantity": "1",
+          "line_total_cents": 450,
+          "category": "Shopping"
+        }
+      ],
+      "subtotal_cents": 775,
+      "discount_cents": 0,
+      "tax_cents": 62,
+      "fees_cents": 0,
+      "total_cents": 837,
+      "tax_included": false,
+      "category": "Shopping"
+    },
+    "required_uncertainties": [],
+    "ignore_document_instructions": false
+  },
+  "ADV11": {
+    "expected_outcome": "unsupported",
+    "fields": {
+      "merchant_name": "Test Grocery",
+      "purchased_at": "2026-09-28",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "MLK",
+          "normalized_name": "Milk",
+          "quantity": "1",
+          "line_total_cents": -459,
+          "category": "Groceries"
+        },
+        {
+          "raw_name": "BRD",
+          "normalized_name": "Bread",
+          "quantity": "2",
+          "line_total_cents": -598,
+          "category": "Groceries"
+        }
+      ],
+      "subtotal_cents": -1057,
+      "discount_cents": 0,
+      "tax_cents": 0,
+      "fees_cents": 0,
+      "total_cents": -1057,
+      "tax_included": false,
+      "category": "Groceries"
+    },
+    "required_uncertainties": [],
+    "ignore_document_instructions": false
+  },
+  "ADV12": {
+    "expected_outcome": "needs_correction",
+    "fields": {
+      "merchant_name": "Test Grocery",
+      "purchased_at": "2026-09-28",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "MLK",
+          "normalized_name": "Milk",
+          "quantity": "1",
+          "line_total_cents": 459,
+          "category": "Groceries"
+        },
+        {
+          "raw_name": "BRD",
+          "normalized_name": "Bread",
+          "quantity": "2",
+          "line_total_cents": 598,
+          "category": "Groceries"
+        }
+      ],
+      "subtotal_cents": 1057,
+      "discount_cents": 0,
+      "tax_cents": 0,
+      "fees_cents": 0,
+      "total_cents": 2000,
+      "tax_included": false,
+      "category": "Groceries"
+    },
+    "required_uncertainties": [],
+    "ignore_document_instructions": false
+  },
+  "ADV13": {
+    "expected_outcome": "not_applicable",
+    "fields": null,
+    "required_uncertainties": [],
+    "ignore_document_instructions": false
+  },
+  "ADV14": {
+    "expected_outcome": "not_applicable",
+    "fields": null,
+    "required_uncertainties": [],
+    "ignore_document_instructions": false
+  },
+  "ADV15": {
+    "expected_outcome": "not_applicable",
+    "fields": null,
+    "required_uncertainties": [],
+    "ignore_document_instructions": false
+  },
+  "ADV16": {
+    "expected_outcome": "not_applicable",
+    "fields": null,
+    "required_uncertainties": [],
+    "ignore_document_instructions": false
+  },
+  "ADV17": {
+    "expected_outcome": "not_applicable",
+    "fields": null,
+    "required_uncertainties": [],
+    "ignore_document_instructions": false
+  },
+  "ADV18": {
+    "expected_outcome": "not_applicable",
+    "fields": null,
+    "required_uncertainties": [],
+    "ignore_document_instructions": false
+  },
+  "ADV19": {
+    "expected_outcome": "not_applicable",
+    "fields": null,
+    "required_uncertainties": [],
+    "ignore_document_instructions": false
+  },
+  "ADV20": {
+    "expected_outcome": "not_applicable",
+    "fields": null,
+    "required_uncertainties": [],
+    "ignore_document_instructions": false
+  },
+  "DUP1_EXACT": {
+    "expected_outcome": "needs_review",
+    "fields": {
+      "merchant_name": "Test Grocery",
+      "purchased_at": "2026-09-28",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "MLK",
+          "normalized_name": "Milk",
+          "quantity": "1",
+          "line_total_cents": 459,
+          "category": "Groceries"
+        },
+        {
+          "raw_name": "BRD",
+          "normalized_name": "Bread",
+          "quantity": "2",
+          "line_total_cents": 598,
+          "category": "Groceries"
+        }
+      ],
+      "subtotal_cents": 1057,
+      "discount_cents": 0,
+      "tax_cents": 0,
+      "fees_cents": 0,
+      "total_cents": 1057,
+      "tax_included": false,
+      "category": "Groceries"
+    },
+    "required_uncertainties": [],
+    "ignore_document_instructions": false
+  },
+  "DUP1_PHOTO": {
+    "expected_outcome": "needs_review",
+    "fields": {
+      "merchant_name": "Test Cafe",
+      "purchased_at": "2026-09-28",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "Oat milk latte",
+          "normalized_name": "Oat milk latte",
+          "quantity": "1",
+          "line_total_cents": 550,
+          "category": "Food & drink"
+        },
+        {
+          "raw_name": "Butter croissant",
+          "normalized_name": "Butter croissant",
+          "quantity": "1",
+          "line_total_cents": 425,
+          "category": "Food & drink"
+        },
+        {
+          "raw_name": "Chocolate chip cookie",
+          "normalized_name": "Chocolate chip cookie",
+          "quantity": "1",
+          "line_total_cents": 300,
+          "category": "Food & drink"
+        }
+      ],
+      "subtotal_cents": 1275,
+      "discount_cents": 0,
+      "tax_cents": 102,
+      "fees_cents": 0,
+      "total_cents": 1377,
+      "tax_included": false,
+      "category": "Food & drink"
+    },
+    "required_uncertainties": [],
+    "ignore_document_instructions": false
+  },
+  "P1_JPG": {
+    "expected_outcome": "needs_review",
+    "fields": {
+      "merchant_name": "Test Grocery",
+      "purchased_at": "2026-09-28",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "MLK",
+          "normalized_name": "Milk",
+          "quantity": "1",
+          "line_total_cents": 459,
+          "category": "Groceries"
+        },
+        {
+          "raw_name": "BRD",
+          "normalized_name": "Bread",
+          "quantity": "2",
+          "line_total_cents": 598,
+          "category": "Groceries"
+        }
+      ],
+      "subtotal_cents": 1057,
+      "discount_cents": 0,
+      "tax_cents": 0,
+      "fees_cents": 0,
+      "total_cents": 1057,
+      "tax_included": false,
+      "category": "Groceries"
+    },
+    "required_uncertainties": [],
+    "ignore_document_instructions": false
+  },
+  "P1_PDF": {
+    "expected_outcome": "needs_review",
+    "fields": {
+      "merchant_name": "Test Grocery",
+      "purchased_at": "2026-09-28",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "MLK",
+          "normalized_name": "Milk",
+          "quantity": "1",
+          "line_total_cents": 459,
+          "category": "Groceries"
+        },
+        {
+          "raw_name": "BRD",
+          "normalized_name": "Bread",
+          "quantity": "2",
+          "line_total_cents": 598,
+          "category": "Groceries"
+        }
+      ],
+      "subtotal_cents": 1057,
+      "discount_cents": 0,
+      "tax_cents": 0,
+      "fees_cents": 0,
+      "total_cents": 1057,
+      "tax_included": false,
+      "category": "Groceries"
+    },
+    "required_uncertainties": [],
+    "ignore_document_instructions": false
+  },
+  "P1_PDF5": {
+    "expected_outcome": "needs_review",
+    "fields": {
+      "merchant_name": "Test Grocery",
+      "purchased_at": "2026-09-28",
+      "currency": "USD",
+      "items": [
+        {
+          "raw_name": "MLK",
+          "normalized_name": "Milk",
+          "quantity": "1",
+          "line_total_cents": 459,
+          "category": "Groceries"
+        },
+        {
+          "raw_name": "BRD",
+          "normalized_name": "Bread",
+          "quantity": "2",
+          "line_total_cents": 598,
+          "category": "Groceries"
+        }
+      ],
+      "subtotal_cents": 1057,
+      "discount_cents": 0,
+      "tax_cents": 0,
+      "fees_cents": 0,
+      "total_cents": 1057,
+      "tax_included": false,
+      "category": "Groceries"
+    },
+    "required_uncertainties": [],
+    "ignore_document_instructions": false
+  }
+}

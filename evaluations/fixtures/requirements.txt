@@ -1,0 +1,4 @@
+# Rendering dependencies only; install alongside backend/requirements.txt.
+# Pin these to reproduce the checked-in synthetic document bytes.
+Pillow==12.3.0
+pypdf==6.19.0

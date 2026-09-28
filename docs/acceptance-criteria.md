@@ -1,6 +1,6 @@
 # Task 01.02 — MVP scope and measurable acceptance criteria
 
-**Status: ready for review.** These are proposed product requirements and release targets, not measured results. Task 01.02 delivers this specification; later tasks implement and exercise it. Current evidence is listed separately below.
+**Status: delivered; the user requested the next task.** These are product requirements and release targets, not measured results. Task 01.02 delivers this specification; later tasks implement and exercise it. Evidence from that checkpoint is listed separately below; subsequent results are in [CHECKPOINTS.md](CHECKPOINTS.md).
 
 Related documents: [user journeys](user-journeys.md), [48-task tracker](TASKS.md), and [checkpoint results](CHECKPOINTS.md).
 
@@ -38,7 +38,7 @@ A **local development milestone** can use SQLite, development sessions, private 
 
 ## 3. Repeatable acceptance data
 
-Task 01.03 will create the actual versioned images, records and expected outputs. These names are fixture specifications, not claims that those files already exist. Disable demo seeding, use a disposable database and private test storage, and freeze the clock before each scenario. Each scenario starts from its specified records, not leftovers from another test.
+Task 01.03 now provides the [versioned synthetic images, records and expected outputs](../evaluations/fixtures/README.md). The table below remains the intended source specification. Disable demo seeding, use a disposable database and private test storage, and freeze the clock before each scenario. Each scenario starts from its specified records, not leftovers from another test.
 
 | Fixture | Known input | Independent expected result |
 | --- | --- | --- |
@@ -166,7 +166,7 @@ Use a hosted test environment, one merchant session and two separate customer se
 
 The third recovery receipt is intentionally outside Q1/P1 totals until explicitly confirmed. An extraction-disabled/manual-only demonstration is useful development evidence but does not pass the full release demonstration.
 
-## 7. Evidence available now
+## 7. Evidence at the Task 01.02 checkpoint
 
 The initial checkpoint reported eight passing tests in [test_checkpoint.py](../backend/tests/test_checkpoint.py). They were inspected while writing this task. They were **not rerun for this documentation change**, and they cover only portions of the criteria:
 
@@ -191,4 +191,4 @@ Changes made after a run invalidate the affected evidence; rerun the impacted ch
 
 For this review, focus on the USD/English starting scope, UTC reporting boundary, exact financial examples, provider/retrieval thresholds and required phone/hosted checks. Feedback can cite a stable identifier, for example **AC-14** for duplicate behavior or **AC-24** for retry limits.
 
-**Next task: 01.03 — create the synthetic fixtures and independent expected outputs described above.**
+**Follow-on task: 01.03 — [synthetic fixtures and independent expected outputs](../evaluations/fixtures/README.md).** See the task tracker for the current review checkpoint.
